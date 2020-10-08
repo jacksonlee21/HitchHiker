@@ -36,14 +36,11 @@ public class Movement : MonoBehaviour
     {
         if (movedirection == -1)
         {
-            Debug.Log("Left");
             transform.position += new Vector3(-1 * Time.deltaTime, 0, 0);
         }
         if (movedirection == 1)
         {
-            Debug.Log("Right");
             transform.position += new Vector3(1 * Time.deltaTime, 0, 0);
         }
-        Debug.Log(walking);
     }
 }

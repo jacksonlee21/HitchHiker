@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnterHouse : MonoBehaviour
 {
@@ -16,7 +17,17 @@ public class EnterHouse : MonoBehaviour
     {
         if (atDoor)
         {
-            Debug.Log(houseName);
+            if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
+            {
+                if(SceneManager.GetSceneByName(houseName).IsValid())
+                {
+                    SceneManager.LoadScene(houseName);
+                }
+                else
+                {
+                    Debug.LogError(houseName + ": No scene by this name exists");
+                }
+            }
         }
     }
 
@@ -24,9 +35,8 @@ public class EnterHouse : MonoBehaviour
     {
         if (collision.CompareTag("EnterBuilding"))
         {
-            Debug.Log("blah");
             atDoor = true;
-            houseName = collision.GetComponentInParent<Transform>().tag;
+            houseName = collision.transform.parent.GetComponent<Transform>().tag;
         }
     }
 
@@ -35,6 +45,7 @@ public class EnterHouse : MonoBehaviour
         if (collision.CompareTag("EnterBuilding"))
         {
             atDoor = false;
+            houseName = "No Tag";
         }
     }
 }

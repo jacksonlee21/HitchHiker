@@ -19,14 +19,7 @@ public class EnterHouse : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             {
-                if(SceneManager.GetSceneByName(houseName).IsValid())
-                {
-                    SceneManager.LoadScene(houseName);
-                }
-                else
-                {
-                    Debug.LogError(houseName + ": No scene by this name exists");
-                }
+                SceneManager.LoadScene(houseName);
             }
         }
     }

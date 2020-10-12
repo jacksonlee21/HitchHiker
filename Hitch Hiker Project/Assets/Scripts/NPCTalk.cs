@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class NPCTalk : MonoBehaviour
 {
     private Transform player;
+    private NPCController npcController;
 
     [HideInInspector]
     public bool NextToPlayer;
@@ -15,11 +16,12 @@ public class NPCTalk : MonoBehaviour
     private Animator anim;
 
     public bool HasTask;
+    public Tasks NPCTask = null;
 
     private void Start()
     {
-        //TalkImage = GameObject.FindGameObjectWithTag("TalkToNPC_Image").GetComponent<Image>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        npcController = GameObject.FindGameObjectWithTag("NPCController").GetComponent<NPCController>();
         anim = GetComponent<Animator>();
 
         NextToPlayer = false;
@@ -32,6 +34,15 @@ public class NPCTalk : MonoBehaviour
         {
             StartTalking();
         }
+        if (TalkingToPlayer)
+        {
+            ShowText();
+        }
+    }
+
+    void ShowText()
+    {
+        npcController.NPCText.text = "Hey Buddy, can you give this " + NPCTask.ObjectToDeliver + ". You got " + NPCTask.TimeToDeliver + " seconds";
     }
 
     void StartTalking()

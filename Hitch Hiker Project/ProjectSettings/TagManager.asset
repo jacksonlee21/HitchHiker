@@ -9,6 +9,7 @@ TagManager:
   - ShopScene
   - TalkToNPC_Image
   - NPC
+  - NPCController
   layers:
   - Default
   - TransparentFX

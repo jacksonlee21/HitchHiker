@@ -12,32 +12,19 @@ public class NPCMovement : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
 
-    private bool NextToPlayer;
-    [HideInInspector]
-    public bool TalkingToPlayer;
+    private NPCTalk npcTalk;
 
     private void Start()
     {
         timeTillGetPos = walkTime;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-
-        NextToPlayer = false;
-        TalkingToPlayer = false;
+        npcTalk = GetComponent<NPCTalk>();
     }
 
     void Update()
     {
-        if (NextToPlayer)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                TalkingToPlayer = true;
-                anim.SetBool("In Motion", false);
-            }
-        }
-
-        if (!TalkingToPlayer)
+        if (!npcTalk.TalkingToPlayer)
         {
             GoToPos();
             TriggerAnimation();
@@ -88,7 +75,7 @@ public class NPCMovement : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            NextToPlayer = true;
+            npcTalk.NextToPlayer = true;
         }
     }
 }

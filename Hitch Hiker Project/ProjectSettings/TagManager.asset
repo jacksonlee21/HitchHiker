@@ -7,6 +7,8 @@ TagManager:
   - ClubScene
   - EnterBuilding
   - ShopScene
+  - TalkToNPC_Image
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -43,4 +45,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 3062650217
     locked: 0

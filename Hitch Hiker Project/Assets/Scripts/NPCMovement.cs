@@ -14,6 +14,7 @@ public class NPCMovement : MonoBehaviour
     private Rigidbody2D rb;
 
     private NPCTalk npcTalk;
+    
 
     private void Start()
     {
@@ -77,6 +78,13 @@ public class NPCMovement : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             npcTalk.NextToPlayer = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            npcTalk.NextToPlayer = false;
         }
     }
 }

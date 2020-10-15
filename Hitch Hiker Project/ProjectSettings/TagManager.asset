@@ -44,3 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Houses
+    uniqueID: 2086562499
+    locked: 0
+  - name: Player
+    uniqueID: 532085475
+    locked: 0

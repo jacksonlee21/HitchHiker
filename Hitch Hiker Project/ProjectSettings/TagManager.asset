@@ -8,12 +8,19 @@ TagManager:
   - EnterBuilding
   - ShopScene
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Main Character
 =======
   - TalkToNPC_Image
   - NPC
   - NPCController
 >>>>>>> NPCs
+=======
+  - Main Character
+  - Card 1
+  - Card 2
+  - Main Card
+>>>>>>> Minigames
   layers:
   - Default
   - TransparentFX

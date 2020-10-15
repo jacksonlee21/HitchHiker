@@ -7,7 +7,13 @@ TagManager:
   - ClubScene
   - EnterBuilding
   - ShopScene
+<<<<<<< HEAD
   - Main Character
+=======
+  - TalkToNPC_Image
+  - NPC
+  - NPCController
+>>>>>>> NPCs
   layers:
   - Default
   - TransparentFX
@@ -17,7 +23,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Sprites
   - 
   - 
   - 
@@ -45,9 +51,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
   - name: Houses
     uniqueID: 2086562499
     locked: 0
   - name: Player
     uniqueID: 532085475
+=======
+  - name: UI
+    uniqueID: 3062650217
+>>>>>>> NPCs
     locked: 0

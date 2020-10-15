@@ -8,6 +8,9 @@ TagManager:
   - EnterBuilding
   - ShopScene
   - Main Character
+  - Card 1
+  - Card 2
+  - Main Card
   layers:
   - Default
   - TransparentFX

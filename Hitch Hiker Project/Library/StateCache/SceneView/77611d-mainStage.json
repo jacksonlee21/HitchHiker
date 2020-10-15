@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-1.4831616878509522,"y":3.335768699645996,"z":-3.136395215988159},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":6.892759323120117,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-7.016059398651123,"y":-0.15842053294181825,"z":-18.488101959228517},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":2.389744758605957,"orthographic":true}
+>>>>>>> FirstAssetsTest

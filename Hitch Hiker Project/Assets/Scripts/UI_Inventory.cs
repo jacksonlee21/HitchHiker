@@ -9,13 +9,13 @@ using UnityEngine.UI;
 public class UI_Inventory : MonoBehaviour
 {
     private Inventory inventory;
-    private RectTransform itemSlotContainer;
-    private RectTransform itemSlotTemplate;
+    private Transform itemSlotContainer;
+    private Transform itemSlotTemplate;
 
     private void Awake()
     {
-        itemSlotContainer = transform.GetChild(0).RectTransform;
-        itemSlotTemplate = itemSlotContainer.GetChild(0).RectTransform;
+        itemSlotContainer = transform.Find("itemSlotContainer");
+        itemSlotTemplate = itemSlotContainer.Find("itemSlotTemplate");
     }
 
     public void SetInventory(Inventory inventory)
@@ -35,8 +35,8 @@ public class UI_Inventory : MonoBehaviour
             RectTransform itemSlotRectTransform = Instantiate(itemSlotTemplate, itemSlotContainer).GetComponent<RectTransform>();
             itemSlotRectTransform.gameObject.SetActive(true);
             itemSlotRectTransform.anchoredPosition = new Vector2(x * itemSlotCellSize, y * itemSlotCellSize);
-            Image image = itemSlotRectTransform.Find("image").GetComponent<ImageConversion>();
-            image.sprite = item.GetSprite();
+            //Image image = itemSlotRectTransform.Find("Image").GetComponent<ImageConversion>();
+            //image.sprite = item.GetSprite();
             x++;
             if (x > 4) {
                 x = 0;

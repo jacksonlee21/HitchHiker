@@ -7,26 +7,34 @@ public class Minigame1s : MonoBehaviour
     int counter = 0;
     public int limit;
     int direction = 3;
-    GameObject Hammer;
+    bool gameFinished = false;
+    public GameObject openChest;
+    public GameObject closedChest;
 
     void Update()
     {
-        if(Input.GetButtonDown("Space"))
+        if(gameFinished == false)
         {
-            counter++;
-            if(counter % 20 == 0)
+            if (Input.GetButtonDown("Space"))
             {
-                direction = direction * -1;
-                //Debug.Log("Test");
+                counter++;
+                if (counter % 20 == 0)
+                {
+                    direction = direction * -1;
+                    //Debug.Log("Test");
+                }
+                //Debug.Log(direction);
+                transform.Rotate(Vector3.back * direction);
+
             }
-            //Debug.Log(direction);
-            transform.Rotate(Vector3.back * direction); 
-            
+            Debug.Log(counter);
         }
-        Debug.Log(counter);
 
         if(counter == limit)
         {
+            gameFinished = true;
+            openChest.SetActive(true);
+            closedChest.SetActive(false);
             //You Win;
         }
     }

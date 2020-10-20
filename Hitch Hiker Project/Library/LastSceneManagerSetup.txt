@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/AssetsTestScene.unity
-=======
-- path: Assets/Scenes/NPC Scene.unity
->>>>>>> NPCs
-=======
-- path: Assets/Scenes/MiniGames/Minigame 2.unity
->>>>>>> Minigames
+- path: Assets/Scenes/Money.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

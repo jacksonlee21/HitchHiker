@@ -14,34 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
     x: 0
     y: 43
     width: 1920
     height: 997
-<<<<<<< HEAD
-=======
-    x: -158.40001
-    y: 203.2
-    width: 1521.6
-    height: 660
->>>>>>> FirstAssetsTest
-=======
-    x: 0
-    y: 45
-    width: 1440
-    height: 855
->>>>>>> NPCs
-=======
->>>>>>> Minigames
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -63,39 +43,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 1920
     height: 947
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 677, y: 321}
+  m_MaxSize: {x: 12002, y: 8021}
   vertical: 0
-  controlID: 60
-=======
-    width: 1522
-    height: 610
-  m_MinSize: {x: 680, y: 492}
-  m_MaxSize: {x: 14003, y: 14042}
-  vertical: 0
-  controlID: 57
->>>>>>> FirstAssetsTest
-=======
-    width: 1440
-    height: 805
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
-  vertical: 0
-  controlID: 130
->>>>>>> NPCs
-=======
-    width: 1920
-    height: 947
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
-  vertical: 0
-  controlID: 127
->>>>>>> Minigames
+  controlID: 131
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,40 +64,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
-    x: 1365
+    x: 1367
     y: 0
-    width: 555
+    width: 553
     height: 947
-<<<<<<< HEAD
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-=======
-    x: 1213
-    y: 0
-    width: 309
-    height: 610
-=======
->>>>>>> Minigames
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
->>>>>>> FirstAssetsTest
   m_ActualView: {fileID: 14}
-=======
-    x: 998
-    y: 0
-    width: 442
-    height: 805
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
->>>>>>> NPCs
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -164,31 +92,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
     width: 403
     height: 573
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-=======
-    width: 300
-    height: 324
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
->>>>>>> FirstAssetsTest
   m_ActualView: {fileID: 15}
-=======
-    width: 247
-    height: 487
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
->>>>>>> NPCs
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -201,41 +111,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     y: 573
-    width: 1365
+    width: 1367
     height: 374
-=======
-    y: 324
-    width: 1213
-    height: 286
->>>>>>> FirstAssetsTest
-=======
-    y: 487
-    width: 998
-    height: 318
->>>>>>> NPCs
-=======
-    y: 573
-    width: 1365
-    height: 374
->>>>>>> Minigames
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 15}
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -256,25 +148,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 1920
     height: 997
-=======
-    width: 1522
-    height: 660
->>>>>>> FirstAssetsTest
-=======
-    width: 1920
-    height: 997
->>>>>>> Minigames
   m_MinSize: {x: 875, y: 300}
-=======
-    width: 1440
-    height: 855
-  m_MinSize: {x: 875, y: 542}
->>>>>>> NPCs
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -293,15 +169,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
     width: 1920
-=======
-    width: 1440
->>>>>>> NPCs
-=======
-    width: 1920
->>>>>>> Minigames
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -322,23 +190,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     y: 977
     width: 1920
-=======
-    y: 640
-    width: 1522
->>>>>>> FirstAssetsTest
-=======
-    y: 835
-    width: 1440
->>>>>>> NPCs
-=======
-    y: 977
-    width: 1920
->>>>>>> Minigames
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -361,37 +214,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
-    width: 1365
+    width: 1367
     height: 947
-  m_MinSize: {x: 402, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 402, y: 321}
+  m_MaxSize: {x: 8002, y: 8021}
   vertical: 1
-<<<<<<< HEAD
-  controlID: 61
-=======
-    width: 1213
-    height: 610
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 58
->>>>>>> FirstAssetsTest
-=======
-    width: 998
-    height: 805
-  m_MinSize: {x: 402, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 89
->>>>>>> NPCs
-=======
-  controlID: 56
->>>>>>> Minigames
+  controlID: 62
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -411,37 +239,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
-    width: 1365
+    width: 1367
     height: 573
   m_MinSize: {x: 402, y: 221}
   m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-<<<<<<< HEAD
-  controlID: 62
-=======
-    width: 1213
-    height: 324
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 59
->>>>>>> FirstAssetsTest
-=======
-    width: 998
-    height: 487
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
-  vertical: 0
-  controlID: 64
->>>>>>> NPCs
-=======
-  controlID: 57
->>>>>>> Minigames
+  controlID: 63
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -457,196 +260,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
     x: 403
     y: 0
-<<<<<<< HEAD
-    width: 962
+    width: 964
     height: 573
-=======
-    width: 913
-    height: 324
->>>>>>> FirstAssetsTest
-=======
-    x: 247
-    y: 0
-    width: 751
-    height: 487
->>>>>>> NPCs
-=======
-    x: 403
-    y: 0
-    width: 962
-    height: 573
->>>>>>> Minigames
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 18}
-  - {fileID: 14}
-  - {fileID: 13}
+  - {fileID: 16}
+  - {fileID: 17}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 1
 --- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 247
-    y: 75
-    width: 749
-    height: 466
-  m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_SerializedCustomFieldsNames: []
-  m_SerializedCustomFieldsValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 749, y: 445}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -374.5
-    m_HBaseRangeMax: 374.5
-    m_VBaseRangeMin: -222.5
-    m_VBaseRangeMax: 222.5
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 749
-      height: 445
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 374.5, y: 222.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -374.5
-      y: -222.5
-      width: 749
-      height: 445
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 749, y: 466}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 01000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animator
-    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 247
-    y: 75
-    width: 749
-    height: 420
-  m_ViewDataDictionary: {fileID: 0}
-  m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: 6851885792579840508, guid: e8c6f9bdaed0fae48a9d88c2d1512275, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 1.1454256
-      e01: 0
-      e02: 0
-      e03: -271.97864
-      e10: 0
-      e11: 1.1454256
-      e12: 0
-      e13: -18.027176
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-  m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: e8c6f9bdaed0fae48a9d88c2d1512275,
-    type: 2}
-  m_BreadCrumbs:
-  - m_Target: {fileID: 6851885792579840508, guid: e8c6f9bdaed0fae48a9d88c2d1512275,
-      type: 2}
-    m_ScrollPosition: {x: 0, y: 0}
-  stateMachineGraph: {fileID: 0}
-  stateMachineGraphGUI: {fileID: 0}
-  blendTreeGraph: {fileID: 0}
-  blendTreeGraphGUI: {fileID: 0}
-  m_AutoLiveLink: 1
-  m_MiniTool: 0
-  m_LockTracker:
-    m_IsLocked: 0
-  m_CurrentEditor: 1
-  m_LayerEditor:
-    m_SelectedLayerIndex: 0
---- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -662,25 +289,17 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
-=======
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
->>>>>>> NPCs
-=======
-    m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
->>>>>>> Minigames
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 247
-    y: 75
-    width: 749
-    height: 420
+    x: 468
+    y: 181
+    width: 973
+    height: 501
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &15
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -696,41 +315,15 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
-=======
-    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
->>>>>>> NPCs
-=======
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
->>>>>>> Minigames
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     y: 646
-    width: 1364
+    width: 1366
     height: 353
-=======
-    y: 343
-    width: 1212
-    height: 265
->>>>>>> FirstAssetsTest
-=======
-    y: 562
-    width: 997
-    height: 297
->>>>>>> NPCs
-=======
-    y: 646
-    width: 1364
-    height: 353
->>>>>>> Minigames
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -745,61 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - Assets/Scenes
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Lee PC\OneDrive\Documents\Comp Sci 7-8\HitchHiker\Hitch
-    Hiker Project
-=======
-    - Assets/LukesStuff
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/LukesStuff
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/lukewoodland/Documents/_Unity/HitchHiker/Hitch Hiker
-    Project
->>>>>>> NPCs
-=======
-    - Assets/Scripts/Minigame Scripts
-  m_ViewMode: 1
-  m_StartGridSize: 64
-  m_LastFolders:
-  - Assets/Scripts/Minigame Scripts
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Lee PC\OneDrive\Documents\Comp Sci 7-8\HitchHiker\Hitch
-    Hiker Project
->>>>>>> Minigames
+  m_LastProjectPath: C:\Hitch Hikers\HitchHiker\Hitch Hiker Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_SelectedIDs: 403a0000
-    m_LastClickedID: 14912
-    m_ExpandedIDs: 00000000303a000000ca9a3b
-=======
-    m_SelectedIDs: 223a0000
-    m_LastClickedID: 14882
-    m_ExpandedIDs: 00000000123a000000ca9a3b
->>>>>>> FirstAssetsTest
-=======
-    m_SelectedIDs: 9a3a0000
-    m_LastClickedID: 15002
-    m_ExpandedIDs: 00000000903a000000ca9a3b
->>>>>>> NPCs
-=======
-    m_SelectedIDs: 7e390000
-    m_LastClickedID: 14718
-    m_ExpandedIDs: 00000000683900006a3900006c39000000ca9a3b
->>>>>>> Minigames
+    m_SelectedIDs: e63a0000
+    m_LastClickedID: 15078
+    m_ExpandedIDs: 00000000e23a0000e43a0000e63a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -815,7 +367,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -827,19 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000303a0000
-=======
-    m_ExpandedIDs: 00000000123a0000
->>>>>>> FirstAssetsTest
-=======
-    m_ExpandedIDs: 00000000903a0000
->>>>>>> NPCs
-=======
-    m_ExpandedIDs: 00000000683900006a3900006c390000
->>>>>>> Minigames
+    m_ExpandedIDs: 00000000e23a0000e43a0000e63a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -866,12 +406,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-<<<<<<< HEAD
-    m_ExpandedInstanceIDs: c6230000043c0000083c0000003c0000fc3b0000
-=======
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
->>>>>>> NPCs
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -887,7 +423,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -899,7 +435,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
---- !u!114 &16
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -915,43 +451,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
-=======
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
->>>>>>> NPCs
-=======
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
->>>>>>> Minigames
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
-    x: 1365
+    x: 1367
     y: 73
-    width: 554
+    width: 552
     height: 926
-<<<<<<< HEAD
-=======
-    x: 1214
-    y: 19
-    width: 307
-    height: 589
->>>>>>> FirstAssetsTest
-=======
-    x: 998
-    y: 75
-    width: 441
-    height: 784
->>>>>>> NPCs
-=======
->>>>>>> Minigames
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -965,14 +473,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
 --- !u!114 &15
-=======
---- !u!114 &17
->>>>>>> NPCs
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -988,66 +489,22 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
-=======
-    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
->>>>>>> NPCs
-=======
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
->>>>>>> Minigames
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     y: 73
     width: 402
     height: 552
-=======
-    y: 19
-    width: 299
-    height: 303
->>>>>>> FirstAssetsTest
-=======
-    y: 75
-    width: 246
-    height: 466
->>>>>>> NPCs
-=======
-    y: 73
-    width: 402
-    height: 552
->>>>>>> Minigames
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-      m_SelectedIDs: 1e430000
-      m_LastClickedID: 17182
-      m_ExpandedIDs: ecf1ffffa0f2ffffaef2ffff4cf3ffff5afbffff383900000e430000
-=======
-      m_SelectedIDs: 2a390000
-      m_LastClickedID: 14634
-      m_ExpandedIDs: 5efbffff90390000
->>>>>>> FirstAssetsTest
-=======
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 5efbffff
->>>>>>> NPCs
-=======
-      m_SelectedIDs: 28390000
-      m_LastClickedID: 14632
-      m_ExpandedIDs: 5efbffff3a390000
->>>>>>> Minigames
+      m_ExpandedIDs: 5efbffff7639000084390000b8390000bc390000de390000003a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1070,8 +527,8 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: dff9a57283b58894f9a592495464969d
---- !u!114 &18
+  m_WindowGUID: 5a577a4919c1c0a4c8f6bc720f0db919
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1087,75 +544,29 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
-=======
-    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
->>>>>>> NPCs
-=======
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
->>>>>>> Minigames
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
     x: 403
     y: 73
-    width: 960
+    width: 962
     height: 552
-<<<<<<< HEAD
-=======
-    x: 141.6
-    y: 233.6
-    width: 911
-    height: 303
->>>>>>> FirstAssetsTest
-=======
-    x: 247
-    y: 75
-    width: 749
-    height: 466
->>>>>>> NPCs
-=======
->>>>>>> Minigames
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
-  m_WindowGUID: 77611ddc41b6d064c9e39c6ed5e11787
+  m_WindowGUID: 680580d41ca591a4281d00010c49aa48
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: {x: -1.4831617, y: 3.3357687, z: -3.1363952}
+    m_Target: {x: 850.2479, y: 361.81686, z: 0}
     speed: 2
-    m_Value: {x: -1.4831617, y: 3.3357687, z: -3.1363952}
-=======
-    m_Target: {x: -7.0160594, y: -0.15842053, z: -18.488102}
-    speed: 2
-    m_Value: {x: -7.0160594, y: -0.15842053, z: -18.488102}
->>>>>>> FirstAssetsTest
-=======
-    m_Target: {x: 0.5836743, y: 4.6807857, z: 27.391703}
-    speed: 2
-    m_Value: {x: 0.5836743, y: 4.6807857, z: 27.391703}
->>>>>>> NPCs
-=======
-    m_Target: {x: 1.5822859, y: 1.6960545, z: 14.434929}
-    speed: 2
-    m_Value: {x: 1.5822859, y: 1.6960545, z: 14.434929}
->>>>>>> Minigames
+    m_Value: {x: 850.2479, y: 361.81686, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1183,53 +594,35 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    zGrid:
+      m_Fade:
         m_Target: 1
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    zGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 1
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    m_ShowGrid: 0
+    m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.28169614, y: 0.08821056, z: -0.026017718, w: -0.95509243}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: -0.28169444, y: 0.088210024, z: -0.02601756, w: -0.95508665}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    m_Target: 6.8927593
+    m_Target: 857.0859
     speed: 2
-    m_Value: 6.8927593
-=======
-    m_Target: 2.3897448
-    speed: 2
-    m_Value: 2.3897448
->>>>>>> FirstAssetsTest
-=======
-    m_Target: 7.6429896
-    speed: 2
-    m_Value: 7.6429896
->>>>>>> NPCs
-=======
-    m_Target: 18.686357
-    speed: 2
-    m_Value: 18.686357
->>>>>>> Minigames
+    m_Value: 857.0859
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -1243,14 +636,13 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.33836496, y: 0.08930069, z: -0.032275714, w: -0.9362182}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
-<<<<<<< HEAD
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1272,23 +664,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
     x: 403
     y: 73
-    width: 960
+    width: 962
     height: 552
-<<<<<<< HEAD
-=======
-    x: 271.2
-    y: 125.6
-    width: 911
-    height: 303
->>>>>>> FirstAssetsTest
-=======
->>>>>>> Minigames
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -1298,15 +677,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_TargetSize: {x: 960, y: 531}
-=======
-  m_TargetSize: {x: 911, y: 282}
->>>>>>> FirstAssetsTest
-=======
-  m_TargetSize: {x: 960, y: 531}
->>>>>>> Minigames
+  m_TargetSize: {x: 962, y: 531}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1321,23 +692,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
-    m_HBaseRangeMin: -480
-    m_HBaseRangeMax: 480
+    m_HBaseRangeMin: -481
+    m_HBaseRangeMax: 481
     m_VBaseRangeMin: -265.5
     m_VBaseRangeMax: 265.5
-<<<<<<< HEAD
-=======
-    m_HBaseRangeMin: -364.4
-    m_HBaseRangeMax: 364.4
-    m_VBaseRangeMin: -112.8
-    m_VBaseRangeMax: 112.8
->>>>>>> FirstAssetsTest
-=======
->>>>>>> Minigames
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1355,62 +713,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-<<<<<<< HEAD
-      width: 960
+      width: 962
       height: 531
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 480, y: 265.5}
-=======
-      width: 911
-      height: 282
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 455.5, y: 141}
->>>>>>> FirstAssetsTest
-=======
-      width: 960
-      height: 531
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 480, y: 265.5}
->>>>>>> Minigames
+    m_Translation: {x: 481, y: 265.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
-      x: -480
+      x: -481
       y: -265.5
-      width: 960
+      width: 962
       height: 531
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 960, y: 552}
-<<<<<<< HEAD
-=======
-      x: -455.5
-      y: -141
-      width: 911
-      height: 282
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1138.75, y: 378.75}
->>>>>>> FirstAssetsTest
-=======
->>>>>>> Minigames
+  m_LastWindowPixelSize: {x: 962, y: 552}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 --- !u!114 &18
-=======
---- !u!114 &19
->>>>>>> NPCs
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1426,41 +751,13 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
-=======
-    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
->>>>>>> NPCs
-=======
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
->>>>>>> Minigames
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> Minigames
     x: 0
     y: 646
-    width: 1364
+    width: 1366
     height: 353
-<<<<<<< HEAD
-=======
-    x: 7.2000003
-    y: 514.4
-    width: 1213
-    height: 262
->>>>>>> FirstAssetsTest
-=======
-    x: -1
-    y: 516
-    width: 997
-    height: 267
->>>>>>> NPCs
-=======
->>>>>>> Minigames
   m_ViewDataDictionary: {fileID: 0}

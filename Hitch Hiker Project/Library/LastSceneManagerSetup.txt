@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/MiniGames/Minigame 2.unity
 =======
 - path: Assets/Scenes/Money.unity
 >>>>>>> NewInventory
+=======
+- path: Assets/Scenes/MiniGames/Minigame 1.unity
+>>>>>>> AddingAnimationToGame1
   isLoaded: 1
   isActive: 1
   isSubScene: 0

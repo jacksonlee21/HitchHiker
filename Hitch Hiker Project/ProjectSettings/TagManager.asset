@@ -9,6 +9,9 @@ TagManager:
   - NPCController
   - NPC
   - EnterBuilding
+  - TimingGame
+  - 3CardMonte
+  - OpenTheBox
   layers:
   - Default
   - TransparentFX
@@ -48,6 +51,9 @@ TagManager:
     locked: 0
   - name: Houses
     uniqueID: 1184918215
+    locked: 0
+  - name: Arrows
+    uniqueID: 3683538669
     locked: 0
   - name: Player
     uniqueID: 3481095109

@@ -9,6 +9,8 @@ public class Minigame2s : MonoBehaviour
     public float time;
     public float travelDistance;
     bool thingy = false;
+    public AudioSource chaChing;
+    public AudioSource losing;
 
 
     public void Awake()
@@ -27,7 +29,7 @@ public class Minigame2s : MonoBehaviour
         }
         if(thingy == true)
         {
-            if(time > 3)
+            if(time > 4)
             {
                 SceneManager.LoadScene("DialogueSystem");
             }
@@ -91,6 +93,7 @@ public class Minigame2s : MonoBehaviour
         Debug.Log("You Win");
         thingy = true;
         time = 0;
+        chaChing.Play();
     }
 
 
@@ -99,5 +102,6 @@ public class Minigame2s : MonoBehaviour
         Debug.Log("You Lose, Loser");
         thingy = true;
         time = 0;
+        losing.Play();
     }
 }

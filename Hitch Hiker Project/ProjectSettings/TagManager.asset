@@ -12,6 +12,7 @@ TagManager:
   - TimingGame
   - 3CardMonte
   - OpenTheBox
+  - Sponge
   layers:
   - Default
   - TransparentFX

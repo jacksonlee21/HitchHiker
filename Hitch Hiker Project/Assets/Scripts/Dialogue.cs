@@ -9,19 +9,42 @@ public class Dialogue : MonoBehaviour
     public string[] sentences;
     private int index;
     public float typingSpeed;
+    bool isYes = false;
+   
+    
 
     public GameObject continueButton;
 
     void Start()
     {
-        StartCoroutine(Type());
+        isYes = false;
+        
+        if (!PlayerPrefs.HasKey("isFirstTime"))
+        {
+            PlayerPrefs.SetString("isFirstTime", "yes");
+        }
+            
+        if(PlayerPrefs.GetString("isFirstTime") == "yes")
+        {
+            StartCoroutine(Type());
+            isYes = true;
+        }
+
+       
     }
 
     private void Update()
     {
-        if(textDisplay.text == sentences[index])
+        if(textDisplay.text == sentences[index] && isYes)
         {
             continueButton.SetActive(true);
+        }
+
+        if (index == sentences.Length - 1)
+        {
+            PlayerPrefs.SetString("isFirstTime", "no");
+            Debug.Log("wooohaohfoahohe");
+            
         }
     }
 
@@ -43,6 +66,7 @@ public class Dialogue : MonoBehaviour
             index++;
             textDisplay.text = "";
             StartCoroutine(Type());
+            Debug.Log(index);
         }
         else
         {

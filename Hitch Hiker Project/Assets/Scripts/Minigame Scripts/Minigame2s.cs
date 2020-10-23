@@ -12,6 +12,7 @@ public class Minigame2s : MonoBehaviour
 
     bool thingy = false;
 
+
     public void Awake()
     {
         Sequence = Random.Range(1, 5);

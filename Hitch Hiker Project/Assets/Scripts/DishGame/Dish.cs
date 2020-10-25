@@ -8,7 +8,8 @@ public class Dish : MonoBehaviour
     private SpriteRenderer sr;
     [HideInInspector]
     public bool isClean;
-    private bool inPos;
+    [HideInInspector]
+    public bool inPos;
     [HideInInspector]
     public int cleanCounter;
     // Start is called before the first frame update

@@ -13,6 +13,7 @@ TagManager:
   - 3CardMonte
   - OpenTheBox
   - Sponge
+  - Bug
   layers:
   - Default
   - TransparentFX

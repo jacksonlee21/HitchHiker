@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class BugMovement : MonoBehaviour
 {
-    [SerializeField, Header("Timing")]
+    [Header("Timing")]
     public float MoveTime;
     private float timer;
 
-    [SerializeField, Header("Speed")]
+    [Header("Speed")]
     public float speed;
 
     [Header("Sprites")]
@@ -20,6 +20,8 @@ public class BugMovement : MonoBehaviour
     private Vector3 posToGoTo;
     private float xRange, yRange;
     private float xMin, xMax, yMin, yMax;
+
+    private BugSpawner bs;
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +40,8 @@ public class BugMovement : MonoBehaviour
         yMax = yRange;
         xMin = -xRange;
         xMax = xRange;
+
+        bs = GameObject.FindGameObjectWithTag("BugSpawner").GetComponent<BugSpawner>();
     }
 
     // Update is called once per frame
@@ -75,6 +79,7 @@ public class BugMovement : MonoBehaviour
     public void Squashed()
     {
         isAlive = false;
+        bs.CountBugs();
         sr.sprite = sprites[1];
         StartCoroutine(WaitToDestroy());
     }

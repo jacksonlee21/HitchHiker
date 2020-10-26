@@ -14,6 +14,7 @@ TagManager:
   - OpenTheBox
   - Sponge
   - Bug
+  - BugSpawner
   layers:
   - Default
   - TransparentFX

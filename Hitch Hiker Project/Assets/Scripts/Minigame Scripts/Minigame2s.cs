@@ -1,7 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Minigame2s : MonoBehaviour
 {
@@ -9,6 +12,10 @@ public class Minigame2s : MonoBehaviour
     public float time;
     public float travelDistance;
     bool thingy = false;
+
+    //Public item for win/loose screen.
+    public GameObject win;
+    public GameObject loose;
 
 
     public void Awake()
@@ -91,6 +98,8 @@ public class Minigame2s : MonoBehaviour
         Debug.Log("You Win");
         thingy = true;
         time = 0;
+        win.SetActive(true);
+        PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney")+50);
     }
 
 
@@ -99,5 +108,6 @@ public class Minigame2s : MonoBehaviour
         Debug.Log("You Lose, Loser");
         thingy = true;
         time = 0;
+        loose.SetActive(true);
     }
 }

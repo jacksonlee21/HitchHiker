@@ -12,6 +12,8 @@ public class Minigame1s : MonoBehaviour
     public GameObject openChest;
     public GameObject closedChest;
     float time;
+    public AudioSource WinSound;
+    bool playSound = false;
 
     public GameObject win;
 
@@ -41,10 +43,16 @@ public class Minigame1s : MonoBehaviour
             closedChest.SetActive(false);
             win.SetActive(true);
             time += Time.deltaTime;
+            if(playSound == false)
+            {
+                WinSound.Play();
+                playSound = true;
+            }
             if(time > 3)
             {
-                SceneManager.LoadScene("DialogueSystem");
                 PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
+                PlayerPrefs.SetFloat("playersLastPosition", 11.5f);
+                SceneManager.LoadScene("DialogueSystem");
             }
         }
     }

@@ -9,6 +9,10 @@ public class Movement : MonoBehaviour
     public bool walking;
     public Animator playerAnim;
 
+    public void Awake()
+    {
+        transform.position = new Vector3(PlayerPrefs.GetFloat("playersLastPosition"), 0, 0);
+    }
 
     void Update()
     {

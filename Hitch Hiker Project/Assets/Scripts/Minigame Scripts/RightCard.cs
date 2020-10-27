@@ -7,6 +7,7 @@ public class RightCard : MonoBehaviour
     int Sequence;
     float time;
     Material color;
+    public AudioSource Ding;
 
     public void Start()
     {
@@ -24,6 +25,7 @@ public class RightCard : MonoBehaviour
             if (time < .4f)
             {
                 color.color = Color.red;
+                Ding.Play();
             }
             else if(time < .8f)
             {
@@ -32,6 +34,7 @@ public class RightCard : MonoBehaviour
             else if (time < 1.2f)
             {
                 color.color = Color.red;
+                Ding.Play();
             }
             else if (time < 1.6f)
             {

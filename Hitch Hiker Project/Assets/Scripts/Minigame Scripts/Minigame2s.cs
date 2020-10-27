@@ -13,6 +13,9 @@ public class Minigame2s : MonoBehaviour
     public GameObject win;
     public GameObject loose;
 
+    public AudioSource Winner;
+    public AudioSource Loser;
+
 
     public void Awake()
     {
@@ -30,8 +33,9 @@ public class Minigame2s : MonoBehaviour
         }
         if(thingy == true)
         {
-            if(time > 3)
+            if(time > 4)
             {
+                PlayerPrefs.SetFloat("playersLastPosition", 30f);
                 SceneManager.LoadScene("DialogueSystem");
             }
         }
@@ -96,6 +100,7 @@ public class Minigame2s : MonoBehaviour
         time = 0;
         win.SetActive(true);
         PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
+        Winner.Play();
     }
 
 
@@ -105,5 +110,6 @@ public class Minigame2s : MonoBehaviour
         thingy = true;
         time = 0;
         loose.SetActive(true);
+        Loser.Play();
     }
 }

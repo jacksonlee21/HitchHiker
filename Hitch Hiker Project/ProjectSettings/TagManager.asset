@@ -12,6 +12,9 @@ TagManager:
   - TimingGame
   - 3CardMonte
   - OpenTheBox
+  - Sponge
+  - Bug
+  - BugSpawner
   layers:
   - Default
   - TransparentFX

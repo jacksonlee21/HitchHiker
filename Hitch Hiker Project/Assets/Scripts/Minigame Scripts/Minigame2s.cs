@@ -10,6 +10,9 @@ public class Minigame2s : MonoBehaviour
     public float travelDistance;
     bool thingy = false;
 
+    public GameObject win;
+    public GameObject loose;
+
 
     public void Awake()
     {
@@ -91,6 +94,8 @@ public class Minigame2s : MonoBehaviour
         Debug.Log("You Win");
         thingy = true;
         time = 0;
+        win.SetActive(true);
+        PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
     }
 
 
@@ -99,5 +104,6 @@ public class Minigame2s : MonoBehaviour
         Debug.Log("You Lose, Loser");
         thingy = true;
         time = 0;
+        loose.SetActive(true);
     }
 }

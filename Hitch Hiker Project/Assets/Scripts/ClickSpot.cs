@@ -20,6 +20,10 @@ public class ClickSpot : MonoBehaviour
     private float spotStartY;
     public float moveSpeed = 1f;
 
+    //win/loose
+    public GameObject win;
+    public GameObject loose;
+
     private void Start()
     {
         DoneWithGame = false;
@@ -36,6 +40,8 @@ public class ClickSpot : MonoBehaviour
         if (DoneWithGame)
         { 
             ClickObject.SetActive(false);
+            win.SetActive(true);
+            PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
         }
         else
         {
@@ -55,6 +61,8 @@ public class ClickSpot : MonoBehaviour
                 {
                     DoneWithGame = true;
                     cm.bowlAnim.SetTrigger("TipBowl");
+                    loose.SetActive(true);
+                    win.SetActive(false);
                 }
             }
         }

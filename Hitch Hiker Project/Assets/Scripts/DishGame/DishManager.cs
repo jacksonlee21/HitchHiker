@@ -17,6 +17,9 @@ public class DishManager : MonoBehaviour
     private float TimeToClean;
     private float timer;
 
+    //win screen
+    public GameObject win;
+
     public DishManager(float timeToClean)
     {
         TimeToClean = timeToClean;
@@ -47,6 +50,7 @@ public class DishManager : MonoBehaviour
             if(timer <= 0)
             {
                 GameOver = true;
+                win.SetActive(true);
             }
         }
         else

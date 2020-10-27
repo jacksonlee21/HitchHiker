@@ -13,6 +13,8 @@ public class Minigame1s : MonoBehaviour
     public GameObject closedChest;
     float time;
 
+    public GameObject win;
+
     void Update()
     {
         if(gameFinished == false)
@@ -37,10 +39,12 @@ public class Minigame1s : MonoBehaviour
             gameFinished = true;
             openChest.SetActive(true);
             closedChest.SetActive(false);
+            win.SetActive(true);
             time += Time.deltaTime;
             if(time > 3)
             {
                 SceneManager.LoadScene("DialogueSystem");
+                PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
             }
         }
     }

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-10.250262260437012,"y":-0.011298604309558869,"z":-328.35546875},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":8.30943775177002,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":0.47373777627944949,"y":0.373147577047348,"z":-3618.2080078125},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":7.116825103759766,"orthographic":true}
@@ -7,3 +8,6 @@
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-5.689603328704834,"y":0.040253326296806338,"z":-85.66625213623047},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":9.324345588684082,"orthographic":true}
 >>>>>>> PlayerPrefs
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":481.0,"y":266.0,"z":0.0},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":549.6517333984375,"orthographic":true}
+>>>>>>> PlayButton

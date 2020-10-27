@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Main Menu.unity
+=======
+- path: Assets/Scenes/MiniGames/3CardMonte.unity
+>>>>>>> PlayButton
   isLoaded: 1
   isActive: 1
   isSubScene: 0

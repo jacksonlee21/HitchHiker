@@ -49,6 +49,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Bakground
+    uniqueID: 2949751047
+    locked: 0
   - name: Houses
     uniqueID: 1184918215
     locked: 0

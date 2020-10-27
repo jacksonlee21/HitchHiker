@@ -1,21 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Minigame2s : MonoBehaviour
 {
     public int Sequence;
-
     public float time;
-
     public float travelDistance;
-
     bool thingy = false;
+
 
     public void Awake()
     {
         Sequence = Random.Range(1, 5);
     }
+
 
     public void Update()
     {
@@ -25,7 +25,15 @@ public class Minigame2s : MonoBehaviour
             choose();
             
         }
+        if(thingy == true)
+        {
+            if(time > 3)
+            {
+                SceneManager.LoadScene("DialogueSystem");
+            }
+        }
     }
+
 
     public void choose()
     {
@@ -77,15 +85,19 @@ public class Minigame2s : MonoBehaviour
         }
     }
 
+
     public void correct()
     {
         Debug.Log("You Win");
         thingy = true;
+        time = 0;
     }
+
 
     public void wrong()
     {
         Debug.Log("You Lose, Loser");
         thingy = true;
+        time = 0;
     }
 }

@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/NewBackground.unity
 =======
 - path: Assets/Scenes/MiniGames/SquashBugs.unity
 >>>>>>> DishGame
+=======
+- path: Assets/Scenes/PlayerPrefs.unity
+>>>>>>> PlayerPrefs
   isLoaded: 1
   isActive: 1
   isSubScene: 0

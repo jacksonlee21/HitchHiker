@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Minigame1s : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Minigame1s : MonoBehaviour
     bool gameFinished = false;
     public GameObject openChest;
     public GameObject closedChest;
+    float time;
 
     void Update()
     {
@@ -35,7 +37,11 @@ public class Minigame1s : MonoBehaviour
             gameFinished = true;
             openChest.SetActive(true);
             closedChest.SetActive(false);
-            //You Win;
+            time += Time.deltaTime;
+            if(time > 3)
+            {
+                SceneManager.LoadScene("DialogueSystem");
+            }
         }
     }
 }

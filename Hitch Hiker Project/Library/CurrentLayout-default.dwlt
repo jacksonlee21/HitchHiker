@@ -15,6 +15,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: -18.4
     y: 111.200005
     width: 1521.6
@@ -31,9 +32,18 @@ MonoBehaviour:
   m_Title: 
   m_RootView: {fileID: 2}
 >>>>>>> DishGame
+=======
+    x: 0
+    y: 43.2
+    width: 1536
+    height: 780.8
+  m_ShowMode: 4
+  m_Title: 
+  m_RootView: {fileID: 6}
+>>>>>>> PlayerPrefs
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -55,6 +65,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
     y: 30
+<<<<<<< HEAD
     width: 1522
     height: 717
   m_MinSize: {x: 680, y: 492}
@@ -68,6 +79,14 @@ MonoBehaviour:
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 >>>>>>> DishGame
+=======
+    width: 1536
+    height: 731
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 61
+>>>>>>> PlayerPrefs
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -84,12 +103,21 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1213
     y: 0
     width: 309
     height: 717
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    x: 1224
+    y: 0
+    width: 312
+    height: 731
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> PlayerPrefs
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -122,10 +150,17 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
     y: 0
+<<<<<<< HEAD
     width: 300
     height: 434
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 303
+    height: 442
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> PlayerPrefs
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -157,9 +192,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 434
     width: 1213
     height: 283
+=======
+    y: 442
+    width: 1224
+    height: 289
+>>>>>>> PlayerPrefs
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 13}
@@ -197,9 +238,15 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1522
     height: 767
   m_MinSize: {x: 875, y: 300}
+=======
+    width: 1536
+    height: 781
+  m_MinSize: {x: 875, y: 542}
+>>>>>>> PlayerPrefs
   m_MaxSize: {x: 10000, y: 10000}
 =======
     width: 1062
@@ -229,7 +276,11 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1522
+=======
+    width: 1536
+>>>>>>> PlayerPrefs
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -259,8 +310,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 747
     width: 1522
+=======
+    y: 761
+    width: 1536
+>>>>>>> PlayerPrefs
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -294,12 +350,18 @@ MonoBehaviour:
     x: 346
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1213
     height: 717
+=======
+    width: 1224
+    height: 731
+>>>>>>> PlayerPrefs
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 62
+<<<<<<< HEAD
 =======
     width: 716
     height: 534
@@ -313,6 +375,8 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 >>>>>>> DishGame
+=======
+>>>>>>> PlayerPrefs
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -331,12 +395,18 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
     y: 0
+<<<<<<< HEAD
     width: 1213
     height: 434
+=======
+    width: 1224
+    height: 442
+>>>>>>> PlayerPrefs
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 63
+<<<<<<< HEAD
 =======
     y: 534
     width: 1062
@@ -350,6 +420,8 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 >>>>>>> DishGame
+=======
+>>>>>>> PlayerPrefs
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -366,10 +438,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 300
     y: 0
     width: 913
     height: 434
+=======
+    x: 303
+    y: 0
+    width: 921
+    height: 442
+>>>>>>> PlayerPrefs
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -510,10 +589,17 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: -18.4
     y: 575.2
     width: 1212
     height: 262
+=======
+    x: 0
+    y: 515.2
+    width: 1223
+    height: 268
+>>>>>>> PlayerPrefs
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -528,20 +614,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Sprites
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Sprites
+=======
+    - Assets/Scripts
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts
+>>>>>>> PlayerPrefs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Code\NewCodingCrew\HitchHiker\Hitch Hiker Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 12}
     m_SelectedIDs: a23c0000
     m_LastClickedID: 15522
     m_ExpandedIDs: 00000000883c000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 44}
+    m_SelectedIDs: 8c3c0000
+    m_LastClickedID: 15500
+    m_ExpandedIDs: 00000000883c00008a3c00008c3c000000ca9a3b
+>>>>>>> PlayerPrefs
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Pixel Font - Tripfive
@@ -569,7 +670,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000883c00008a3c0000
+=======
+    m_ExpandedIDs: 00000000883c00008a3c00008c3c0000
+>>>>>>> PlayerPrefs
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -646,10 +751,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1214
     y: 19
     width: 307
     height: 696
+=======
+    x: 1224
+    y: 73.6
+    width: 311
+    height: 710
+>>>>>>> PlayerPrefs
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -684,6 +796,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -18.4
     y: 141.6
     width: 299
@@ -694,10 +807,17 @@ MonoBehaviour:
     width: 345
     height: 513
 >>>>>>> DishGame
+=======
+    x: 0
+    y: 73.6
+    width: 302
+    height: 421
+>>>>>>> PlayerPrefs
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: 5af1ffff
       m_LastClickedID: -3750
@@ -707,6 +827,11 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: 5ef0ffff6ef0ffffa6f0ffffa8f7ffffb4f7ffff30f8ffff5efbffff8e410000ce410000
 >>>>>>> DishGame
+=======
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 5efbffff
+>>>>>>> PlayerPrefs
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -756,6 +881,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 281.6
     y: 141.6
     width: 911
@@ -766,6 +892,12 @@ MonoBehaviour:
     width: 714
     height: 487
 >>>>>>> DishGame
+=======
+    x: 303.2
+    y: 73.6
+    width: 919
+    height: 421
+>>>>>>> PlayerPrefs
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 7d7a58ae60930d6419daf7b783ea2556
@@ -778,6 +910,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -10.250262, y: -0.011298604, z: -328.35547}
     speed: 2
     m_Value: {x: -10.250262, y: -0.011298604, z: -328.35547}
@@ -786,6 +919,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.47373778, y: 0.37314758, z: -3618.208}
 >>>>>>> DishGame
+=======
+    m_Target: {x: -5.6896033, y: 0.040253326, z: -85.66625}
+    speed: 2
+    m_Value: {x: -5.378599, y: 0.22127265, z: -85.63112}
+>>>>>>> PlayerPrefs
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -836,6 +974,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 8.309438
     speed: 2
     m_Value: 8.700982
@@ -844,6 +983,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 7.116825
 >>>>>>> DishGame
+=======
+    m_Target: 9.324346
+    speed: 2
+    m_Value: 9.763713
+>>>>>>> PlayerPrefs
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -895,6 +1039,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> PlayerPrefs
     x: 303.2
     y: 73.6
     width: 919
@@ -923,10 +1070,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -367.6
     m_HBaseRangeMax: 367.6
     m_VBaseRangeMin: -160
     m_VBaseRangeMax: 160
+=======
+    m_HBaseRangeMin: -459.5
+    m_HBaseRangeMax: 459.5
+    m_VBaseRangeMin: -210.5
+    m_VBaseRangeMax: 210.5
+>>>>>>> PlayerPrefs
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -943,11 +1097,19 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
       y: 21
       width: 919
       height: 400
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 459.5, y: 200}
+=======
+      y: 0
+      width: 919
+      height: 421
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 459.5, y: 210.5}
+>>>>>>> PlayerPrefs
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -955,12 +1117,21 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -459.5
+<<<<<<< HEAD
       y: -200
       width: 919
       height: 400
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1148.75, y: 526.25}
+=======
+      y: -210.5
+      width: 919
+      height: 421
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 919, y: 421}
+>>>>>>> PlayerPrefs
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1168,10 +1339,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1062
     y: 75
     width: 377
     height: 784
+=======
+    x: 0
+    y: 515.2
+    width: 1223
+    height: 268
+>>>>>>> PlayerPrefs
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []

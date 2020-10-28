@@ -15,6 +15,8 @@ TagManager:
   - Sponge
   - Bug
   - BugSpawner
+  - DishGame
+  - SquashBugs
   layers:
   - Default
   - TransparentFX
@@ -54,6 +56,9 @@ TagManager:
     locked: 0
   - name: Bakground
     uniqueID: 2949751047
+    locked: 0
+  - name: Sidewalk
+    uniqueID: 3818701161
     locked: 0
   - name: Houses
     uniqueID: 1184918215

@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGames/3CardMonte.unity
     guid: b944b57684006ee45b5149bbd5e635bb
   - enabled: 1
+    path: Assets/Scenes/MiniGames/DishGame.unity
+    guid: d515a486859774b2b9bc6f35af5666f5
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/SquashBugs.unity
+    guid: 7787b9c0943ff47e48478c8298009f58
+  - enabled: 1
     path: Assets/Scenes/Main Menu.unity
     guid: 3d76a2df62d01504fac7249cf66043ff
   - enabled: 1

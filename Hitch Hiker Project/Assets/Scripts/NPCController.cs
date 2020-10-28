@@ -34,7 +34,7 @@ public class NPCController : MonoBehaviour
         //Spawns a set amounnt of NPCs 
         for (int i = 0; i < NPCsToSpawn; i++)
         {
-            float xSpawn = Random.Range(-spawnRange + 20, spawnRange + 20);
+            float xSpawn = Random.Range(-spawnRange, spawnRange);
             Vector2 spawnLoc = new Vector2(xSpawn, 0);
 
             Instantiate(NPCPrefab, spawnLoc, Quaternion.identity);

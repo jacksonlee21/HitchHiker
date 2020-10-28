@@ -11,6 +11,10 @@ public class Movement : MonoBehaviour
 
     public void Awake()
     {
+        if(!PlayerPrefs.HasKey("playersLastPosition"))
+        {
+            PlayerPrefs.SetFloat("playersLastPosition", -20f);
+        }
         transform.position = new Vector3(PlayerPrefs.GetFloat("playersLastPosition"), 0, 0);
     }
 

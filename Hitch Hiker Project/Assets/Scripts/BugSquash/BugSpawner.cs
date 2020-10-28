@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BugSpawner : MonoBehaviour
 {
@@ -19,6 +20,11 @@ public class BugSpawner : MonoBehaviour
 
     public float TimeToSquash;
     private float SquashTimer;
+    float timer;
+    bool winSound = false;
+
+    public AudioSource Winner;
+    public AudioSource BugSplat;
 
     // Start is called before the first frame update
     void Start()
@@ -41,7 +47,18 @@ public class BugSpawner : MonoBehaviour
     {
         if(SquashTimer >= TimeToSquash)
         {
-            return;
+            if(winSound == false)
+            {
+                Winner.Play();
+                winSound = true;
+            }
+            timer += Time.deltaTime;
+            if(timer > 4)
+            {
+                PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
+                PlayerPrefs.SetFloat("playersLastPosition", -4.35f);
+                SceneManager.LoadScene("DialogueSystem");
+            }                
         }
         else
         {
@@ -66,6 +83,7 @@ public class BugSpawner : MonoBehaviour
 
     public void CountBugs()
     {
+        BugSplat.Play();
         SquashCount++;
         BugsSquashedText.text = "Bugs Squashed: " + SquashCount;
     }

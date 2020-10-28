@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DishManager : MonoBehaviour
 {
@@ -16,9 +17,15 @@ public class DishManager : MonoBehaviour
     [SerializeField]
     private float TimeToClean;
     private float timer;
+    float winTimer;
 
     //win screen
     public GameObject win;
+
+    //SFX
+    public AudioSource Winner;
+    public AudioSource Loser;
+    public AudioSource DishDing;
 
     public DishManager(float timeToClean)
     {
@@ -50,13 +57,28 @@ public class DishManager : MonoBehaviour
             if(timer <= 0)
             {
                 GameOver = true;
-                win.SetActive(true);
+                PlayerPrefs.SetFloat("playersLastPosition", .75f);
+                if (DishesCleaned > 0)
+                {
+                    Winner.Play();
+                    win.SetActive(true);
+                    PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
+                }
+                if (DishesCleaned == 0)
+                {
+                    Loser.Play();
+                }
             }
         }
         else
         {
             if (dish != null)
                 Destroy(dish.gameObject);
+            winTimer += Time.deltaTime;
+            if (winTimer > 4f)
+            {
+                SceneManager.LoadScene("DialogueSystem");
+            }
         }
     }
 
@@ -68,6 +90,7 @@ public class DishManager : MonoBehaviour
             {
                 DishesCleaned++;
                 scoreText.text = "Dishes Cleaned: " + DishesCleaned.ToString();
+                DishDing.Play();
             }
             dish.isClean = true;
 

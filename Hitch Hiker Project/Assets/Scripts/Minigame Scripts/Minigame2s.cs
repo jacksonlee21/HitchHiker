@@ -35,7 +35,7 @@ public class Minigame2s : MonoBehaviour
         {
             if(time > 4)
             {
-                PlayerPrefs.SetFloat("playersLastPosition", 30f);
+                PlayerPrefs.SetFloat("playersLastPosition", 9.25f);
                 SceneManager.LoadScene("DialogueSystem");
             }
         }

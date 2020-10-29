@@ -7,10 +7,18 @@ public class Minigame1s : MonoBehaviour
 {
     int counter = 0;
     public int limit;
-    int direction = 3;
+    int direction = 4;
     bool gameFinished = false;
-    public GameObject openChest;
-    public GameObject closedChest;
+    int objectCounter = 1;
+    //public GameObject openChest;
+    //public GameObject closedChest;
+
+    public GameObject Chair1;
+    public GameObject Chair2;
+    public GameObject Chair3;
+    public GameObject Chair4;
+    public GameObject Chair5;
+
     float time;
     public AudioSource WinSound;
     bool playSound = false;
@@ -28,19 +36,41 @@ public class Minigame1s : MonoBehaviour
                 {
                     direction = direction * -1;
                     //Debug.Log("Test");
+                    objectCounter++;
                 }
                 //Debug.Log(direction);
                 transform.Rotate(Vector3.back * direction);
-
             }
-            Debug.Log(counter);
+
+            if (objectCounter == 2)
+            {
+                Chair2.SetActive(true);
+                Chair1.SetActive(false);
+            }
+            if (objectCounter == 3)
+            {
+                Chair3.SetActive(true);
+                Chair2.SetActive(false);
+            }
+            if (objectCounter == 4)
+            {
+                Chair4.SetActive(true);
+                Chair3.SetActive(false);
+            }
+            if (objectCounter == 5)
+            {
+                Chair5.SetActive(true);
+                Chair4.SetActive(false);
+            }
+            Debug.Log(objectCounter);
+            //Debug.Log(counter);
         }
 
         if(counter == limit)
         {
             gameFinished = true;
-            openChest.SetActive(true);
-            closedChest.SetActive(false);
+            //openChest.SetActive(true);
+            //closedChest.SetActive(false);
             win.SetActive(true);
             time += Time.deltaTime;
             if(playSound == false)

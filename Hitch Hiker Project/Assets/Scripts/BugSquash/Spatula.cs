@@ -12,7 +12,6 @@ public class Spatula : MonoBehaviour
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        Cursor.visible = false;
         down = false;
     }
     // Update is called once per frame
@@ -37,13 +36,11 @@ public class Spatula : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Bug"))
+        if (collision.CompareTag("Bug") && Input.GetMouseButtonDown(0))
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                BugMovement bug = collision.GetComponent<BugMovement>();
-                bug.Squashed();
-            }
+            BugMovement bug = collision.GetComponent<BugMovement>();
+            bug.GetComponent<Collider2D>().enabled = false;
+            bug.Squashed();
         }
     }
 }

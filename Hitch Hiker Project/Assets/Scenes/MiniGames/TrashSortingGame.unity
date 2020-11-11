@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 369671387}
   - component: {fileID: 369671386}
   - component: {fileID: 369671388}
+  - component: {fileID: 369671389}
+  - component: {fileID: 369671390}
   m_Layer: 0
   m_Name: RecycleCan
   m_TagString: Untagged
@@ -214,7 +216,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -230,6 +232,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.46, y: 0.64}
   m_EdgeRadius: 0
+--- !u!50 &369671389
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369671385}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
+--- !u!114 &369671390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369671385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10552dc91d6a17041881e57f97d12956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &404403396
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +277,7 @@ GameObject:
   - component: {fileID: 404403397}
   - component: {fileID: 404403399}
   - component: {fileID: 404403400}
+  - component: {fileID: 404403401}
   m_Layer: 0
   m_Name: PaperBall
   m_TagString: Untagged
@@ -352,6 +388,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b92b22c820a814894d926e1d202966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &404403401
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 404403396}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &435058855
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,6 +421,7 @@ GameObject:
   - component: {fileID: 435058856}
   - component: {fileID: 435058858}
   - component: {fileID: 435058859}
+  - component: {fileID: 435058860}
   m_Layer: 0
   m_Name: Toothbrush
   m_TagString: Untagged
@@ -474,6 +532,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b92b22c820a814894d926e1d202966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &435058860
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435058855}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &721168915
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,6 +565,7 @@ GameObject:
   - component: {fileID: 721168916}
   - component: {fileID: 721168918}
   - component: {fileID: 721168919}
+  - component: {fileID: 721168920}
   m_Layer: 0
   m_Name: WaterBottle
   m_TagString: Untagged
@@ -596,6 +676,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b92b22c820a814894d926e1d202966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &721168920
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 721168915}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &849825239
 GameObject:
   m_ObjectHideFlags: 0
@@ -608,6 +709,7 @@ GameObject:
   - component: {fileID: 849825240}
   - component: {fileID: 849825242}
   - component: {fileID: 849825243}
+  - component: {fileID: 849825244}
   m_Layer: 0
   m_Name: WineBottle
   m_TagString: Untagged
@@ -718,6 +820,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b92b22c820a814894d926e1d202966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &849825244
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849825239}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &987693356
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,6 +984,8 @@ GameObject:
   - component: {fileID: 1484415229}
   - component: {fileID: 1484415228}
   - component: {fileID: 1484415230}
+  - component: {fileID: 1484415231}
+  - component: {fileID: 1484415232}
   m_Layer: 0
   m_Name: TrashCan
   m_TagString: Untagged
@@ -943,7 +1068,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -959,6 +1084,39 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.46, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &1484415231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484415227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10552dc91d6a17041881e57f97d12956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!50 &1484415232
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484415227}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1661468733
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,6 +1129,7 @@ GameObject:
   - component: {fileID: 1661468734}
   - component: {fileID: 1661468736}
   - component: {fileID: 1661468737}
+  - component: {fileID: 1661468738}
   m_Layer: 0
   m_Name: Fork
   m_TagString: Untagged
@@ -1081,6 +1240,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b92b22c820a814894d926e1d202966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &1661468738
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661468733}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1679564311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,6 +1356,7 @@ GameObject:
   - component: {fileID: 1950178072}
   - component: {fileID: 1950178074}
   - component: {fileID: 1950178075}
+  - component: {fileID: 1950178076}
   m_Layer: 0
   m_Name: SprayPaint
   m_TagString: Untagged
@@ -1286,6 +1467,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b92b22c820a814894d926e1d202966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &1950178076
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950178071}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &2052483279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1298,6 +1500,7 @@ GameObject:
   - component: {fileID: 2052483280}
   - component: {fileID: 2052483282}
   - component: {fileID: 2052483283}
+  - component: {fileID: 2052483284}
   m_Layer: 0
   m_Name: Shirt
   m_TagString: Untagged
@@ -1408,3 +1611,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5b92b22c820a814894d926e1d202966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!50 &2052483284
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052483279}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

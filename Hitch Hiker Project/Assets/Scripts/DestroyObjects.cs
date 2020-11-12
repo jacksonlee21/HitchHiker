@@ -26,8 +26,8 @@ public class DestroyObjects : MonoBehaviour
 
         if (Input.GetMouseButton(0) && trashSortingScript.isThereTrash)
         {
-            col.gameObject.SetActive(false);
-            //Destroy(col.gameObject);
+            //col.gameObject.SetActive(false);
+            Destroy(col.gameObject);
             col.gameObject.transform.position = new Vector2(0f, 2f);
             Debug.Log("destroy please");
 

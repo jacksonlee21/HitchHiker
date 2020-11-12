@@ -17,7 +17,8 @@ public class TrashSorting : MonoBehaviour
     void Start()
     {
         rand = Random.Range(0, 7 );
-        Items[rand].SetActive(true);
+        GameObject newTrash = Instantiate(Items[rand], new Vector3(0f, 2f, 1f), Quaternion.identity);
+        newTrash.SetActive(true);
         oldRand = rand;
     }
 
@@ -35,18 +36,23 @@ public class TrashSorting : MonoBehaviour
                 //Items[rand].SetActive(true);
                 //isThereTrash = true;
 
-                StartCoroutine(Wait());
+                GameObject newTrash = Instantiate(Items[rand], new Vector3(0f,2f,1f), Quaternion.identity);
+                newTrash.SetActive(true);
+                isThereTrash = true;
+                //StartCoroutine(Wait());
             }
 
         }
     }
 
-    IEnumerator Wait()
+    /*IEnumerator Wait()
     {
         yield return new WaitForSeconds(.2f);
-        Items[rand].SetActive(true);
+        //Items[rand].SetActive(true);
+
+        Instantiate(Items[rand]);
         isThereTrash = true;
-    }
+    }*/
 
 
 

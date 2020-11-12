@@ -7,16 +7,37 @@ public class TrashSorting : MonoBehaviour
 
     public GameObject[] Items;
     int rand;
-    int amountActive = 0;
-    int startAmount = 0;
+    int oldRand;
+    //int amountActive = 0;
+   // int startAmount = 0;
+    public bool isThereTrash = true;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        rand = Random.Range(0, 6);
+        rand = Random.Range(0, 7 );
         Items[rand].SetActive(true);
+        oldRand = rand;
     }
+
+    void Update()
+    {
+        if(!isThereTrash)
+        {
+            Debug.Log("should work now thank u");
+            rand = Random.Range(0, 7);
+            if(rand != oldRand)
+            {
+                oldRand = rand;
+                //Items[rand].transform.position = new Vector2(0f, 2f);
+                Items[rand].SetActive(true);
+                isThereTrash = true;
+            }
+
+        }
+    }
+
 
     // Update is called once per frame
     /*void Update()

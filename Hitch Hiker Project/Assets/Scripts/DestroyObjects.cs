@@ -18,21 +18,22 @@ public class DestroyObjects : MonoBehaviour
 
     }
 
-    void OnCollisionEnter2D (Collision2D col)
+    void OnTriggerStay2D (Collider2D col)
     {
-        if (!Input.GetMouseButtonDown(0))
+        Debug.Log("Collision Detected");
+        GameObject TrashSortingManager = GameObject.Find("TrashSortingManager");
+        TrashSorting trashSortingScript = TrashSortingManager.GetComponent<TrashSorting>();
+
+        if (Input.GetMouseButton(0) && trashSortingScript.isThereTrash)
         {
-            //col.gameObject.SetActive(false);
-            Destroy(col.gameObject);
+            col.gameObject.SetActive(false);
+            //Destroy(col.gameObject);
             col.gameObject.transform.position = new Vector2(0f, 2f);
             Debug.Log("destroy please");
 
-            GameObject TrashSortingManager = GameObject.Find("TrashSortingManager");
-            TrashSorting trashSortingScript = TrashSortingManager.GetComponent<TrashSorting>();
+            
             trashSortingScript.isThereTrash = false;
         }
-            
-
 
     }
 

@@ -25,18 +25,29 @@ public class TrashSorting : MonoBehaviour
     {
         if(!isThereTrash)
         {
-            Debug.Log("should work now thank u");
+            Debug.Log("bye bye old trash hello new");
             rand = Random.Range(0, 7);
             if(rand != oldRand)
             {
                 oldRand = rand;
                 //Items[rand].transform.position = new Vector2(0f, 2f);
-                Items[rand].SetActive(true);
-                isThereTrash = true;
+
+                //Items[rand].SetActive(true);
+                //isThereTrash = true;
+
+                StartCoroutine(Wait());
             }
 
         }
     }
+
+    IEnumerator Wait()
+    {
+        yield return new WaitForSeconds(.2f);
+        Items[rand].SetActive(true);
+        isThereTrash = true;
+    }
+
 
 
     // Update is called once per frame

@@ -6,17 +6,15 @@ public class TrashSorting : MonoBehaviour
 {
 
     public GameObject[] Items;
-    int rand;
-    int oldRand;
-    //int amountActive = 0;
-   // int startAmount = 0;
+    public int Points = 0;
     public bool isThereTrash = true;
 
+    int rand;
+    int oldRand;
 
-    // Start is called before the first frame update
     void Start()
     {
-        rand = Random.Range(0, 7 );
+        rand = Random.Range(0, 7);
         GameObject newTrash = Instantiate(Items[rand], new Vector3(0f, 2f, 1f), Quaternion.identity);
         newTrash.SetActive(true);
         oldRand = rand;
@@ -31,61 +29,25 @@ public class TrashSorting : MonoBehaviour
             if(rand != oldRand)
             {
                 oldRand = rand;
-                //Items[rand].transform.position = new Vector2(0f, 2f);
-
-                //Items[rand].SetActive(true);
-                //isThereTrash = true;
-
+                Debug.Log(Points);
                 GameObject newTrash = Instantiate(Items[rand], new Vector3(0f,2f,1f), Quaternion.identity);
-                newTrash.SetActive(true);
-                isThereTrash = true;
+
                 //StartCoroutine(Wait());
+                isThereTrash = true;
+                
             }
 
         }
     }
 
-    /*IEnumerator Wait()
+   /* IEnumerator Wait()
     {
-        yield return new WaitForSeconds(.2f);
+        yield return new WaitForSeconds(1f);
         //Items[rand].SetActive(true);
 
-        Instantiate(Items[rand]);
+        GameObject newTrash = Instantiate(Items[rand], new Vector3(0f, 2f, 1f), Quaternion.identity);
+        newTrash.SetActive(true);
         isThereTrash = true;
     }*/
-
-
-
-    // Update is called once per frame
-    /*void Update()
-    {
-        //check every object in the array
-        for(int i = 0; i < Items.Length; i++)
-        {
-            
-            if(i == 0)
-            {
-                startAmount = amountActive;
-            }
-
-            if(Items[i].activeSelf)
-            {
-                amountActive++;
-            }
-
-            if(i == Items.Length - 1 && startAmount == amountActive)
-            {
-                amountActive = 0;
-            }
-        }
-
-        if(amountActive < 1)
-        {
-            rand = Random.Range(0, 6);
-            Items[rand].SetActive(true);
-            amountActive = 0;
-        }
-    }*/
-
 
 }

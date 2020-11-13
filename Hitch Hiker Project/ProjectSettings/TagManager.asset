@@ -17,6 +17,8 @@ TagManager:
   - BugSpawner
   - DishGame
   - SquashBugs
+  - Trash
+  - Recycle
   layers:
   - Default
   - TransparentFX

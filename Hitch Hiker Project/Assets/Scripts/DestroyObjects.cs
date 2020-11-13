@@ -20,18 +20,22 @@ public class DestroyObjects : MonoBehaviour
 
         if(col.tag == "Trash" && col.transform.position.x < 0f)
         {
+            //you won good job, add to points by one. *Ding sound
             trashSortingScript.Points++;
         }
         if (col.tag == "Trash" && col.transform.position.x > 0f)
         {
+            //this is failure
             trashSortingScript.Points--;
         }
         if (col.tag == "Recycle" && col.transform.position.x > 0f)
         {
+            //you won good job, add to points by one. *Ding sound
             trashSortingScript.Points++;
         }
         if (col.tag == "Recycle" && col.transform.position.x < 0f)
         {
+            //this is failure
             trashSortingScript.Points--;
         }
 

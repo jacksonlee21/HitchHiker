@@ -8,13 +8,14 @@ public class NPCController : MonoBehaviour
     public GameObject NPCPrefab;
     public GameObject TalkImage;
     public GameObject FinishedTaskEffect;
-    public GameObject ContinueText;
     public Text NPCText;
+    public GameObject npcDialogueObject;
+    private NPCDialogue npcDialogue;
 
     [HideInInspector]
     public Tasks NPCTask = null;
 
-    public int NPCsToSpawn;
+    public int NPCToSpawn;
 
     public float spawnRange;
 
@@ -30,9 +31,11 @@ public class NPCController : MonoBehaviour
         TalkImage.SetActive(false);
         //Sets the in task bool to false
         inTask = false;
+        //Sets Dialogue
+        npcDialogue = npcDialogueObject.GetComponent<NPCDialogue>();
 
         //Spawns a set amounnt of NPCs 
-        for (int i = 0; i < NPCsToSpawn; i++)
+        for (int i = 0; i < NPCToSpawn; i++)
         {
             float xSpawn = Random.Range(-spawnRange, spawnRange);
             Vector2 spawnLoc = new Vector2(xSpawn, 0);
@@ -86,9 +89,7 @@ public class NPCController : MonoBehaviour
     private void Update()
     {
         //Checks if the player is talking to the NPC
-        if(npcWithTask.TalkingToPlayer && Input.GetKeyDown(KeyCode.Space)){
-            //Disables text saying space to continue
-            ContinueText.SetActive(false);
+        if(npcWithTask.TalkingToPlayer && npcDialogue.doneWithDialogue){
             //Sets in task bool to true
             inTask = true;
             //Function sets bools saying main NPC has task, its next to player, its talking to player to false
@@ -142,8 +143,8 @@ public class NPCController : MonoBehaviour
     //Function to show what the npc is saying
     public void ShowText()
     {
-        ContinueText.SetActive(true);
-        NPCText.text = "Hey Buddy, can you give this " + npcWithTask.NPCTask.ObjectToDeliver + "to my friend." + ". You got " + npcWithTask.NPCTask.TimeToDeliver + " seconds.";
+        //Starts NPC Dialogue
+        npcDialogueObject.SetActive(true);
     }
 }
 

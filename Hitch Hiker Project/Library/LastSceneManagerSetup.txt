@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/DialogueSystem.unity
+- path: Assets/Scenes/NewNPCTask.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

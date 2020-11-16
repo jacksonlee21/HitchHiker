@@ -10,6 +10,8 @@ public class Dialogue : MonoBehaviour
     private int index;
     public float typingSpeed;
     bool isYes = false;
+
+    public bool textG;
    
     
 
@@ -18,6 +20,8 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         isYes = false;
+
+        textG = true;
         
         if (!PlayerPrefs.HasKey("isFirstTime"))
         {
@@ -72,6 +76,7 @@ public class Dialogue : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
+            textG = false;
         }
     }
 

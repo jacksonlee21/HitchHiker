@@ -27,6 +27,9 @@ public class DishManager : MonoBehaviour
     public AudioSource Loser;
     public AudioSource DishDing;
 
+    // tururial Text
+    private Dialogue dialogueM;
+
     public DishManager(float timeToClean)
     {
         TimeToClean = timeToClean;
@@ -36,7 +39,9 @@ public class DishManager : MonoBehaviour
 
     private void Start()
     {
-        TimerSlider.maxValue = TimeToClean;
+        dialogueM = GameObject.Find("dialogueManager").GetComponent<Dialogue>();
+        
+            TimerSlider.maxValue = TimeToClean;
         TimerSlider.minValue = 0;
         timer = TimeToClean;
 
@@ -44,40 +49,45 @@ public class DishManager : MonoBehaviour
         GameOver = false;
         DishesCleaned = 0;
         scoreText.text = "Dishes Cleaned: " + DishesCleaned.ToString();
-        CreateDish();
+        CreateDish(); 
+        
+        
     }
 
     private void Update()
     {
-        if (!GameOver)
+        if(dialogueM.textG==false)
         {
-            CheckDish();
-            timer -= Time.deltaTime;
-            TimerSlider.value = timer;
-            if(timer <= 0)
+            if (!GameOver)
             {
-                GameOver = true;
-                PlayerPrefs.SetFloat("playersLastPosition", .75f);
-                if (DishesCleaned > 0)
+                CheckDish();
+                timer -= Time.deltaTime;
+                TimerSlider.value = timer;
+                if(timer <= 0)
                 {
-                    Winner.Play();
-                    win.SetActive(true);
-                    PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
-                }
-                if (DishesCleaned == 0)
-                {
-                    Loser.Play();
+                    GameOver = true;
+                    PlayerPrefs.SetFloat("playersLastPosition", .75f);
+                    if (DishesCleaned > 0)
+                    {
+                        Winner.Play();
+                        win.SetActive(true);
+                        PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
+                    }
+                    if (DishesCleaned == 0)
+                    {
+                        Loser.Play();
+                    }
                 }
             }
-        }
-        else
-        {
-            if (dish != null)
-                Destroy(dish.gameObject);
-            winTimer += Time.deltaTime;
-            if (winTimer > 4f)
+            else
             {
-                SceneManager.LoadScene("DialogueSystem");
+                if (dish != null)
+                    Destroy(dish.gameObject);
+                winTimer += Time.deltaTime;
+                if (winTimer > 4f)
+                {
+                    SceneManager.LoadScene("DialogueSystem");
+                }
             }
         }
     }

@@ -55,7 +55,7 @@ public class NPCController : MonoBehaviour
         otherNPC = FindOtherNPC();
 
         //Assigns task for random NPC
-        npcWithTask.NPCTask = new Tasks(3, "gameboy", otherNPC);
+        npcWithTask.NPCTask = new Tasks(10, "gameboy", otherNPC);
         //Sets bools to determine role of NPC
         npcWithTask.HasTask = true;
         otherNPC.isOtherNPC = true;

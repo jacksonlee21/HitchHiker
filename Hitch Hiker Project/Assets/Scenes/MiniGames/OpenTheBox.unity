@@ -551,7 +551,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Better luck next time, \n\t  Looooooser."
+  m_Text: And you said you built IKEA stuff before.
 --- !u!222 &453547465
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -824,7 +824,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1153741127
 MonoBehaviour:
   m_ObjectHideFlags: 0

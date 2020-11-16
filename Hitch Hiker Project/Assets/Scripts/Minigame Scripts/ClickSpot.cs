@@ -31,8 +31,13 @@ public class ClickSpot : MonoBehaviour
     public AudioSource Loser;
     public AudioSource Ding;
 
+    // tururial Text
+    private Dialogue dialogueM;
+
     private void Start()
     {
+        dialogueM = GameObject.Find("dialogueManager").GetComponent<Dialogue>();
+
         DoneWithGame = false;
         clickerStartY = Clicker.position.y;
         spotStartY = SpotToClick.position.y;
@@ -44,38 +49,41 @@ public class ClickSpot : MonoBehaviour
 
     private void Update()
     {
-        if (DoneWithGame)
-        { 
-            ClickObject.SetActive(false);
-            time += Time.deltaTime;
-            if(time > 4)
-            {
-                PlayerPrefs.SetFloat("playersLastPosition", -17.25f);
-                SceneManager.LoadScene("DialogueSystem");
-            }
-        }
-        else
+        if(dialogueM.textG==false)
         {
-            MoveClicker();
-
-            if (Input.GetMouseButtonDown(0))
-            {
-                if (InClickSpot())
+            if (DoneWithGame)
+            { 
+                ClickObject.SetActive(false);
+                time += Time.deltaTime;
+                if(time > 4)
                 {
-                    cm.EnableFood(sizeCounter);
-                    sizeCounter++;
-
-                    SpotToClick.position = SpawnClickSpot();
-                    Instantiate(ClickEffect, Vector3.zero, Quaternion.identity);
-                    Ding.Play();
+                    PlayerPrefs.SetFloat("playersLastPosition", -17.25f);
+                    SceneManager.LoadScene("DialogueSystem");
                 }
-                else
+            }
+            else
+            {
+                MoveClicker();
+
+                if (Input.GetMouseButtonDown(0))
                 {
-                    DoneWithGame = true;
-                    cm.bowlAnim.SetTrigger("TipBowl");
-                    loose.SetActive(true);
-                    win.SetActive(false);
-                    Loser.Play();
+                    if (InClickSpot())
+                    {
+                        cm.EnableFood(sizeCounter);
+                        sizeCounter++;
+
+                        SpotToClick.position = SpawnClickSpot();
+                        Instantiate(ClickEffect, Vector3.zero, Quaternion.identity);
+                        Ding.Play();
+                    }
+                    else
+                    {
+                        DoneWithGame = true;
+                        cm.bowlAnim.SetTrigger("TipBowl");
+                        loose.SetActive(true);
+                        win.SetActive(false);
+                        Loser.Play();
+                    }
                 }
             }
         }

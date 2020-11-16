@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":1.6768157482147217,"y":-1.651951789855957,"z":-1.9162272214889527},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":9.872213363647461,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-6.368931770324707,"y":3.9959914684295656,"z":-5.18359375},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":8.72180461883545,"orthographic":true}
@@ -7,3 +8,6 @@
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":434.06671142578127,"y":293.27813720703127,"z":-19.396188735961915},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":545.0194702148438,"orthographic":true}
 >>>>>>> DiceGame
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-5.46342658996582,"y":1.793997049331665,"z":-1311.09375},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":9.049195289611817,"orthographic":true}
+>>>>>>> npcWithInventory

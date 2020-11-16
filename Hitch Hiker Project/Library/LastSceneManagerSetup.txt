@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/MiniGames/TrashSortingGame.unity
 =======
 - path: Assets/Scenes/MiniGames/DiceGame.unity
 >>>>>>> DiceGame
+=======
+- path: Assets/Scenes/NewNPCTask.unity
+>>>>>>> npcWithInventory
   isLoaded: 1
   isActive: 1
   isSubScene: 0

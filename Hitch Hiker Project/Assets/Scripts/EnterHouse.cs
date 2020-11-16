@@ -13,13 +13,14 @@ public class EnterHouse : MonoBehaviour
         atDoor = false;
     }
 
-    private void Update()
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (atDoor)
         {
             if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             {
                 SceneManager.LoadScene(houseName);
+                Destroy(collision.gameObject);
             }
         }
     }

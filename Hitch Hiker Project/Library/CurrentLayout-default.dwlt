@@ -28,10 +28,16 @@ MonoBehaviour:
 >>>>>>> AddedAssets
 =======
     x: 0
+<<<<<<< HEAD
     y: 43
     width: 1920
     height: 997
 >>>>>>> DiceGame
+=======
+    y: 45
+    width: 1440
+    height: 855
+>>>>>>> npcWithInventory
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
@@ -59,6 +65,7 @@ MonoBehaviour:
     y: 30
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 947
   m_MinSize: {x: 678, y: 492}
@@ -81,6 +88,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 117
 >>>>>>> DiceGame
+=======
+    width: 1440
+    height: 805
+  m_MinSize: {x: 677, y: 342}
+  m_MaxSize: {x: 12002, y: 8042}
+  vertical: 0
+  controlID: 16
+>>>>>>> npcWithInventory
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,6 +111,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1369
@@ -116,6 +132,14 @@ MonoBehaviour:
 >>>>>>> DiceGame
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    x: 1026
+    y: 0
+    width: 414
+    height: 805
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> npcWithInventory
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -140,6 +164,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 539
     height: 671
   m_MinSize: {x: 200, y: 200}
@@ -156,6 +181,12 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> DiceGame
+=======
+    width: 303
+    height: 491
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> npcWithInventory
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -179,6 +210,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 671
     width: 1369
     height: 276
@@ -198,6 +230,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
 >>>>>>> DiceGame
+=======
+    y: 491
+    width: 1026
+    height: 314
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
+>>>>>>> npcWithInventory
   m_Panes:
   - {fileID: 13}
   - {fileID: 18}
@@ -225,6 +265,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
     height: 997
 =======
@@ -237,6 +278,11 @@ MonoBehaviour:
     height: 997
   m_MinSize: {x: 875, y: 392}
 >>>>>>> DiceGame
+=======
+    width: 1440
+    height: 855
+  m_MinSize: {x: 875, y: 392}
+>>>>>>> npcWithInventory
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -257,6 +303,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1920
 =======
     width: 1520
@@ -264,6 +311,9 @@ MonoBehaviour:
 =======
     width: 1920
 >>>>>>> DiceGame
+=======
+    width: 1440
+>>>>>>> npcWithInventory
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -286,6 +336,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 977
     width: 1920
 =======
@@ -296,6 +347,10 @@ MonoBehaviour:
     y: 977
     width: 1920
 >>>>>>> DiceGame
+=======
+    y: 835
+    width: 1440
+>>>>>>> npcWithInventory
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -320,6 +375,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1369
     height: 947
   m_MinSize: {x: 402, y: 492}
@@ -337,6 +393,14 @@ MonoBehaviour:
 >>>>>>> DiceGame
   vertical: 1
   controlID: 55
+=======
+    width: 1026
+    height: 805
+  m_MinSize: {x: 402, y: 342}
+  m_MaxSize: {x: 8002, y: 8042}
+  vertical: 1
+  controlID: 17
+>>>>>>> npcWithInventory
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -358,6 +422,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1369
     height: 671
   m_MinSize: {x: 402, y: 221}
@@ -376,6 +441,14 @@ MonoBehaviour:
 >>>>>>> DiceGame
   vertical: 0
   controlID: 56
+=======
+    width: 1026
+    height: 491
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 111
+>>>>>>> npcWithInventory
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -386,11 +459,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 539
@@ -412,12 +486,21 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
+=======
+    x: 303
+    y: 0
+    width: 723
+    height: 491
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+>>>>>>> npcWithInventory
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -434,7 +517,11 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
+<<<<<<< HEAD
     m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+>>>>>>> npcWithInventory
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -460,7 +547,11 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
+<<<<<<< HEAD
     m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+>>>>>>> npcWithInventory
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -479,10 +570,16 @@ MonoBehaviour:
 >>>>>>> AddedAssets
 =======
     x: 0
+<<<<<<< HEAD
     y: 648
     width: 1366
     height: 351
 >>>>>>> DiceGame
+=======
+    y: 566
+    width: 1025
+    height: 293
+>>>>>>> npcWithInventory
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -497,6 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - Assets/Prefabs
   m_ViewMode: 1
@@ -534,6 +632,23 @@ MonoBehaviour:
     m_LastClickedID: 15018
     m_ExpandedIDs: 00000000a83a0000c43a000000ca9a3b
 >>>>>>> DiceGame
+=======
+    - Assets/LukesStuff
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/LukesStuff
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: /Users/lukewoodland/Documents/_Unity/HitchHiker/Hitch Hiker
+    Project
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: dc3c0000
+    m_LastClickedID: 15580
+    m_ExpandedIDs: 00000000cc3c0000ce3c0000e43c000000ca9a3b
+>>>>>>> npcWithInventory
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -563,6 +678,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000f83a0000fa3a0000
 =======
     m_ExpandedIDs: 00000000c63c0000c83c0000
@@ -570,6 +686,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000a83a0000aa3a0000
 >>>>>>> DiceGame
+=======
+    m_ExpandedIDs: 00000000cc3c0000ce3c0000
+>>>>>>> npcWithInventory
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +739,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -648,11 +767,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
+<<<<<<< HEAD
     m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+>>>>>>> npcWithInventory
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 2139.4
@@ -671,6 +795,12 @@ MonoBehaviour:
     width: 552
     height: 926
 >>>>>>> DiceGame
+=======
+    x: 1026
+    y: 75
+    width: 413
+    height: 784
+>>>>>>> npcWithInventory
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -700,7 +830,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
+<<<<<<< HEAD
     m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+>>>>>>> npcWithInventory
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -719,16 +853,23 @@ MonoBehaviour:
 >>>>>>> AddedAssets
 =======
     x: 0
+<<<<<<< HEAD
     y: 73
     width: 403
     height: 554
 >>>>>>> DiceGame
+=======
+    y: 75
+    width: 302
+    height: 470
+>>>>>>> npcWithInventory
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       m_ExpandedIDs: 84f6ffff5efbffff
@@ -738,6 +879,9 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 84beffffe6beffff3ec3ffff12d0fffff2eaffff1cf8ffff5efbffff12450000da4c0000f24c0000124d00004e4d0000604d0000724d00009a4d0000d84d0000e24d0000f44d00001a4e0000304e0000
 >>>>>>> DiceGame
+=======
+      m_ExpandedIDs: aabeffff36d9ffffe0f9ffff12fbffffe43d0000363e00005e3e0000803e0000c63e0000e83e0000f63e0000
+>>>>>>> npcWithInventory
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Text (TMP)
@@ -777,11 +921,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
+<<<<<<< HEAD
     m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+>>>>>>> npcWithInventory
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1309.4
@@ -800,6 +949,12 @@ MonoBehaviour:
     width: 961
     height: 554
 >>>>>>> DiceGame
+=======
+    x: 303
+    y: 75
+    width: 721
+    height: 470
+>>>>>>> npcWithInventory
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 59403dfa717a5a8419742b7544192cec
@@ -811,6 +966,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 1.6768157, y: -1.6519518, z: -1.9162272}
@@ -826,6 +982,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 434.0667, y: 293.27814, z: -19.396189}
 >>>>>>> DiceGame
+=======
+    m_Target: {x: -5.4634266, y: 1.793997, z: -1311.0938}
+    speed: 2
+    m_Value: {x: -5.4634266, y: 1.793997, z: -1311.0938}
+>>>>>>> npcWithInventory
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -877,6 +1038,7 @@ MonoBehaviour:
   m_Size:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 9.872213
     speed: 2
     m_Value: 9.872213
@@ -890,6 +1052,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 545.0195
 >>>>>>> DiceGame
+=======
+    m_Target: 9.049195
+    speed: 2
+    m_Value: 9.049195
+>>>>>>> npcWithInventory
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -930,11 +1097,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
+<<<<<<< HEAD
     m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+>>>>>>> npcWithInventory
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1309.4
@@ -953,6 +1125,12 @@ MonoBehaviour:
     width: 961
     height: 554
 >>>>>>> DiceGame
+=======
+    x: 303
+    y: 75
+    width: 721
+    height: 470
+>>>>>>> npcWithInventory
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -964,6 +1142,7 @@ MonoBehaviour:
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 828, y: 466}
 =======
   m_TargetSize: {x: 962, y: 532}
@@ -971,6 +1150,9 @@ MonoBehaviour:
 =======
   m_TargetSize: {x: 961, y: 533}
 >>>>>>> DiceGame
+=======
+  m_TargetSize: {x: 721, y: 449}
+>>>>>>> npcWithInventory
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -985,6 +1167,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -414
@@ -1003,6 +1186,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -266.5
     m_VBaseRangeMax: 266.5
 >>>>>>> DiceGame
+=======
+    m_HBaseRangeMin: -360.5
+    m_HBaseRangeMax: 360.5
+    m_VBaseRangeMin: -224.5
+    m_VBaseRangeMax: 224.5
+>>>>>>> npcWithInventory
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1011,7 +1200,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1020,6 +1209,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       width: 828
@@ -1038,12 +1228,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 480.5, y: 266.5}
 >>>>>>> DiceGame
+=======
+      width: 721
+      height: 449
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 360.5, y: 224.5}
+>>>>>>> npcWithInventory
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -414
@@ -1071,6 +1268,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 961, y: 554}
 >>>>>>> DiceGame
+=======
+      x: -360.5
+      y: -224.5
+      width: 721
+      height: 449
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 721, y: 470}
+>>>>>>> npcWithInventory
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1092,13 +1298,24 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
+<<<<<<< HEAD
     m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+>>>>>>> npcWithInventory
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 770.4
     y: -433
     width: 1368
     height: 352
+=======
+    x: 0
+    y: 566
+    width: 1025
+    height: 293
+>>>>>>> npcWithInventory
   m_ViewDataDictionary: {fileID: 0}

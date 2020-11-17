@@ -51,6 +51,7 @@ public class NPCDialogue : MonoBehaviour
         else if(index == sentences.Length - 1)
         {
             continueButton.SetActive(false);
+            textDisplay.text = "";
             doneWithDialogue = true;
         }
         else

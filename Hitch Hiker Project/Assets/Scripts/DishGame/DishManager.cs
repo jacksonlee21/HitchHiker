@@ -27,6 +27,8 @@ public class DishManager : MonoBehaviour
     public AudioSource Loser;
     public AudioSource DishDing;
 
+    public NPCDialogue dialogue;
+
     public DishManager(float timeToClean)
     {
         TimeToClean = timeToClean;
@@ -36,6 +38,8 @@ public class DishManager : MonoBehaviour
 
     private void Start()
     {
+        dialogue = GameObject.Find("TutTextManager").GetComponent<NPCDialogue>();
+
         TimerSlider.maxValue = TimeToClean;
         TimerSlider.minValue = 0;
         timer = TimeToClean;
@@ -49,35 +53,38 @@ public class DishManager : MonoBehaviour
 
     private void Update()
     {
-        if (!GameOver)
+        if(dialogue.doneWithDialogue == true)
         {
-            CheckDish();
-            timer -= Time.deltaTime;
-            TimerSlider.value = timer;
-            if(timer <= 0)
+            if (!GameOver)
             {
-                GameOver = true;
-                PlayerPrefs.SetFloat("playersLastPosition", .75f);
-                if (DishesCleaned > 0)
+                CheckDish();
+                timer -= Time.deltaTime;
+                TimerSlider.value = timer;
+                if(timer <= 0)
                 {
-                    Winner.Play();
-                    win.SetActive(true);
-                    PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
-                }
-                if (DishesCleaned == 0)
-                {
-                    Loser.Play();
+                    GameOver = true;
+                    PlayerPrefs.SetFloat("playersLastPosition", .75f);
+                    if (DishesCleaned > 0)
+                    {
+                        Winner.Play();
+                        win.SetActive(true);
+                        PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
+                    }
+                    if (DishesCleaned == 0)
+                    {
+                        Loser.Play();
+                    }
                 }
             }
-        }
-        else
-        {
-            if (dish != null)
-                Destroy(dish.gameObject);
-            winTimer += Time.deltaTime;
-            if (winTimer > 4f)
+            else
             {
-                SceneManager.LoadScene("DialogueSystem");
+                if (dish != null)
+                    Destroy(dish.gameObject);
+                winTimer += Time.deltaTime;
+                if (winTimer > 4f)
+                {
+                    SceneManager.LoadScene("DialogueSystem");
+                }
             }
         }
     }

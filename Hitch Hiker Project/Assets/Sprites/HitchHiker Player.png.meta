@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 814db9b7a9e18124b9216899a381e601
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3412884573627873
+    second: HitchHiker Player_0
+  - first:
+      213: -997100691755682336
+    second: HitchHiker Player_1
+  - first:
+      213: 2452742046654554663
+    second: HitchHiker Player_2
+  - first:
+      213: 6222831738216946310
+    second: HitchHiker Player_3
+  - first:
+      213: -1126714637425141543
+    second: HitchHiker Player_4
+  - first:
+      213: 4445173978186372851
+    second: HitchHiker Player_5
+  - first:
+      213: 1102427077071174570
+    second: HitchHiker Player_6
+  - first:
+      213: -4812508573395508484
+    second: HitchHiker Player_7
+  - first:
+      213: 5847511018493844556
+    second: HitchHiker Player_8
+  - first:
+      213: -1238545581423143931
+    second: HitchHiker Player_9
+  - first:
+      213: -32278071218855684
+    second: HitchHiker Player_10
+  - first:
+      213: 2927348457827726466
+    second: HitchHiker Player_11
+  - first:
+      213: -1218870640874280698
+    second: HitchHiker Player_12
+  - first:
+      213: -5339535515435316763
+    second: HitchHiker Player_13
+  - first:
+      213: -158379360801832010
+    second: HitchHiker Player_14
+  - first:
+      213: -2695449912209256495
+    second: HitchHiker Player_15
+  - first:
+      213: 5142662401547268989
+    second: HitchHiker Player_16
+  - first:
+      213: -2970439843448440980
+    second: HitchHiker Player_17
+  - first:
+      213: -6789880708419300455
+    second: HitchHiker Player_0
+  - first:
+      213: -2411627226849545080
+    second: HitchHiker Player_1
+  - first:
+      213: 3088726150856235418
+    second: HitchHiker Player_2
+  - first:
+      213: 1768082116868456597
+    second: HitchHiker Player_3
+  - first:
+      213: 1353327872791580912
+    second: HitchHiker Player_4
+  - first:
+      213: -5168787398164266993
+    second: HitchHiker Player_5
+  - first:
+      213: -1501259041913223242
+    second: HitchHiker Player_6
+  - first:
+      213: -8640452520197187955
+    second: HitchHiker Player_7
+  - first:
+      213: -3563220270027208359
+    second: HitchHiker Player_8
+  - first:
+      213: -4083708613046109846
+    second: HitchHiker Player_9
+  - first:
+      213: 695324177968983180
+    second: HitchHiker Player_10
+  - first:
+      213: -2046220288523137849
+    second: HitchHiker Player_11
+  - first:
+      213: 3725161617662725067
+    second: HitchHiker Player_12
+  - first:
+      213: -7798000243371705531
+    second: HitchHiker Player_13
+  - first:
+      213: 4972618012085946666
+    second: HitchHiker Player_14
+  - first:
+      213: -5078111310090741864
+    second: HitchHiker Player_15
+  - first:
+      213: -1191228746057398209
+    second: HitchHiker Player_16
+  - first:
+      213: 3724708625913414316
+    second: HitchHiker Player_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HitchHiker Player_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993d363587f75c1a0800000000000000
+      internalID: -6789880708419300455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884f8f480dd288ed0800000000000000
+      internalID: -2411627226849545080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99de36c11c5dda20800000000000000
+      internalID: 3088726150856235418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5904aad415d798810800000000000000
+      internalID: 1768082116868456597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f09062b78cf7c210800000000000000
+      internalID: 1353327872791580912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0047ec2f37c448b0800000000000000
+      internalID: -5168787398164266993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b74beafad47a2be0800000000000000
+      internalID: -1501259041913223242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8694034632f61880800000000000000
+      internalID: -8640452520197187955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_8
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9598e8c0b06ec8ec0800000000000000
+      internalID: -3563220270027208359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69fe2127a0c357c0800000000000000
+      internalID: -4083708613046109846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ce497e7a946a900800000000000000
+      internalID: 695324177968983180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_11
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc816a2d7d5a93e0800000000000000
+      internalID: -2046220288523137849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbc4b721ce62b330800000000000000
+      internalID: 3725161617662725067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_13
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b7b6f1810f7c390800000000000000
+      internalID: -7798000243371705531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_14
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2987166cb9420540800000000000000
+      internalID: 4972618012085946666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897d5202bace689b0800000000000000
+      internalID: -5078111310090741864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38c30154c7e77fe0800000000000000
+      internalID: -1191228746057398209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitchHiker Player_17
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2076bc2c2d0b330800000000000000
+      internalID: 3724708625913414316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

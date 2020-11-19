@@ -1,6 +1,7 @@
 sceneSetups:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/MiniGames/DishGame.unity
 =======
 - path: Assets/Scenes/DialogueSystem.unity
@@ -8,6 +9,9 @@ sceneSetups:
 =======
 - path: Assets/Scenes/DeletingArrows.unity
 >>>>>>> DeletingArrows
+=======
+- path: Assets/Scenes/MiniGames/DiceGame.unity
+>>>>>>> DiceGameFinished
   isLoaded: 1
   isActive: 1
   isSubScene: 0

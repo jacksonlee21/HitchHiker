@@ -16,6 +16,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 8
     y: 51
     width: 1904
@@ -32,12 +33,18 @@ MonoBehaviour:
     width: 1440
     height: 847
 >>>>>>> DeletingArrows
+=======
+    x: 0
+    y: 43
+    width: 1920
+    height: 997
+>>>>>>> DiceGameFinished
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 0
+  m_Maximized: 1
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -57,6 +64,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 1904
@@ -81,6 +89,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 86
 >>>>>>> DeletingArrows
+=======
+    width: 1920
+    height: 947
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
+  vertical: 0
+  controlID: 130
+>>>>>>> DiceGameFinished
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,6 +112,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1518
@@ -121,6 +138,14 @@ MonoBehaviour:
     height: 797
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    x: 1531
+    y: 0
+    width: 389
+    height: 947
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> DiceGameFinished
   m_ActualView: {fileID: 14}
 >>>>>>> DeletingArrows
   m_Panes:
@@ -146,6 +171,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 376
     height: 563
   m_MinSize: {x: 200, y: 200}
@@ -163,6 +189,12 @@ MonoBehaviour:
     height: 482
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 379
+    height: 573
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> DiceGameFinished
   m_ActualView: {fileID: 15}
 >>>>>>> DeletingArrows
   m_Panes:
@@ -180,12 +212,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
   m_Name: 
+=======
+  m_Name: ProjectBrowser
+>>>>>>> DiceGameFinished
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     y: 563
@@ -219,6 +256,19 @@ MonoBehaviour:
   m_Selected: 1
 >>>>>>> NewPlayerAdded
   m_LastSelected: 0
+=======
+    y: 573
+    width: 1531
+    height: 374
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+>>>>>>> DiceGameFinished
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,6 +291,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1904
     height: 981
   m_MinSize: {x: 875, y: 300}
@@ -254,6 +305,11 @@ MonoBehaviour:
     height: 847
   m_MinSize: {x: 875, y: 392}
 >>>>>>> DeletingArrows
+=======
+    width: 1920
+    height: 997
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> DiceGameFinished
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -274,6 +330,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1904
 =======
     width: 1522
@@ -281,6 +338,9 @@ MonoBehaviour:
 =======
     width: 1440
 >>>>>>> DeletingArrows
+=======
+    width: 1920
+>>>>>>> DiceGameFinished
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -303,6 +363,7 @@ MonoBehaviour:
     x: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 961
     width: 1904
 =======
@@ -313,6 +374,10 @@ MonoBehaviour:
     y: 827
     width: 1440
 >>>>>>> DeletingArrows
+=======
+    y: 977
+    width: 1920
+>>>>>>> DiceGameFinished
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -337,6 +402,7 @@ MonoBehaviour:
     y: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1518
     height: 931
   m_MinSize: {x: 403, y: 492}
@@ -359,6 +425,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 87
 >>>>>>> DeletingArrows
+=======
+    width: 1531
+    height: 947
+  m_MinSize: {x: 403, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 56
+>>>>>>> DiceGameFinished
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -378,6 +452,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 1518
@@ -402,6 +477,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 62
 >>>>>>> DeletingArrows
+=======
+    width: 1531
+    height: 573
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 57
+>>>>>>> DiceGameFinished
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -417,6 +500,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 376
@@ -444,10 +528,20 @@ MonoBehaviour:
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
 >>>>>>> DeletingArrows
+=======
+    x: 379
+    y: 0
+    width: 1152
+    height: 573
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
+>>>>>>> DiceGameFinished
   m_Panes:
   - {fileID: 17}
 <<<<<<< HEAD
   - {fileID: 12}
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   - {fileID: 18}
@@ -455,6 +549,8 @@ MonoBehaviour:
 >>>>>>> NewPlayerAdded
 =======
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
@@ -502,15 +598,16 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -8693916549880196297, guid: 0000000000000000d000000000000000,
+<<<<<<< HEAD
 =======
     m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000,
 >>>>>>> NewPlayerAdded
 =======
     m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -536,19 +633,21 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+<<<<<<< HEAD
 =======
     m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
 >>>>>>> NewPlayerAdded
 =======
     m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 8
@@ -567,6 +666,12 @@ MonoBehaviour:
     width: 1048
     height: 294
 >>>>>>> DeletingArrows
+=======
+    x: 0
+    y: 646
+    width: 1530
+    height: 353
+>>>>>>> DiceGameFinished
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -583,16 +688,25 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes/MiniGames
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Scenes/MiniGames
+=======
+    - Assets/Sound Effects
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Sound Effects
+>>>>>>> DiceGameFinished
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Hitch Hikers\HitchHiker\Hitch Hiker Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 9}
     m_SelectedIDs: 4a3b0000
     m_LastClickedID: 15178
@@ -627,6 +741,12 @@ MonoBehaviour:
     m_LastClickedID: 14978
     m_ExpandedIDs: 00000000823a0000843a000000ca9a3b
 >>>>>>> DeletingArrows
+=======
+    scrollPos: {x: 0, y: 87}
+    m_SelectedIDs: ea3b0000
+    m_LastClickedID: 15338
+    m_ExpandedIDs: 00000000ce3b0000d03b0000e63b0000e83b000000ca9a3b
+>>>>>>> DiceGameFinished
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -656,6 +776,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000f23a0000f43a0000
 =======
     m_ExpandedIDs: 00000000823a0000843a0000
@@ -663,6 +784,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000823a0000843a0000
 >>>>>>> DeletingArrows
+=======
+    m_ExpandedIDs: 00000000ce3b0000d03b0000
+>>>>>>> DiceGameFinished
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -692,6 +816,7 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     m_SelectedInstanceIDs: 6a900000
     m_LastClickedInstanceID: 36970
@@ -700,6 +825,8 @@ MonoBehaviour:
 >>>>>>> NewPlayerAdded
 =======
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -743,19 +870,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000,
+<<<<<<< HEAD
 =======
     m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
 >>>>>>> NewPlayerAdded
 =======
     m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1526
@@ -774,6 +903,12 @@ MonoBehaviour:
     width: 390
     height: 776
 >>>>>>> DeletingArrows
+=======
+    x: 1531
+    y: 73
+    width: 388
+    height: 926
+>>>>>>> DiceGameFinished
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -789,8 +924,11 @@ MonoBehaviour:
   m_LastVerticalScrollValue: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
 --- !u!114 &15
 =======
 --- !u!114 &16
@@ -810,19 +948,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+<<<<<<< HEAD
 =======
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
 >>>>>>> NewPlayerAdded
 =======
     m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 8
@@ -841,10 +981,17 @@ MonoBehaviour:
     width: 259
     height: 461
 >>>>>>> DeletingArrows
+=======
+    x: 0
+    y: 73
+    width: 378
+    height: 552
+>>>>>>> DiceGameFinished
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
 <<<<<<< HEAD
@@ -859,20 +1006,29 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 58f4fffffef4ffff68f5fffff6f5ffff40f6ffffeaf8ffff9ef9ffff003c0000523c00007a3c00009c3c0000043d0000123d0000
 >>>>>>> DeletingArrows
+=======
+      m_SelectedIDs: 603b0000
+      m_LastClickedID: 15200
+      m_ExpandedIDs: 5efbffff683a0000d03a0000043b0000
+>>>>>>> DiceGameFinished
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
         m_OriginalName: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> NewPlayerAdded
 =======
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         m_UserData: -2370
@@ -882,6 +1038,9 @@ MonoBehaviour:
 =======
         m_UserData: 0
 >>>>>>> DeletingArrows
+=======
+        m_UserData: 0
+>>>>>>> DiceGameFinished
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 11
@@ -895,10 +1054,14 @@ MonoBehaviour:
     m_CurrentSortingName: TransformSorting
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_WindowGUID: bc50b964ef8bd6e46bb137a39db5827e
 =======
   m_WindowGUID: 92a6dce12c71c4c41861cb21b1340194
 >>>>>>> DeletingArrows
+=======
+  m_WindowGUID: ee0225aa6be4a3f4483e35f0f1ee9eeb
+>>>>>>> DiceGameFinished
 --- !u!114 &16
 =======
   m_WindowGUID: 29ee2d1ebf15330458dd80700a562fe1
@@ -919,19 +1082,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+<<<<<<< HEAD
 =======
     m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
 >>>>>>> NewPlayerAdded
 =======
     m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 384
@@ -959,6 +1124,15 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: 23fc5d9fac1804380bbcc9e45205431a
 >>>>>>> DeletingArrows
+=======
+    x: 379
+    y: 73
+    width: 1150
+    height: 552
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 1b6ec291a0021294097f447c3fa0cdc3
+>>>>>>> DiceGameFinished
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -967,6 +1141,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 506.26965, y: 288.01422, z: -76.375}
@@ -982,6 +1157,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -5.205648, y: 2.7777221, z: -12.857422}
 >>>>>>> DeletingArrows
+=======
+    m_Target: {x: 623.69434, y: 271.1101, z: -64}
+    speed: 2
+    m_Value: {x: 623.69434, y: 271.1101, z: -64}
+>>>>>>> DiceGameFinished
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1033,6 +1213,7 @@ MonoBehaviour:
   m_Size:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 430.7236
     speed: 2
     m_Value: 430.7236
@@ -1046,6 +1227,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 12.619793
 >>>>>>> DeletingArrows
+=======
+    m_Target: 386.79736
+    speed: 2
+    m_Value: 386.79736
+>>>>>>> DiceGameFinished
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1086,19 +1272,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+<<<<<<< HEAD
 =======
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
 >>>>>>> NewPlayerAdded
 =======
     m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 384
@@ -1117,6 +1305,12 @@ MonoBehaviour:
     width: 787
     height: 461
 >>>>>>> DeletingArrows
+=======
+    x: 379
+    y: 73
+    width: 1150
+    height: 552
+>>>>>>> DiceGameFinished
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -1128,6 +1322,7 @@ MonoBehaviour:
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 1140, y: 521}
 =======
   m_TargetSize: {x: 942, y: 400}
@@ -1135,6 +1330,9 @@ MonoBehaviour:
 =======
   m_TargetSize: {x: 787, y: 440}
 >>>>>>> DeletingArrows
+=======
+  m_TargetSize: {x: 1150, y: 531}
+>>>>>>> DiceGameFinished
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1149,6 +1347,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -570
@@ -1167,6 +1366,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -220
     m_VBaseRangeMax: 220
 >>>>>>> DeletingArrows
+=======
+    m_HBaseRangeMin: -575
+    m_HBaseRangeMax: 575
+    m_VBaseRangeMin: -265.5
+    m_VBaseRangeMax: 265.5
+>>>>>>> DiceGameFinished
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1186,6 +1391,7 @@ MonoBehaviour:
       y: 21
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 1140
       height: 521
     m_Scale: {x: 1, y: 1}
@@ -1202,12 +1408,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 393.5, y: 220}
 >>>>>>> DeletingArrows
+=======
+      width: 1150
+      height: 531
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 575, y: 265.5}
+>>>>>>> DiceGameFinished
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -570
@@ -1235,6 +1448,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 787, y: 461}
 >>>>>>> DeletingArrows
+=======
+      x: -575
+      y: -265.5
+      width: 1150
+      height: 531
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1150, y: 552}
+>>>>>>> DiceGameFinished
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1256,19 +1478,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-<<<<<<< HEAD
-<<<<<<< HEAD
     m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+<<<<<<< HEAD
 =======
     m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
 >>>>>>> NewPlayerAdded
 =======
     m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
 >>>>>>> DeletingArrows
+=======
+>>>>>>> DiceGameFinished
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 8
@@ -1287,4 +1511,10 @@ MonoBehaviour:
     width: 1048
     height: 294
 >>>>>>> DeletingArrows
+=======
+    x: 0
+    y: 646
+    width: 1530
+    height: 353
+>>>>>>> DiceGameFinished
   m_ViewDataDictionary: {fileID: 0}

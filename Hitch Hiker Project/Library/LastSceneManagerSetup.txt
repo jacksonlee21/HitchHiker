@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/MiniGames/DishGame.unity
 =======
 - path: Assets/Scenes/DialogueSystem.unity
 >>>>>>> NewPlayerAdded
+=======
+- path: Assets/Scenes/DeletingArrows.unity
+>>>>>>> DeletingArrows
   isLoaded: 1
   isActive: 1
   isSubScene: 0

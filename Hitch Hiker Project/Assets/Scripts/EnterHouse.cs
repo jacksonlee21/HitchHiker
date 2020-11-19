@@ -7,9 +7,11 @@ public class EnterHouse : MonoBehaviour
 {
     private bool atDoor;
     private string houseName;
+    private ArrowManager arrowManager;
 
     private void Start()
     {
+        arrowManager = GameObject.FindGameObjectWithTag("ArrowManager").GetComponent<ArrowManager>();
         atDoor = false;
     }
 
@@ -20,7 +22,7 @@ public class EnterHouse : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             {
                 SceneManager.LoadScene(houseName);
-                Destroy(collision.gameObject);
+                arrowManager.CheckArrow(collision.gameObject);
             }
         }
     }

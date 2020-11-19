@@ -19,6 +19,7 @@ TagManager:
   - SquashBugs
   - Trash
   - Recycle
+  - ArrowManager
   layers:
   - Default
   - TransparentFX

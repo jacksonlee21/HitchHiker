@@ -5,8 +5,22 @@ using UnityEngine;
 public class ArrowManager : MonoBehaviour
 {
     public GameObject[] arrows;
-    private bool[] arrowActive;
+    private bool[] arrowActive = new bool[] { false, false, false, false, false };
 
+    public static ArrowManager instance;
+
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +33,7 @@ public class ArrowManager : MonoBehaviour
         if (GameObject.FindGameObjectWithTag("EnterBuilding") != null)
         {
             int index = 0;
-            foreach (var arrow in arrows)
+            foreach (GameObject arrow in arrows)
             {
                 arrow.SetActive(!arrowActive[index]);
                 index++;

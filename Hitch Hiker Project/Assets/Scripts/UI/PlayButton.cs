@@ -7,7 +7,7 @@ public class PlayButton : MonoBehaviour
 {
     public void GotoMainScene()
     {
-        SceneManager.LoadScene("DialogueSystem");
+        SceneManager.LoadScene("Town1");
     }
 
     public void GotoMenuScene()

@@ -82,7 +82,7 @@ public class Minigame1s : MonoBehaviour
             {
                 PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
                 PlayerPrefs.SetFloat("playersLastPosition", -9f);
-                SceneManager.LoadScene("DialogueSystem");
+                SceneManager.LoadScene("Town1");
             }
         }
     }

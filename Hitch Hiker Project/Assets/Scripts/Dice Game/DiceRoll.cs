@@ -73,7 +73,7 @@ public class DiceRoll : MonoBehaviour
             timer += Time.deltaTime;
             if(timer > 5)
             {
-                SceneManager.LoadScene("DialogueSystem");
+                SceneManager.LoadScene("Town1");
             }
         }
     }
@@ -81,7 +81,7 @@ public class DiceRoll : MonoBehaviour
     //Exit game if you have no money
     public void LeaveGame()
     {
-        SceneManager.LoadScene("DialogueSystem");
+        SceneManager.LoadScene("Town1");
     }
     
     //Betting Buttons

@@ -48,16 +48,11 @@ public class NPCDialogue : MonoBehaviour
             StartCoroutine(Type());
             Debug.Log(index);
         }
-        else if(index == sentences.Length - 1)
+        else if (index == sentences.Length - 1)
         {
             continueButton.SetActive(false);
             textDisplay.text = "";
             doneWithDialogue = true;
-        }
-        else
-        {
-            textDisplay.text = "";
-            continueButton.SetActive(false);
         }
     }
 }

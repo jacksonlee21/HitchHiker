@@ -681,7 +681,7 @@ MonoBehaviour:
   Winner: {fileID: 5022787}
   Loser: {fileID: 1838106782}
   DishDing: {fileID: 1137321344}
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 172533541}
   GameOver: 0
 --- !u!1 &581420271
 GameObject:

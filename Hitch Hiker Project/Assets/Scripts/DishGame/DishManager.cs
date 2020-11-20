@@ -83,7 +83,7 @@ public class DishManager : MonoBehaviour
                 winTimer += Time.deltaTime;
                 if (winTimer > 4f)
                 {
-                    SceneManager.LoadScene("DialogueSystem");
+                    SceneManager.LoadScene("Town1");
                 }
             }
         }

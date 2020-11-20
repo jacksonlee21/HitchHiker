@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ArrowManager : MonoBehaviour
 {
@@ -21,10 +22,17 @@ public class ArrowManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
-        if(GameObject.FindGameObjectWithTag("EnterBuilding") != null)
+        if (GameObject.FindGameObjectWithTag("EnterBuilding") != null)
+            arrows = GameObject.FindGameObjectsWithTag("EnterBuilding");
+    }
+
+    // Start is called before the first frame update
+    private void OnLevelWasLoaded(int level)
+    {
+        if (GameObject.FindGameObjectWithTag("EnterBuilding") != null)
             arrows = GameObject.FindGameObjectsWithTag("EnterBuilding");
     }
 
@@ -47,7 +55,7 @@ public class ArrowManager : MonoBehaviour
         int index = 0;
         foreach (var arrow in arrows)
         {
-            if(arrowAtPlayer = arrow)
+            if(arrowAtPlayer.name == arrow.name)
             {
                 arrowActive[index] = true;
             }

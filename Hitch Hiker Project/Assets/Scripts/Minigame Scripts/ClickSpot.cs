@@ -51,7 +51,7 @@ public class ClickSpot : MonoBehaviour
             if(time > 4)
             {
                 PlayerPrefs.SetFloat("playersLastPosition", -17.25f);
-                SceneManager.LoadScene("DialogueSystem");
+                SceneManager.LoadScene("Town1");
             }
         }
         else

@@ -57,7 +57,7 @@ public class BugSpawner : MonoBehaviour
             {
                 PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
                 PlayerPrefs.SetFloat("playersLastPosition", -4.35f);
-                SceneManager.LoadScene("DialogueSystem");
+                SceneManager.LoadScene("Town1");
             }                
         }
         else

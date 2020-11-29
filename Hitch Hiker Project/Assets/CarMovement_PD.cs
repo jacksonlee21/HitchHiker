@@ -9,9 +9,16 @@ public class CarMovement_PD : MonoBehaviour
     [SerializeField]
     private float speed = 5;
 
+    private CarSpawner_PD carSpawnerVar = null;
+
     private void Start()
     {
         endPosition = transform.position - new Vector3(0,20,0);
+    }
+
+    public void SetCarSpanwerVar(CarSpawner_PD carSpawnerVar)
+    {
+        this.carSpawnerVar = carSpawnerVar;
     }
 
     private void Update()
@@ -23,6 +30,10 @@ public class CarMovement_PD : MonoBehaviour
     {
         if (collision.CompareTag("Finish"))
         {
+            if(carSpawnerVar != null)
+            {
+                carSpawnerVar.CountCar();
+            }
             Destroy(gameObject);
         }
     }

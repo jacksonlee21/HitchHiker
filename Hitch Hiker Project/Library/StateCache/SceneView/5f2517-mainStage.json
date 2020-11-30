@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":8.484664916992188,"y":-0.8301197290420532,"z":-2.3281054496765138},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":11.165773391723633,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":156.0424041748047,"y":70.4974594116211,"z":-52.935726165771487},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":145.5548095703125,"orthographic":true}
 >>>>>>> WeedPickingGame
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":0.27042654156684878,"y":0.5736299157142639,"z":-8.5400390625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":4.65155553817749,"orthographic":true}
+>>>>>>> WoodChoppingGame

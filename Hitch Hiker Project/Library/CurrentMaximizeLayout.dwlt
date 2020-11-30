@@ -32,8 +32,12 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 15614
 >>>>>>> WeedPickingGame
+=======
+  controlID: 5774
+>>>>>>> WoodChoppingGame
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +197,12 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 15615
 >>>>>>> WeedPickingGame
+=======
+  controlID: 5775
+>>>>>>> WoodChoppingGame
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,6 +228,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 645
 =======
     width: 1225
@@ -229,6 +238,9 @@ MonoBehaviour:
   vertical: 0
   controlID: 15595
 >>>>>>> WeedPickingGame
+=======
+  controlID: 5776
+>>>>>>> WoodChoppingGame
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,6 +261,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 438
     height: 581
+<<<<<<< HEAD
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
 =======
@@ -257,6 +270,10 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> WeedPickingGame
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> WoodChoppingGame
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -300,10 +317,14 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: 5efbffff3e3a0000
 =======
       m_ExpandedIDs: 2c6fffff
 >>>>>>> WeedPickingGame
+=======
+      m_ExpandedIDs: 12e0ffff42e0ffffa4e1ffffe6e1ffff5efbffff
+>>>>>>> WoodChoppingGame
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -408,6 +429,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 3.443009, y: -3.5944664, z: -160.85965}
     speed: 2
     m_Value: {x: 3.443009, y: -3.5944664, z: -160.85965}
@@ -416,6 +438,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -5.1043615, y: -1.8384689, z: 0}
 >>>>>>> WeedPickingGame
+=======
+    m_Target: {x: -0.11571066, y: -3.0244195, z: -6.952273}
+    speed: 2
+    m_Value: {x: -0.11571066, y: -3.0244195, z: -6.952273}
+>>>>>>> WoodChoppingGame
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -466,6 +493,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 8.617831
     speed: 2
     m_Value: 8.617831
@@ -474,6 +502,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 0.92496234
 >>>>>>> WeedPickingGame
+=======
+    m_Target: 4.111002
+    speed: 2
+    m_Value: 4.111002
+>>>>>>> WoodChoppingGame
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -606,6 +639,7 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scripts/Minigame Scripts/Froger
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -626,16 +660,30 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Prefabs
+=======
+    - Assets/Scripts/Wood Chopping Game
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts/Wood Chopping Game
+>>>>>>> WoodChoppingGame
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Code\NewCodingCrew\HitchHiker\Hitch Hiker Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 162}
     m_SelectedIDs: 7a3a0000
     m_LastClickedID: 14970
     m_ExpandedIDs: 00000000623a0000643a0000663a000000ca9a3b
 >>>>>>> WeedPickingGame
+=======
+    scrollPos: {x: 0, y: 11}
+    m_SelectedIDs: f64d0000
+    m_LastClickedID: 19958
+    m_ExpandedIDs: 00000000fe3c0000023d000000ca9a3b
+>>>>>>> WoodChoppingGame
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -664,10 +712,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ec3a0000ee3a0000f03a0000f23a000000ca9a3b
 =======
     m_ExpandedIDs: 00000000623a0000643a0000663a000000ca9a3b
 >>>>>>> WeedPickingGame
+=======
+    m_ExpandedIDs: 00000000fe3c0000023d000000ca9a3b
+>>>>>>> WoodChoppingGame
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -693,6 +745,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 443a0000
     m_LastClickedInstanceID: 14916
     m_HadKeyboardFocusLastEvent: 1
@@ -703,6 +756,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300007c390000c63a0000a23f0000a23c0000
 >>>>>>> WeedPickingGame
+=======
+    m_SelectedInstanceIDs: 42cbffff
+    m_LastClickedInstanceID: -13502
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c62300007c390000c63a0000983e0000
+>>>>>>> WoodChoppingGame
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -782,12 +841,15 @@ MonoBehaviour:
     y: 0
     width: 602
     height: 947
+<<<<<<< HEAD
 =======
     x: 1225
     y: 0
     width: 311
     height: 731
 >>>>>>> WeedPickingGame
+=======
+>>>>>>> WoodChoppingGame
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -834,12 +896,16 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: 14916
+=======
+  m_LastInspectedObjectInstanceID: -13502
+>>>>>>> WoodChoppingGame
   m_LastVerticalScrollValue: 0
 =======
   m_LastInspectedObjectInstanceID: 22270

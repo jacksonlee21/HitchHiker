@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/MiniGames/Frogger.unity
 =======
 - path: Assets/Scenes/WeedPicker.unity
 >>>>>>> WeedPickingGame
+=======
+- path: Assets/Scenes/NewMiniGameJacko.unity
+>>>>>>> WoodChoppingGame
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -21,6 +21,7 @@ MonoBehaviour:
     y: 30
 <<<<<<< HEAD
     width: 1920
+<<<<<<< HEAD
     height: 947
   m_MinSize: {x: 679, y: 342}
   m_MaxSize: {x: 12004, y: 8042}
@@ -38,6 +39,13 @@ MonoBehaviour:
 =======
   controlID: 5774
 >>>>>>> WoodChoppingGame
+=======
+    height: 977
+  m_MinSize: {x: 677, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 131
+>>>>>>> PizzaDelivery
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -54,11 +62,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
+<<<<<<< HEAD
     m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
+>>>>>>> PizzaDelivery
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 437
     y: 73
@@ -70,6 +83,12 @@ MonoBehaviour:
     width: 919
     height: 427
 >>>>>>> WeedPickingGame
+=======
+    x: 1819
+    y: -287
+    width: 1150
+    height: 578
+>>>>>>> PizzaDelivery
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -80,10 +99,14 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 878, y: 494}
 =======
   m_TargetSize: {x: 722, y: 406}
 >>>>>>> WeedPickingGame
+=======
+  m_TargetSize: {x: 990, y: 557}
+>>>>>>> PizzaDelivery
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -99,6 +122,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -439
     m_HBaseRangeMax: 439
     m_VBaseRangeMin: -247
@@ -109,6 +133,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -162.40001
     m_VBaseRangeMax: 162.40001
 >>>>>>> WeedPickingGame
+=======
+    m_HBaseRangeMin: -495
+    m_HBaseRangeMax: 495
+    m_VBaseRangeMin: -278.5
+    m_VBaseRangeMax: 278.5
+>>>>>>> PizzaDelivery
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -127,6 +157,7 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 878
       height: 539
     m_Scale: {x: 1, y: 1}
@@ -137,12 +168,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 459.5, y: 203}
 >>>>>>> WeedPickingGame
+=======
+      width: 1150
+      height: 557
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 575, y: 278.5}
+>>>>>>> PizzaDelivery
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -439
       y: -269.5
@@ -160,6 +198,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1148.75, y: 533.75}
 >>>>>>> WeedPickingGame
+=======
+      x: -575
+      y: -278.5
+      width: 1150
+      height: 557
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1150, y: 578}
+>>>>>>> PizzaDelivery
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -185,6 +232,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1318
     height: 947
   m_MinSize: {x: 403, y: 342}
@@ -203,6 +251,14 @@ MonoBehaviour:
 =======
   controlID: 5775
 >>>>>>> WoodChoppingGame
+=======
+    width: 1531
+    height: 977
+  m_MinSize: {x: 402, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 132
+>>>>>>> PizzaDelivery
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,6 +279,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 1318
     height: 581
   m_MinSize: {x: 403, y: 221}
@@ -241,6 +298,14 @@ MonoBehaviour:
 =======
   controlID: 5776
 >>>>>>> WoodChoppingGame
+=======
+    width: 1531
+    height: 599
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 133
+>>>>>>> PizzaDelivery
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,6 +324,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 438
     height: 581
 <<<<<<< HEAD
@@ -274,6 +340,12 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> WoodChoppingGame
+=======
+    width: 379
+    height: 599
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> PizzaDelivery
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -295,11 +367,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
+<<<<<<< HEAD
     m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+>>>>>>> PizzaDelivery
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
     y: 73
@@ -310,12 +387,19 @@ MonoBehaviour:
     width: 303
     height: 427
 >>>>>>> WeedPickingGame
+=======
+    x: 1440
+    y: -287
+    width: 378
+    height: 578
+>>>>>>> PizzaDelivery
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       m_ExpandedIDs: 5efbffff3e3a0000
@@ -325,6 +409,9 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 12e0ffff42e0ffffa4e1ffffe6e1ffff5efbffff
 >>>>>>> WoodChoppingGame
+=======
+      m_ExpandedIDs: 8cf9ffffaaf9ffff14fbffff
+>>>>>>> PizzaDelivery
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -340,7 +427,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -366,8 +453,13 @@ MonoBehaviour:
 <<<<<<< HEAD
     x: 438
     y: 0
+<<<<<<< HEAD
     width: 880
     height: 581
+=======
+    width: 1152
+    height: 599
+>>>>>>> PizzaDelivery
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
 =======
@@ -401,11 +493,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
+<<<<<<< HEAD
     m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
+>>>>>>> PizzaDelivery
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 438
     y: 73
@@ -417,6 +514,12 @@ MonoBehaviour:
     width: 919
     height: 427
 >>>>>>> WeedPickingGame
+=======
+    x: 1819
+    y: -287
+    width: 1150
+    height: 578
+>>>>>>> PizzaDelivery
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 5f25172cf308eaf4497d5106db6a39a1
@@ -428,6 +531,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 3.443009, y: -3.5944664, z: -160.85965}
@@ -443,6 +547,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.11571066, y: -3.0244195, z: -6.952273}
 >>>>>>> WoodChoppingGame
+=======
+    m_Target: {x: 0.9728506, y: 2.2702072, z: -132.95296}
+    speed: 2
+    m_Value: {x: 0.9728506, y: 2.2702072, z: -132.95296}
+>>>>>>> PizzaDelivery
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -494,6 +603,7 @@ MonoBehaviour:
   m_Size:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 8.617831
     speed: 2
     m_Value: 8.617831
@@ -507,6 +617,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 4.111002
 >>>>>>> WoodChoppingGame
+=======
+    m_Target: 13.649214
+    speed: 2
+    m_Value: 13.649214
+>>>>>>> PizzaDelivery
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -547,7 +662,11 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
+<<<<<<< HEAD
     m_Image: {fileID: -7444545952099596278, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+>>>>>>> PizzaDelivery
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -574,6 +693,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 581
     width: 1318
     height: 366
@@ -586,6 +706,13 @@ MonoBehaviour:
     height: 283
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
+=======
+    y: 599
+    width: 1531
+    height: 378
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+>>>>>>> PizzaDelivery
   m_ActualView: {fileID: 11}
 >>>>>>> WeedPickingGame
   m_Panes:
@@ -609,11 +736,16 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
+<<<<<<< HEAD
     m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+>>>>>>> PizzaDelivery
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
     y: 654
@@ -624,6 +756,12 @@ MonoBehaviour:
     width: 1224
     height: 262
 >>>>>>> WeedPickingGame
+=======
+    x: 1440
+    y: 312
+    width: 1530
+    height: 357
+>>>>>>> PizzaDelivery
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -638,6 +776,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     - Assets/Scripts/Minigame Scripts/Froger
@@ -662,9 +801,13 @@ MonoBehaviour:
   - Assets/Prefabs
 =======
     - Assets/Scripts/Wood Chopping Game
+=======
+    - Assets/Prefabs
+>>>>>>> PizzaDelivery
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 83
   m_LastFolders:
+<<<<<<< HEAD
   - Assets/Scripts/Wood Chopping Game
 >>>>>>> WoodChoppingGame
   m_LastFoldersGridSize: -1
@@ -684,6 +827,19 @@ MonoBehaviour:
     m_LastClickedID: 19958
     m_ExpandedIDs: 00000000fe3c0000023d000000ca9a3b
 >>>>>>> WoodChoppingGame
+=======
+  - Assets/Prefabs
+  m_LastFoldersGridSize: 83
+  m_LastProjectPath: /Users/lukewoodland/Documents/_Unity/HitchHiker/Hitch Hiker
+    Project
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 223d0000
+    m_LastClickedID: 15650
+    m_ExpandedIDs: 00000000063d0000083d00000a3d000000ca9a3b
+>>>>>>> PizzaDelivery
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -713,6 +869,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000ec3a0000ee3a0000f03a0000f23a000000ca9a3b
 =======
     m_ExpandedIDs: 00000000623a0000643a0000663a000000ca9a3b
@@ -720,6 +877,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000fe3c0000023d000000ca9a3b
 >>>>>>> WoodChoppingGame
+=======
+    m_ExpandedIDs: 00000000063d0000083d00000a3d0000
+>>>>>>> PizzaDelivery
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -746,6 +906,7 @@ MonoBehaviour:
   m_ListAreaState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 443a0000
     m_LastClickedInstanceID: 14916
     m_HadKeyboardFocusLastEvent: 1
@@ -762,6 +923,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300007c390000c63a0000983e0000
 >>>>>>> WoodChoppingGame
+=======
+    m_SelectedInstanceIDs: c6410000
+    m_LastClickedInstanceID: 16838
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300007c390000c63a0000
+>>>>>>> PizzaDelivery
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -777,7 +944,11 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 13}
+=======
+      m_ClientGUIView: {fileID: 0}
+>>>>>>> PizzaDelivery
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -786,7 +957,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 64
+    m_GridSize: 83
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
 --- !u!114 &12
@@ -805,11 +976,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
+<<<<<<< HEAD
     m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
+>>>>>>> PizzaDelivery
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
     y: 654
@@ -820,6 +996,12 @@ MonoBehaviour:
     width: 1224
     height: 262
 >>>>>>> WeedPickingGame
+=======
+    x: 1440
+    y: 312
+    width: 1530
+    height: 357
+>>>>>>> PizzaDelivery
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &13
 MonoBehaviour:
@@ -839,6 +1021,7 @@ MonoBehaviour:
 <<<<<<< HEAD
     x: 1318
     y: 0
+<<<<<<< HEAD
     width: 602
     height: 947
 <<<<<<< HEAD
@@ -852,6 +1035,12 @@ MonoBehaviour:
 >>>>>>> WoodChoppingGame
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+    width: 389
+    height: 977
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> PizzaDelivery
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -873,11 +1062,16 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
+<<<<<<< HEAD
     m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+=======
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+>>>>>>> PizzaDelivery
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 1318
     y: 73
@@ -889,6 +1083,12 @@ MonoBehaviour:
     width: 310
     height: 710
 >>>>>>> WeedPickingGame
+=======
+    x: 2971
+    y: -287
+    width: 388
+    height: 956
+>>>>>>> PizzaDelivery
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -902,6 +1102,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: 14916
 =======
   m_LastInspectedObjectInstanceID: -13502
@@ -911,3 +1112,7 @@ MonoBehaviour:
   m_LastInspectedObjectInstanceID: 22270
   m_LastVerticalScrollValue: 100
 >>>>>>> WeedPickingGame
+=======
+  m_LastInspectedObjectInstanceID: 16838
+  m_LastVerticalScrollValue: 214
+>>>>>>> PizzaDelivery

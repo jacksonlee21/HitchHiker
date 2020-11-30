@@ -20,7 +20,11 @@ TagManager:
   - Trash
   - Recycle
   - ArrowManager
+<<<<<<< HEAD
   - CollidableObject
+=======
+  - Enemy
+>>>>>>> PizzaDelivery
   layers:
   - Default
   - TransparentFX

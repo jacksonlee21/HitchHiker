@@ -20,7 +20,9 @@ TagManager:
   - Trash
   - Recycle
   - ArrowManager
-  - CollidableObject
+  - killerObject
+  - logs
+  - winObject
   layers:
   - Default
   - TransparentFX

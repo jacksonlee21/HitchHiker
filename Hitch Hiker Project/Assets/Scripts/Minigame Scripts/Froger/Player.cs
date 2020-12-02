@@ -6,17 +6,23 @@ public class Player : MonoBehaviour
 {
     public Sprite playerUp, playerDown, playerLeft, playerRight;
 
+    private Vector2 originalPosition;
+
+    public Transform circlePos;
+
+    bool onLog= false;
+    bool onWater = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        originalPosition = transform.localPosition;
     }
 
     // Update is called once per frame
     void Update()
     {
         UpdatePosition();
-        checkCollisions();
     }
 
     private void UpdatePosition()
@@ -50,26 +56,32 @@ public class Player : MonoBehaviour
 
         transform.localPosition = pos;
     }
-
-    private void checkCollisions ()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("CollidableObject");
-
-        foreach (GameObject go in gameObjects)
+        Debug.Log("bumbum");
+        
+        /*if(other.gameObject.tag == "log")
         {
-            ColidableObject colidableObject = go.GetComponent<ColidableObject>();
+            onLog = true;
+        }
+        else if(other.gameObject.tag == "killerObject")
+        {
+            if(!onLog){transform.localPosition = originalPosition;}
+        }
+        else if(other.gameObject.tag == "winObject")
+        {
 
-            if (colidableObject.IsColliding(this.gameObject))
-            {
-                if (colidableObject.isSafe)
-                {
-                    Debug.Log("SAFE");
-                }
-                else
-                {
-                    Debug.Log("SAFE");
-                }
-            }
+        }*/
+    }
+
+    void circleCheck()
+    {
+        Collider2D[] tempCols;
+        tempCols = Physics2D.OverlapCircleAll(circlePos.position,.3f);
+        foreach(Collider2D col in tempCols)
+        {
+            if(col.tag == "log"){onLog = true;}
+            if(col.tag == "killerObject"){}
         }
     }
 }

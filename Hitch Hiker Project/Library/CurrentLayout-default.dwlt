@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 105
+  controlID: 126
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 390
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 378
     height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 106
+  controlID: 56
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 107
+  controlID: 57
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,21 +338,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Minigame Scripts/Froger
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Minigame Scripts/Froger
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Lee PC\OneDrive\Documents\Comp Sci 7-8\HitchHiker\Hitch
-    Hiker Project
+  m_LastProjectPath: C:\Hitch Hikers\HitchHiker\Hitch Hiker Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 283b0000
-    m_LastClickedID: 15144
-    m_ExpandedIDs: 00000000263b0000283b00002c3b000000ca9a3b
+    scrollPos: {x: 0, y: 3}
+    m_SelectedIDs: b63c0000
+    m_LastClickedID: 15542
+    m_ExpandedIDs: 00000000303c0000323c0000483c00004a3c0000ae3c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -380,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000263b0000283b00002a3b00002c3b0000
+    m_ExpandedIDs: 00000000303c0000323c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,9 +502,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a43b0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 66bbffffaebcffff1abdffffe4deffff70eaffff7eeaffff8ceaffff9aeaffffa8eaffffcaeaffffdaeaffffe8eafffff6eaffff38ebffff46ebffff58ebffff7af2ffff8cf2ffff9ef2ffffb0f2ffffc2f2ffffccf2ffff80f3ffff06f4ffff9cf4ffffaaf4ffffb8f4ffffc6f4ffffd4f4fffffaf4ffff0af5ffff20f5fffff0f5ffff62f6ffff7af6ffffa2faffffbcfaffff5cfbffffde3c0000d24d0000304e00005e4e0000e24e0000e84e0000204f0000
+      m_ExpandedIDs: 5efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

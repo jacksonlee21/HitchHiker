@@ -10,6 +10,7 @@ public class Dialogue : MonoBehaviour
     private int index;
     public float typingSpeed;
     bool isYes = false;
+    public bool canMove = false;
    
     
 
@@ -43,8 +44,19 @@ public class Dialogue : MonoBehaviour
         if (index == sentences.Length - 1)
         {
             PlayerPrefs.SetString("isFirstTime", "no");
-            Debug.Log("wooohaohfoahohe");
+            //Debug.Log("wooohaohfoahohe");
+            //canMove = true;
             
+        }
+
+        if(index < sentences.Length - 1 && PlayerPrefs.GetString("isFirstTime") == "yes")
+        {
+            canMove = false;
+        }
+        else
+        {
+            canMove = true;
+            Debug.Log(index);
         }
     }
 
@@ -66,6 +78,7 @@ public class Dialogue : MonoBehaviour
             index++;
             textDisplay.text = "";
             StartCoroutine(Type());
+            
             Debug.Log(index);
         }
         else

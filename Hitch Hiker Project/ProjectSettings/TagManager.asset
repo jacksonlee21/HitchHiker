@@ -23,6 +23,7 @@ TagManager:
   - Bug
   - Trash
   - Recycle
+  - House
   layers:
   - Default
   - TransparentFX

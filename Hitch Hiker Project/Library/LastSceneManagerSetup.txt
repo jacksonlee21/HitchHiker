@@ -1,17 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/Main Menu.unity
-=======
-- path: Assets/Scenes/RandomTown.unity
->>>>>>> RandomTown
-=======
-- path: Assets/Scenes/KarmaTesting.unity
->>>>>>> KarmaSystem
-=======
 - path: Assets/Scenes/Daynight cycle.unity
->>>>>>> DayNIghtCycle
   isLoaded: 1
   isActive: 1
   isSubScene: 0

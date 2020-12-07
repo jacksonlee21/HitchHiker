@@ -10,6 +10,13 @@ public class DayNightCycle : MonoBehaviour
     public TextMeshProUGUI Clock;
     private float startTime;
     public SpriteRenderer Sky;
+    int r = 255;
+    int g = 255;
+    int b = 255;
+    float t = 0;
+    string minutes;
+    string seconds;
+    float rT;
 
     // Start is called before the first frame update
     void Start()
@@ -20,24 +27,39 @@ public class DayNightCycle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float t = Time.time + startTime;
-        float r=0,g=0,b=0;
+        t += Time.deltaTime;
+        rT = Mathf.Round(t);
 
-        string minutes = ((int) t/60).ToString();
-        string seconds = (t%30).ToString("f0");
+        
+        minutes = ((int) t/60).ToString();
+        seconds = (t%30).ToString("f0");
 
         Clock.text = minutes + ":" + seconds;
 
-        if((t/30) == t%3)
+        /*if(rT%4 == 0)
         {
-            r += 255/12;
-            g += 255/12;
-            b += 255/12;
+            r -= (255/12);
+            g -= (255/12);
+            b -= (255/12);
+            //Debug.Log(r);
+
             Sky.color = new Color(r, g, b, 1f);
-        }
-        if(t/30 == 24)
+        }*/
+
+        if(t> 5)
         {
-            t=0;
+            r -= (255 / 12);
+            g -= (255 / 12);
+            b -= (255 / 12);
+            //Debug.Log(r);
+            Sky.color = new Color(r, g, b, 1f);
+            Debug.Log(r);
+            t = 0;
+        }
+
+        if (t/30 == 24)
+        {
+            //t=0;
         }
         
     }

@@ -2824,6 +2824,7 @@ MonoBehaviour:
   - Use the money you earn to travel to the next town
   - Goodluck!
   typingSpeed: 0.02
+  canMove: 0
   continueButton: {fileID: 70729546}
 --- !u!4 &999362333
 Transform:

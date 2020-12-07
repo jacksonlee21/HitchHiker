@@ -32,7 +32,8 @@ public class EnterHouse : MonoBehaviour
         if (collision.CompareTag("EnterBuilding"))
         {
             atDoor = true;
-            houseName = collision.transform.parent.GetComponent<Transform>().tag;
+            House tempHouse = collision.transform.parent.GetComponent<House>();
+            houseName = tempHouse.sceneName;
         }
     }
 
@@ -41,7 +42,7 @@ public class EnterHouse : MonoBehaviour
         if (collision.CompareTag("EnterBuilding"))
         {
             atDoor = false;
-            houseName = "No Tag";
+            houseName = "Null";
         }
     }
 }

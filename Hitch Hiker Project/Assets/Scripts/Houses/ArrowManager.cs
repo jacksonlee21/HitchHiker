@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ArrowManager : MonoBehaviour
 {
     public GameObject[] arrows;
-    private bool[] arrowActive = new bool[] { false, false, false, false, false };
+    private bool[] arrowActive = new bool[] { false, false, false, false, false, false, false, false };
 
     public static ArrowManager instance;
 

@@ -25,10 +25,6 @@ public class CameraScript : MonoBehaviour
         {
             cameraPosition = playerPosition;
         }
-    }
-
-    public void FixedUpdate()
-    {
         transform.position = new Vector3(cameraPosition, 1f, -5f);
     }
 }

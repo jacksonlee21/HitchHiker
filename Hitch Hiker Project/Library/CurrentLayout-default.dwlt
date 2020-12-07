@@ -89,10 +89,13 @@ MonoBehaviour:
 <<<<<<< HEAD
     width: 390
     height: 947
+<<<<<<< HEAD
 =======
     width: 292
     height: 797
 >>>>>>> RandomTown
+=======
+>>>>>>> DayNIghtCycle
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
@@ -122,12 +125,15 @@ MonoBehaviour:
     height: 573
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
+<<<<<<< HEAD
 =======
     width: 284
     height: 482
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
 >>>>>>> RandomTown
+=======
+>>>>>>> DayNIghtCycle
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -265,8 +271,12 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 16
 >>>>>>> KarmaSystem
+=======
+  controlID: 78
+>>>>>>> DayNIghtCycle
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -405,6 +415,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Sprites
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -442,17 +453,31 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Scripts
+=======
+    - Assets/Scripts/UI
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts/UI
+>>>>>>> DayNIghtCycle
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Lee PC\OneDrive\Documents\Comp Sci 7-8\HitchHiker\Hitch
     Hiker Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 71}
     m_SelectedIDs: 283d0000
     m_LastClickedID: 15656
     m_ExpandedIDs: 00000000243d0000263d0000283d00002a3d000000ca9a3b
 >>>>>>> KarmaSystem
+=======
+    scrollPos: {x: 0, y: 3}
+    m_SelectedIDs: 963c0000
+    m_LastClickedID: 15510
+    m_ExpandedIDs: 000000002c3c00002e3c0000463c00008e3c000000ca9a3b
+>>>>>>> DayNIghtCycle
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -482,6 +507,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000002e3c0000303c0000
 =======
     m_ExpandedIDs: 00000000363c0000383c0000
@@ -489,6 +515,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000243d0000263d0000283d00002a3d0000
 >>>>>>> KarmaSystem
+=======
+    m_ExpandedIDs: 000000002c3c00002e3c0000
+>>>>>>> DayNIghtCycle
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -626,6 +655,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
 <<<<<<< HEAD
@@ -638,6 +668,11 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 8ef8ffff6cf9ffff44faffff5efbffff54000000
 >>>>>>> KarmaSystem
+=======
+      m_SelectedIDs: 943d0000
+      m_LastClickedID: 15764
+      m_ExpandedIDs: 58f6ffffd2f7ffffd6faffff5efbffffba3d0000
+>>>>>>> DayNIghtCycle
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -653,7 +688,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -698,6 +733,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.9590267, y: 3.9774086, z: -122.93164}
     speed: 2
     m_Value: {x: -0.9590267, y: 3.9774086, z: -122.93164}
@@ -706,6 +742,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -12.18589, y: 0.8872107, z: -22.657988}
 >>>>>>> KarmaSystem
+=======
+    m_Target: {x: -23.91125, y: 1.028223, z: -0.09419515}
+    speed: 2
+    m_Value: {x: -23.91125, y: 1.028223, z: -0.09419515}
+>>>>>>> DayNIghtCycle
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -756,6 +797,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 11.68439
     speed: 2
     m_Value: 11.68439
@@ -764,6 +806,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 5.590337
 >>>>>>> KarmaSystem
+=======
+    m_Target: 2.1618297
+    speed: 2
+    m_Value: 2.1618297
+>>>>>>> DayNIghtCycle
   m_Ortho:
     m_Target: 1
     speed: 2

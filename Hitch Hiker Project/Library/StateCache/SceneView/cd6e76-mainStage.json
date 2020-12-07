@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-0.9590266942977905,"y":3.9774086475372316,"z":-122.931640625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":11.6843900680542,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-12.185890197753907,"y":0.8872107267379761,"z":-22.657987594604493},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":5.590336799621582,"orthographic":true}
 >>>>>>> KarmaSystem
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-23.9112491607666,"y":1.0282230377197266,"z":-0.09419514983892441},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":2.161829710006714,"orthographic":true}
+>>>>>>> DayNIghtCycle

@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/Main Menu.unity
 =======
 - path: Assets/Scenes/RandomTown.unity
 >>>>>>> RandomTown
+=======
+- path: Assets/Scenes/KarmaTesting.unity
+>>>>>>> KarmaSystem
   isLoaded: 1
   isActive: 1
   isSubScene: 0

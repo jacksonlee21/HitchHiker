@@ -50,6 +50,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1440
     height: 797
   m_MinSize: {x: 679, y: 342}
@@ -60,6 +61,14 @@ MonoBehaviour:
 =======
   controlID: 22
 >>>>>>> RandomTown
+=======
+    width: 1920
+    height: 947
+  m_MinSize: {x: 678, y: 342}
+  m_MaxSize: {x: 12003, y: 8042}
+  vertical: 0
+  controlID: 141
+>>>>>>> KarmaSystem
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,9 +149,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 482
     width: 1148
     height: 315
+=======
+    y: 573
+    width: 1530
+    height: 374
+>>>>>>> KarmaSystem
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
@@ -237,12 +252,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1148
     height: 797
   m_MinSize: {x: 403, y: 342}
   m_MaxSize: {x: 8003, y: 8042}
   vertical: 1
   controlID: 23
+=======
+    width: 1530
+    height: 947
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
+  vertical: 1
+  controlID: 16
+>>>>>>> KarmaSystem
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,7 +291,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 24
+=======
+  controlID: 17
+>>>>>>> KarmaSystem
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +306,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -296,7 +324,7 @@ MonoBehaviour:
 >>>>>>> RandomTown
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 17}
   - {fileID: 16}
@@ -376,6 +404,7 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Sprites
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -407,6 +436,23 @@ MonoBehaviour:
     m_LastClickedID: 16466
     m_ExpandedIDs: 00000000363c0000383c00004e3c000000ca9a3b
 >>>>>>> RandomTown
+=======
+    - Assets/Scripts
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\Lee PC\OneDrive\Documents\Comp Sci 7-8\HitchHiker\Hitch
+    Hiker Project
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 71}
+    m_SelectedIDs: 283d0000
+    m_LastClickedID: 15656
+    m_ExpandedIDs: 00000000243d0000263d0000283d00002a3d000000ca9a3b
+>>>>>>> KarmaSystem
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -435,10 +481,14 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000002e3c0000303c0000
 =======
     m_ExpandedIDs: 00000000363c0000383c0000
 >>>>>>> RandomTown
+=======
+    m_ExpandedIDs: 00000000243d0000263d0000283d00002a3d0000
+>>>>>>> KarmaSystem
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -578,12 +628,16 @@ MonoBehaviour:
 <<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 4cd7ffff80d7ffffe4faffff5efbffff2e64000074640000
 =======
       m_SelectedIDs: ea3c0000
       m_LastClickedID: 15594
       m_ExpandedIDs: e0faffff5efbfffff4ffffff963d0000
 >>>>>>> RandomTown
+=======
+      m_ExpandedIDs: 8ef8ffff6cf9ffff44faffff5efbffff54000000
+>>>>>>> KarmaSystem
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -643,9 +697,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -0.9590267, y: 3.9774086, z: -122.93164}
     speed: 2
     m_Value: {x: -0.9590267, y: 3.9774086, z: -122.93164}
+=======
+    m_Target: {x: -12.18589, y: 0.8872107, z: -22.657988}
+    speed: 2
+    m_Value: {x: -12.18589, y: 0.8872107, z: -22.657988}
+>>>>>>> KarmaSystem
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -695,9 +755,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 11.68439
     speed: 2
     m_Value: 11.68439
+=======
+    m_Target: 5.590337
+    speed: 2
+    m_Value: 5.590337
+>>>>>>> KarmaSystem
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -790,7 +856,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -866,8 +932,14 @@ MonoBehaviour:
     height: 353
 =======
     x: 0
+<<<<<<< HEAD
     y: 501
     width: 1147
     height: 294
 >>>>>>> RandomTown
+=======
+    y: 646
+    width: 1529
+    height: 353
+>>>>>>> KarmaSystem
   m_ViewDataDictionary: {fileID: 0}

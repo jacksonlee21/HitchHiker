@@ -20,13 +20,16 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey("a"))
+        GameObject dialogueManager = GameObject.Find("dialogueManager");
+        Dialogue dialogueScript = dialogueManager.GetComponent<Dialogue>();
+
+        if (Input.GetKey("a") && dialogueScript.canMove)
         {
             movedirection = -1f;
             walking = true;
             transform.localScale = new Vector3(-1, 1, 1);
         }
-        else if (Input.GetKey("d"))
+        else if (Input.GetKey("d") && dialogueScript.canMove)
         {
             movedirection = 1f;
             walking = true;

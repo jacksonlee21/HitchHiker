@@ -41,6 +41,13 @@ public class Movement : MonoBehaviour
             walking = false;
         }
         playerAnim.SetBool("In Motion", walking);
+
+        if(Input.GetKey("t"))
+        {
+            Debug.Log("should do text");
+            dialogueScript.sentences = new string[] { "Wassup kiddo", "You are cool", "GO YOU!" };
+            dialogueScript.Type();
+        }
     }
 
     public void FixedUpdate()

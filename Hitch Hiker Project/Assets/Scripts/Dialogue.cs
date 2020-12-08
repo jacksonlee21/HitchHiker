@@ -18,6 +18,9 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
+        sentences = new string[] {"test", "test2"};
+ 
+
         isYes = false;
         
         if (!PlayerPrefs.HasKey("isFirstTime"))
@@ -56,11 +59,11 @@ public class Dialogue : MonoBehaviour
         else
         {
             canMove = true;
-            Debug.Log(index);
+            //Debug.Log(index);
         }
     }
 
-    IEnumerator Type()
+    public IEnumerator Type()
     {
         foreach(char letter in sentences[index].ToCharArray())
         {

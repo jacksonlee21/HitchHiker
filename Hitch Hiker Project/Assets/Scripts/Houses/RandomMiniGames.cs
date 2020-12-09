@@ -4,18 +4,22 @@ using UnityEngine;
 
 public class RandomMiniGames : MonoBehaviour
 {
+    [HideInInspector]
     public House[] houses;
-    
+    [HideInInspector]
     public GameObject[] arrows;
 
     public int arrowsToEnable = 5;
-    public bool useAutoScenes;
 
     public string[] miniGameSceneNames;
 
+    private RandomHouses randomHouses = null;
 
     private void Awake()
     {
+        randomHouses = GetComponent<RandomHouses>();
+        randomHouses.CreateHouses();
+
         if (!PlayerPrefs.HasKey("CreatedTown"))
         {
             PlayerPrefs.SetString("CreatedTown", "No");
@@ -87,6 +91,12 @@ public class RandomMiniGames : MonoBehaviour
             arrow.SetActive(false);
         }
 
+        StartCoroutine(WaitForArrows());
+    }
+
+    IEnumerator WaitForArrows()
+    {
+        yield return new WaitForSeconds(.05f);
         List<int> randArrowIndex = new List<int>();
         for (int i = 0; i < arrowsToEnable; i++)
         {
@@ -96,7 +106,6 @@ public class RandomMiniGames : MonoBehaviour
                 tempIndex = Random.Range(0, arrows.Length);
             }
             randArrowIndex.Add(tempIndex);
-
             arrows[tempIndex].SetActive(true);
         }
     }

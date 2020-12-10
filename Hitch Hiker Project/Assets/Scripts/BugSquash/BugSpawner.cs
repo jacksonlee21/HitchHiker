@@ -56,7 +56,8 @@ public class BugSpawner : MonoBehaviour
             if(timer > 4)
             {
                 PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
-                PlayerPrefs.SetFloat("playersLastPosition", -4.35f);
+                //PlayerPrefs.SetFloat("playersLastPosition", );
+                PlayerPrefs.SetFloat("playerKarma", PlayerPrefs.GetFloat("playerKarma") + .25f);
                 SceneManager.LoadScene("Town1");
             }                
         }

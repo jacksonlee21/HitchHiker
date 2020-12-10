@@ -81,7 +81,8 @@ public class Minigame1s : MonoBehaviour
             if(time > 3)
             {
                 PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
-                PlayerPrefs.SetFloat("playersLastPosition", -9f);
+                //PlayerPrefs.SetFloat("playersLastPosition", );
+                PlayerPrefs.SetFloat("playerKarma", PlayerPrefs.GetFloat("playerKarma") + .25f);
                 SceneManager.LoadScene("Town1");
             }
         }

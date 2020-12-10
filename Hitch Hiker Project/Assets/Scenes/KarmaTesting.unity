@@ -1148,7 +1148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481428952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.08, y: -0.36, z: 0}
+  m_LocalPosition: {x: -15, y: -0.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1194,6 +1194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Wallet: {fileID: 481428952}
   Rand: 0
+  FoundWallet: 0
 --- !u!1 &486844951
 GameObject:
   m_ObjectHideFlags: 0
@@ -2800,6 +2801,7 @@ MonoBehaviour:
   - Use the money you earn to travel to the next town
   - Goodluck!
   typingSpeed: 0.02
+  canMove: 0
   continueButton: {fileID: 70729546}
 --- !u!4 &999362333
 Transform:

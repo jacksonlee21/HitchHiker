@@ -63,12 +63,13 @@ public class DishManager : MonoBehaviour
                 if(timer <= 0)
                 {
                     GameOver = true;
-                    PlayerPrefs.SetFloat("playersLastPosition", .75f);
+                    //PlayerPrefs.SetFloat("playersLastPosition", );
                     if (DishesCleaned > 0)
                     {
                         Winner.Play();
                         win.SetActive(true);
                         PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
+                        PlayerPrefs.SetFloat("playerKarma", PlayerPrefs.GetFloat("playerKarma") + .25f);
                     }
                     if (DishesCleaned == 0)
                     {

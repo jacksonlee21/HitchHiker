@@ -30,8 +30,13 @@ public class TrashSorting : MonoBehaviour
     {
         Timer += Time.deltaTime;
         Debug.Log(Timer);
-        if(Timer > 20) SceneManager.LoadScene("Town1");
-
+        if (Timer > 20)
+        {
+            PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
+            //PlayerPrefs.SetFloat("playersLastPosition", );
+            PlayerPrefs.SetFloat("playerKarma", PlayerPrefs.GetFloat("playerKarma") + .25f);
+            SceneManager.LoadScene("Town1");
+        }
         Score.text = "Score: " + Points;
         if(!isThereTrash)
         {

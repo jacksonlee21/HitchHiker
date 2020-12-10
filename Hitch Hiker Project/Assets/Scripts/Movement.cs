@@ -13,7 +13,7 @@ public class Movement : MonoBehaviour
     {
         if(!PlayerPrefs.HasKey("playersLastPosition"))
         {
-            PlayerPrefs.SetFloat("playersLastPosition", -20f);
+            PlayerPrefs.SetFloat("playersLastPosition", -10f);
         }
         transform.position = new Vector3(PlayerPrefs.GetFloat("playersLastPosition"), 0, 0);
     }

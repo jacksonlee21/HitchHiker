@@ -14,6 +14,22 @@ public class RandomHouses : MonoBehaviour
 
     private House currHouse = null, prevHouse = null;
 
+    public void SpawnHouses()
+    {
+        
+        if (!PlayerPrefs.HasKey("HouseIndex"))
+        {
+            PlayerPrefsX.SetIntArray("HouseIndex", new int[housesToSpawn]);
+            CreateHouses();
+
+        }
+        else
+        {
+            SetHouses();
+        }
+        
+    }
+
     private void Start()
     {
         housesToSpawn = Mathf.Clamp(housesToSpawn, 1, housePrefabs.Length);
@@ -37,7 +53,24 @@ public class RandomHouses : MonoBehaviour
 
             prevHouse = Instantiate(currHouse.gameObject, housePos, Quaternion.identity, houseParent).GetComponent<House>();
         }
+        PlayerPrefsX.SetIntArray("HouseIndex", randHouseIndex.ToArray());
     }
+
+    public void SetHouses()
+    {
+        int[] HouseIndex = PlayerPrefsX.GetIntArray("HouseIndex");
+
+        for (int i = 0; i < HouseIndex.Length; i++)
+        {
+           
+            currHouse = housePrefabs[HouseIndex[i]].GetComponent<House>();
+
+            Vector2 housePos = GetHouseSpawnPos(currHouse, prevHouse);
+
+            prevHouse = Instantiate(currHouse.gameObject, housePos, Quaternion.identity, houseParent).GetComponent<House>();
+        }
+    }
+
 
     private Vector2 GetHouseSpawnPos(House currH, House prevH)
     {
@@ -61,7 +94,7 @@ public class RandomHouses : MonoBehaviour
             {
                 spawnPos.x = prevHousePosX + 4.5f;
             }
-            else Debug.Log("Large, Null");
+            
         }
         else if (prevH.houseType == House.HouseType.Small)
         {
@@ -73,9 +106,9 @@ public class RandomHouses : MonoBehaviour
             {
                 spawnPos.x = prevHousePosX + 4.25f;
             }
-            else Debug.Log("Small, Null");
+          
         }
-        else Debug.Log("Null, Null");
+        
 
         return spawnPos;
     }

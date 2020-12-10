@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ArrowManager : MonoBehaviour
 {
     public GameObject[] arrows;
-    private bool[] arrowActive = new bool[] { false, false, false, false, false, false, false, false };
+    private bool[] arrowActive;
 
     public static ArrowManager instance;
 
@@ -27,6 +27,8 @@ public class ArrowManager : MonoBehaviour
     {
         if (GameObject.FindGameObjectWithTag("EnterBuilding") != null)
             arrows = GameObject.FindGameObjectsWithTag("EnterBuilding");
+
+        arrowActive = new bool[arrows.Length];
     }
 
     // Start is called before the first frame update

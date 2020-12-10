@@ -21,8 +21,10 @@ public class EnterHouse : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             {
-                SceneManager.LoadScene(houseName);
+                PlayerPrefs.SetFloat("playersLastPosition", transform.position.x);
                 arrowManager.CheckArrow(collision.gameObject);
+                SceneManager.LoadScene(houseName);
+                
             }
         }
     }

@@ -18,8 +18,7 @@ public class RandomMiniGames : MonoBehaviour
     private void Awake()
     {
         randomHouses = GetComponent<RandomHouses>();
-        randomHouses.CreateHouses();
-
+        randomHouses.SpawnHouses();
         if (!PlayerPrefs.HasKey("CreatedTown"))
         {
             PlayerPrefs.SetString("CreatedTown", "No");
@@ -30,7 +29,6 @@ public class RandomMiniGames : MonoBehaviour
             SetMiniGamesToHouses();
         }
 
-        PlayerPrefs.DeleteKey("CreatedTown");
     }
     // Start is called before the first frame update
     private void Start()
@@ -57,13 +55,6 @@ public class RandomMiniGames : MonoBehaviour
         ChooseRandomArrows();
     }
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            ChooseRandomArrows();
-        }
-    }
 
     public void SetMiniGamesToHouses()
     {

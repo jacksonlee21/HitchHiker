@@ -1,13 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- path: Assets/Scenes/MiniGames/TimingGame.unity
-=======
-- path: Assets/Scenes/RandomTown.unity
->>>>>>> RandomHouses
-=======
 - path: Assets/Scenes/Main Menu.unity
->>>>>>> WalletScenario
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -7,8 +7,9 @@ public class PlayButton : MonoBehaviour
 {
     public void GotoMainScene()
     {
-        SceneManager.LoadScene("Town1");
         PlayerPrefs.DeleteAll();
+        SceneManager.LoadScene("Town1");
+        
     }
 
     public void GotoMenuScene()

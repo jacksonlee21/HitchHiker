@@ -6,6 +6,7 @@ public class WalletScript : MonoBehaviour
 {
     public GameObject Wallet;
     public int Rand;
+    public bool FoundWallet;
 
     void Awake()
     {
@@ -32,6 +33,7 @@ public class WalletScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //Trigger a text box
+        FoundWallet = true;
         Debug.Log("Test");
     }
 }

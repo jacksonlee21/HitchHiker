@@ -50,7 +50,8 @@ public class ClickSpot : MonoBehaviour
             time += Time.deltaTime;
             if(time > 4)
             {
-                PlayerPrefs.SetFloat("playersLastPosition", -17.25f);
+                //PlayerPrefs.SetFloat("playersLastPosition", );
+                PlayerPrefs.SetFloat("playerKarma", PlayerPrefs.GetFloat("playerKarma") + .25f);
                 SceneManager.LoadScene("Town1");
             }
         }

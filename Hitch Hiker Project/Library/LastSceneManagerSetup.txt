@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Daynight cycle.unity
+- path: Assets/Scenes/MiniGames/TimingGame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

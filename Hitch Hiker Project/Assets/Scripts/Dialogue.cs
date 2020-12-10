@@ -10,63 +10,32 @@ public class Dialogue : MonoBehaviour
     private int index;
     public float typingSpeed;
     bool isYes = false;
-    public bool canMove = false;
+    public bool ifDone;
    
-    
 
     public GameObject continueButton;
 
     void Start()
     {
-        isYes = false;
-        
+        ifDone = true;
+
         if (!PlayerPrefs.HasKey("isFirstTime"))
         {
             PlayerPrefs.SetString("isFirstTime", "yes");
-        }
-            
-        if(PlayerPrefs.GetString("isFirstTime") == "yes")
-        {
-            StartCoroutine(Type());
-            isYes = true;
+            NewText(new string[] { "test1", "test2" });
+            ifDone = false;
         }
 
-       
     }
-
-    private void Update()
-    {
-        if(textDisplay.text == sentences[index] && isYes)
-        {
-            continueButton.SetActive(true);
-        }
-
-        if (index == sentences.Length - 1)
-        {
-            PlayerPrefs.SetString("isFirstTime", "no");
-            //Debug.Log("wooohaohfoahohe");
-            //canMove = true;
-            
-        }
-
-        if(index < sentences.Length - 1 && PlayerPrefs.GetString("isFirstTime") == "yes")
-        {
-            canMove = false;
-        }
-        else
-        {
-            canMove = true;
-            Debug.Log(index);
-        }
-    }
-
-    IEnumerator Type()
+    
+    public IEnumerator Type()
     {
         foreach(char letter in sentences[index].ToCharArray())
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
+        continueButton.SetActive(true);
     }
 
     public void NextSentence()
@@ -75,6 +44,7 @@ public class Dialogue : MonoBehaviour
 
         if(index < sentences.Length - 1)
         {
+            ifDone = false;
             index++;
             textDisplay.text = "";
             StartCoroutine(Type());
@@ -85,7 +55,20 @@ public class Dialogue : MonoBehaviour
         {
             textDisplay.text = "";
             continueButton.SetActive(false);
+            ifDone = true;
         }
+    }
+
+    public void NewText(string[] newString)
+    {
+        continueButton.SetActive(true);
+        index = 0;
+        ifDone = false;
+        Debug.Log("should do text");
+        textDisplay.text = "";
+        sentences = newString;
+        //dialogueScript.Type();
+        StartCoroutine(Type());
     }
 
     

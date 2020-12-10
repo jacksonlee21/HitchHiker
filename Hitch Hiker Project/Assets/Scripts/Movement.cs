@@ -23,13 +23,13 @@ public class Movement : MonoBehaviour
         GameObject dialogueManager = GameObject.Find("dialogueManager");
         Dialogue dialogueScript = dialogueManager.GetComponent<Dialogue>();
 
-        if (Input.GetKey("a") && dialogueScript.canMove)
+        if (Input.GetKey("a") && dialogueScript.ifDone)
         {
             movedirection = -1f;
             walking = true;
             transform.localScale = new Vector3(-1, 1, 1);
         }
-        else if (Input.GetKey("d") && dialogueScript.canMove)
+        else if (Input.GetKey("d") && dialogueScript.ifDone)
         {
             movedirection = 1f;
             walking = true;
@@ -41,6 +41,11 @@ public class Movement : MonoBehaviour
             walking = false;
         }
         playerAnim.SetBool("In Motion", walking);
+
+        if (Input.GetKeyDown("t"))
+        {
+            dialogueScript.NewText(new string[] { "Wassup kiddo", "You are cool", "GO YOU!" } );
+        }
     }
 
     public void FixedUpdate()

@@ -144,7 +144,14 @@ public class NPCController : MonoBehaviour
     public void ShowText()
     {
         //Starts NPC Dialogue
-        npcDialogueObject.SetActive(true);
+        //npcDialogueObject.SetActive(true);
+        GameObject dialogueManager = GameObject.Find("dialogueManager");
+        Dialogue dialogueScript = dialogueManager.GetComponent<Dialogue>();
+
+
+        dialogueScript.sentences = new string[] { "Wassup kiddo","You are cool","GO YOU!" };
+        dialogueScript.Type();
+
     }
 }
 

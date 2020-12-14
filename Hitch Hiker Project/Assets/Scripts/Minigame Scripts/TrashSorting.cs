@@ -33,7 +33,6 @@ public class TrashSorting : MonoBehaviour
         if (Timer > 20)
         {
             PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
-            //PlayerPrefs.SetFloat("playersLastPosition", );
             PlayerPrefs.SetFloat("playerKarma", PlayerPrefs.GetFloat("playerKarma") + .25f);
             SceneManager.LoadScene("Town1");
         }

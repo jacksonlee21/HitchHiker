@@ -109,7 +109,31 @@ public class Dialogue : MonoBehaviour
 
     public void Yes()
     {
-        Debug.Log("yes yes yes");
+        if(yes.text == "put whatever your yes statement is here")
+        {
+            Debug.Log("yes (it matches your text)");
+            //run your function here
+        }
+        else
+        {
+            Debug.Log("you clicked yes");
+            NextSentence();
+            //if you dont put anything then it will just go on as normal and do nothing
+        }
+        
+        
+    }
+
+    public void No()
+    {
+        if(no.text == "put whatever your no statement is here")
+        {
+
+        }
+        else
+        {
+            NextSentence();
+        }
     }
     
     public void setFalse()

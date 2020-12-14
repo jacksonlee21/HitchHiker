@@ -3226,7 +3226,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 999362332}
-        m_MethodName: NextSentence
+        m_MethodName: No
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

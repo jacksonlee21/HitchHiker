@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/MiniGames/LockPick.unity
 =======
 - path: Assets/Scenes/Town1.unity
 >>>>>>> BetterDialogue
+=======
+- path: Assets/Scenes/Daynight cycle.unity
+>>>>>>> DNCV3
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":0.1043965220451355,"y":0.06383515149354935,"z":-0.14538724720478059},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":0.6988928914070129,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":11.536361694335938,"y":4.942490100860596,"z":-420.5463562011719},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":16.709091186523439,"orthographic":true}
 >>>>>>> BetterDialogue
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":550.8485107421875,"y":306.3407897949219,"z":-103.12617492675781},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":325.1671447753906,"orthographic":true}
+>>>>>>> DNCV3

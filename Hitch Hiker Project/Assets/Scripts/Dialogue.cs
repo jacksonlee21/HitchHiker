@@ -7,8 +7,8 @@ using TMPro;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
-    //public TextMeshPro yes;
-    //public TextMeshPro no;
+    public TextMeshProUGUI yes;
+    public TextMeshProUGUI no;
 
     public string[] sentences;
     private int index;
@@ -70,8 +70,8 @@ public class Dialogue : MonoBehaviour
 
     public void NewText(string[] newString, bool _yesOrNo, string[] choicesString)
     {
-        //yes.text = choicesString[1];
-        //no.text = choicesString[0];
+        yes.text = choicesString[1];
+        no.text = choicesString[0];
         yesOrNo = _yesOrNo;
         whichButtons();
         index = 0;

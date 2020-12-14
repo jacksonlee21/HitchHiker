@@ -45,34 +45,34 @@ public class Karma : MonoBehaviour
         //Good Karma
         if (PlayerPrefs.GetFloat("playerKarma") > 7.5f && PlayerPrefs.GetFloat("KarmaCheckpoint") != 3)
         {
-            dialogueScript.NewText(new string[] { "You are a good person" });
+            //dialogueScript.NewText(new string[] { "You are a good person" });
             PlayerPrefs.SetFloat("KarmaCheckpoint", 3);
         }
         if (PlayerPrefs.GetFloat("playerKarma") > 5 && PlayerPrefs.GetFloat("KarmaCheckpoint") != 2)
         {
-            dialogueScript.NewText(new string[] { "You feel good" });
+            //dialogueScript.NewText(new string[] { "You feel good" });
             PlayerPrefs.SetFloat("KarmaCheckpoint", 2);
         }
         if (PlayerPrefs.GetFloat("playerKarma") > 2.5f && PlayerPrefs.GetFloat("KarmaCheckpoint") != 1)
         {
-            dialogueScript.NewText(new string[] { "You feel a spring in your step" });
+            //dialogueScript.NewText(new string[] { "You feel a spring in your step" });
             PlayerPrefs.SetFloat("KarmaCheckpoint", 1);
         }
 
         //Bad Karma
         if (PlayerPrefs.GetFloat("playerKarma") < -2.5f && PlayerPrefs.GetFloat("KarmaCheckpoint") != -1f)
         {
-            dialogueScript.NewText(new string[] { "You feel the weight of your mistakes" });
+            //dialogueScript.NewText(new string[] { "You feel the weight of your mistakes" });
             PlayerPrefs.SetFloat("KarmaCheckpoint", -1f);
         }
         if (PlayerPrefs.GetFloat("playerKarma") < -5f && PlayerPrefs.GetFloat("KarmaCheckpoint") != -2f)
         {
-            dialogueScript.NewText(new string[] { "You feel like garbage" });
+            //dialogueScript.NewText(new string[] { "You feel like garbage" });
             PlayerPrefs.SetFloat("KarmaCheckpoint", -2f);
         }
         if (PlayerPrefs.GetFloat("playerKarma") < -7.5f && PlayerPrefs.GetFloat("KarmaCheckpoint") != -3f)
         {
-            dialogueScript.NewText(new string[] { "You are garbage" });
+            //dialogueScript.NewText(new string[] { "You are garbage" });
             PlayerPrefs.SetFloat("KarmaCheckpoint", -3f);
         }
     }

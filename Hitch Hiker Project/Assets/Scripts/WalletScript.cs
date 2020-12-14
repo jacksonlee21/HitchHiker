@@ -37,7 +37,7 @@ public class WalletScript : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Dialogue dialogueScript = dialogueSystem.GetComponent<Dialogue>();
-            dialogueScript.NewText(new string[] { "You find a wallet on the ground", "You can either keep the money or try to return it", "Do you want to keep the money?" });
+            //dialogueScript.NewText(new string[] { "You find a wallet on the ground", "You can either keep the money or try to return it", "Do you want to keep the money?" });
             FoundWallet = true;
             Debug.Log("Test");
         }

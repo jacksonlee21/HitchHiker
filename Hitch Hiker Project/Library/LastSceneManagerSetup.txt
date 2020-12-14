@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/MiniGames/LockPick.unity
+=======
+- path: Assets/Scenes/Town1.unity
+>>>>>>> BetterDialogue
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -21,10 +21,26 @@ public class EnterHouse : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             {
-                PlayerPrefs.SetFloat("playersLastPosition", transform.position.x);
-                arrowManager.CheckArrow(collision.gameObject);
-                SceneManager.LoadScene(houseName);
                 
+                GameObject dialogueManager = GameObject.Find("dialogueManager");
+                Dialogue dialogueScript = dialogueManager.GetComponent<Dialogue>();
+
+                dialogueScript.NewText(new string[] { "Want a Job?" }, true, new string[] { "No thanks", "I'd love one!" });
+
+
+                dialogueScript.Decision = "undecided";
+
+                if (dialogueScript.Decision == "yes")
+                {
+                    PlayerPrefs.SetFloat("playersLastPosition", transform.position.x);
+                    arrowManager.CheckArrow(collision.gameObject);
+                    SceneManager.LoadScene(houseName);
+                }
+                else if(dialogueScript.Decision == "no")
+                {
+                    dialogueScript.NewText(new string[] { "Fine, be ungrateful." }, false, new string[] {" ", " "});
+                }
+
             }
         }
     }

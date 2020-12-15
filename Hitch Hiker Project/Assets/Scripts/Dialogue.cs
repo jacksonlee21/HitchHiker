@@ -16,6 +16,7 @@ public class Dialogue : MonoBehaviour
     bool isYes = false;
     public bool ifDone;
     public bool yesOrNo;
+    public string Decision = "undecided";
    
 
     public GameObject continueButton;
@@ -70,9 +71,14 @@ public class Dialogue : MonoBehaviour
 
     public void NewText(string[] newString, bool _yesOrNo, string[] choicesString)
     {
-        yes.text = choicesString[1];
-        no.text = choicesString[0];
         yesOrNo = _yesOrNo;
+
+        if(_yesOrNo)
+        {
+            yes.text = choicesString[1];
+            no.text = choicesString[0];
+        }
+
         whichButtons();
         index = 0;
         ifDone = false;
@@ -109,31 +115,32 @@ public class Dialogue : MonoBehaviour
 
     public void Yes()
     {
-        if(yes.text == "put whatever your yes statement is here")
-        {
-            Debug.Log("yes (it matches your text)");
-            //run your function here
-        }
-        else
-        {
-            Debug.Log("you clicked yes");
-            NextSentence();
-            //if you dont put anything then it will just go on as normal and do nothing
-        }
-        
-        
+        //choseYes = true;
+        Decision = "yes";
+
+        GameObject Player = GameObject.Find("Main Character");
+        EnterHouse EnterHouseScript = Player.GetComponent<EnterHouse>();
+
+       // Invoke()
+
+        //NextSentence();
+       
     }
 
     public void No()
     {
-        if(no.text == "put whatever your no statement is here")
-        {
+        //choseYes = false;
+        Decision = "no";
+        NextSentence();
 
-        }
-        else
-        {
-            NextSentence();
-        }
+    }
+
+    public void Continue()
+    {
+        Decision = "undecided";
+        //choseYes = false;
+        NextSentence();
+
     }
     
     public void setFalse()
@@ -141,5 +148,6 @@ public class Dialogue : MonoBehaviour
         continueButton.SetActive(false);
         yesButton.SetActive(false);
         noButton.SetActive(false);
+        
     }
 }

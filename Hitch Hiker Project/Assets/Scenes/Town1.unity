@@ -299,7 +299,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 999362332}
-        m_MethodName: NextSentence
+        m_MethodName: Continue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2398,6 +2398,7 @@ MonoBehaviour:
   typingSpeed: 0.02
   ifDone: 0
   yesOrNo: 0
+  choseYes: 0
   continueButton: {fileID: 70729546}
   yesButton: {fileID: 215051559}
   noButton: {fileID: 1369946081}

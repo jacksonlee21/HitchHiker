@@ -24,7 +24,11 @@ MonoBehaviour:
   m_MinSize: {x: 678, y: 471}
   m_MaxSize: {x: 14000, y: 14021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 141
+=======
+  controlID: 140
+>>>>>>> KarmaSystem2
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +145,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 471}
   m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
+<<<<<<< HEAD
   controlID: 98
+=======
+  controlID: 96
+>>>>>>> KarmaSystem2
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +174,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 73
+=======
+  controlID: 71
+>>>>>>> KarmaSystem2
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -214,8 +226,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 770.4
     y: -1007
+=======
+    x: 0
+    y: 73
+>>>>>>> KarmaSystem2
     width: 378
     height: 552
   m_ViewDataDictionary: {fileID: 0}
@@ -224,7 +241,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 5efbffff763b0000
+=======
+      m_ExpandedIDs: 5cfbffff
+>>>>>>> KarmaSystem2
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -297,8 +318,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1149.4
     y: -1007
+=======
+    x: 379
+    y: 73
+>>>>>>> KarmaSystem2
     width: 1149
     height: 552
   m_ViewDataDictionary: {fileID: 0}
@@ -465,8 +491,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 770.4
     y: -434
+=======
+    x: 0
+    y: 646
+>>>>>>> KarmaSystem2
     width: 1529
     height: 353
   m_ViewDataDictionary: {fileID: 0}
@@ -483,19 +514,25 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Sprites
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Sprites
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Code\NewCodingCrew\HitchHiker\Hitch Hiker Project
+  m_LastProjectPath: C:\Users\Lee PC\OneDrive\Documents\Comp Sci 7-8\HitchHiker\Hitch
+    Hiker Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 543f0000
     m_LastClickedID: 16212
+=======
+    m_SelectedIDs: 5a3f0000
+    m_LastClickedID: 16218
+>>>>>>> KarmaSystem2
     m_ExpandedIDs: 000000003c3f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -549,9 +586,15 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
+=======
+    m_SelectedInstanceIDs: 76400000
+    m_LastClickedInstanceID: 16502
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> KarmaSystem2
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -653,8 +696,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 2300.4
     y: -1007
+=======
+    x: 1530
+    y: 73
+>>>>>>> KarmaSystem2
     width: 389
     height: 926
   m_ViewDataDictionary: {fileID: 0}
@@ -668,5 +716,9 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: -1
+=======
+  m_LastInspectedObjectInstanceID: 16502
+>>>>>>> KarmaSystem2
   m_LastVerticalScrollValue: 0

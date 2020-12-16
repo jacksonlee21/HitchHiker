@@ -8,6 +8,8 @@ public class EnterHouse : MonoBehaviour
     private bool atDoor;
     private string houseName;
     private ArrowManager arrowManager;
+    public bool enterHouse;
+    public Collider2D hitArrow;
 
     private void Start()
     {
@@ -21,12 +23,26 @@ public class EnterHouse : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W))
             {
-                PlayerPrefs.SetFloat("playersLastPosition", transform.position.x);
-                arrowManager.CheckArrow(collision.gameObject);
-                SceneManager.LoadScene(houseName);
+                enterHouse = true;
+                hitArrow = collision;
+
+                GameObject dialogueManager = GameObject.Find("dialogueManager");
+                Dialogue dialogueScript = dialogueManager.GetComponent<Dialogue>();
                 
+                dialogueScript.NewText(new string[] { "Want a Job?" }, true, new string[] { "No thanks", "I'd love one!" }, new string[] { "Fine, be ungrateful.", "" });
+
+
             }
         }
+    }
+
+    public void EnteringHouse()
+    {
+
+        PlayerPrefs.SetFloat("playersLastPosition", transform.position.x);
+        arrowManager.CheckArrow(hitArrow.gameObject);
+        SceneManager.LoadScene(houseName);
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

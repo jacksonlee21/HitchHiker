@@ -11,11 +11,13 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI no;
 
     public string[] sentences;
+    public string[] _answerString;
     private int index;
     public float typingSpeed;
     bool isYes = false;
     public bool ifDone;
     public bool yesOrNo;
+    public string Decision = "undecided";
    
 
     public GameObject continueButton;
@@ -29,7 +31,7 @@ public class Dialogue : MonoBehaviour
         if (!PlayerPrefs.HasKey("isFirstTime"))
         {
             PlayerPrefs.SetString("isFirstTime", "yes");
-            NewText(new string[] { "test1", "test2" }, false, new string[] { "No", "Yes" });
+            NewText(new string[] { "test1", "test2" }, false, new string[] { "No", "Yes" }, new string[] { "okay", "aight" });
             ifDone = false;
         }
 
@@ -68,17 +70,24 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    public void NewText(string[] newString, bool _yesOrNo, string[] choicesString)
+    public void NewText(string[] sentencesString, bool _yesOrNo, string[] choicesString, string[] answerString)
     {
-        yes.text = choicesString[1];
-        no.text = choicesString[0];
         yesOrNo = _yesOrNo;
+
+        if(_yesOrNo)
+        {
+            yes.text = choicesString[1];
+            no.text = choicesString[0];
+            _answerString = answerString;
+        }
+
         whichButtons();
         index = 0;
         ifDone = false;
         //Debug.Log("should do text");
         textDisplay.text = "";
-        sentences = newString;
+        sentences = sentencesString;
+        
         StartCoroutine(Type());
     }
 
@@ -109,13 +118,38 @@ public class Dialogue : MonoBehaviour
 
     public void Yes()
     {
-        Debug.Log("yes yes yes");
+        GameObject Player = GameObject.Find("Main Character");
+        EnterHouse EnterHouseScript = Player.GetComponent<EnterHouse>();
+
+        if (EnterHouseScript.enterHouse)
+        {
+            EnterHouseScript.EnteringHouse();
+        }
+
+         sentences = new string[0];
+
+         NewText(new string[] { _answerString[1] }, false, new string[] { " " }, new string[] { " " });
+      
     }
-    
+
+    public void No()
+    {
+        sentences = new string[0];
+        NewText(new string[] { _answerString[0] }, false, new string[] { " " }, new string[] { " " });
+
+    }
+
+    public void Continue()
+    {
+        NextSentence();
+
+    }
+
     public void setFalse()
     {
         continueButton.SetActive(false);
         yesButton.SetActive(false);
         noButton.SetActive(false);
+        
     }
 }

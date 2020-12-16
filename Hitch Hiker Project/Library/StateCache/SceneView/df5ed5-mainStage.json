@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-0.043405935168266299,"y":2.58603572845459,"z":-167.5046844482422},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":17.12987518310547,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":0.7942934632301331,"y":-0.38330286741256716,"z":-1.77734375},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":9.458292961120606,"orthographic":true}
 >>>>>>> KarmaSystem2
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-20.818912506103517,"y":-0.8304205536842346,"z":-0.7764875888824463},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":6.242319583892822,"orthographic":true}
+>>>>>>> DNCV4

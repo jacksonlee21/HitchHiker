@@ -9,17 +9,15 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textDisplay;
     public TextMeshProUGUI yes;
     public TextMeshProUGUI no;
+    public TextMeshProUGUI continueText;
 
     public string[] sentences;
     public string[] _answerString;
-    private int index;
+    private int index = 0;
     public float typingSpeed;
-    bool isYes = false;
     public bool ifDone;
     public bool yesOrNo;
-    public string Decision = "undecided";
    
-
     public GameObject continueButton;
     public GameObject yesButton;
     public GameObject noButton;
@@ -27,73 +25,45 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         ifDone = true;
-
-        if (!PlayerPrefs.HasKey("isFirstTime"))
-        {
-            PlayerPrefs.SetString("isFirstTime", "yes");
-            NewText(new string[] { "test1", "test2" }, false, new string[] { "No", "Yes" }, new string[] { "okay", "aight" });
-            ifDone = false;
-        }
-
     }
-    
-    public IEnumerator Type()
+
+    public void Continue()
+    {
+        NextSentence();
+    }
+
+    public void NextSentence()
     {
         setFalse();
+        textDisplay.text = "";
+
+        if (index <sentences.Length)
+        {
+            ifDone = false;
+            StartCoroutine(Type());
+            whichButtons();
+            index++;
+        }
+        else
+        {
+            ifDone = true;
+        }
+    }
+
+    public IEnumerator Type()
+    {
 
         foreach(char letter in sentences[index].ToCharArray())
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
-        whichButtons();
-    }
-
-    public void NextSentence()
-    {
-        setFalse();
-
-        if (index < sentences.Length - 1)
-        {
-            ifDone = false;
-            index++;
-            textDisplay.text = "";
-            StartCoroutine(Type());
-            
-            Debug.Log(index);
-        }
-        else
-        {
-            textDisplay.text = "";
-            setFalse();
-            ifDone = true;
-        }
-    }
-
-    public void NewText(string[] sentencesString, bool _yesOrNo, string[] choicesString, string[] answerString)
-    {
-        yesOrNo = _yesOrNo;
-
-        if(_yesOrNo)
-        {
-            yes.text = choicesString[1];
-            no.text = choicesString[0];
-            _answerString = answerString;
-        }
-
-        whichButtons();
-        index = 0;
-        ifDone = false;
-        //Debug.Log("should do text");
-        textDisplay.text = "";
-        sentences = sentencesString;
         
-        StartCoroutine(Type());
     }
 
     public void whichButtons()
     {
-        if(sentences.Length - index > 1)
+        if (sentences.Length - index > 1)
         {
             continueButton.SetActive(true);
             yesButton.SetActive(false);
@@ -101,7 +71,7 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            if(yesOrNo)
+            if (yesOrNo)
             {
                 yesButton.SetActive(true);
                 noButton.SetActive(true);
@@ -115,6 +85,25 @@ public class Dialogue : MonoBehaviour
             }
         }
     }
+
+    public void NewText(string[] sentencesString, bool _yesOrNo, string[] choicesString, string[] answerString)
+    {
+        yesOrNo = _yesOrNo;
+
+        if(_yesOrNo)
+        {
+            yes.text = choicesString[1];
+            no.text = choicesString[0];
+            _answerString = answerString;
+        }
+        
+        index = 0;
+        ifDone = false;
+        sentences = sentencesString;
+        NextSentence();
+    }
+
+    
 
     public void Yes()
     {
@@ -136,12 +125,6 @@ public class Dialogue : MonoBehaviour
     {
         sentences = new string[0];
         NewText(new string[] { _answerString[0] }, false, new string[] { " " }, new string[] { " " });
-
-    }
-
-    public void Continue()
-    {
-        NextSentence();
 
     }
 

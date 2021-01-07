@@ -44,8 +44,9 @@ public class Movement : MonoBehaviour
 
         if (Input.GetKeyDown("t"))
         {
-            dialogueScript.NewText(new string[] { "Wassup kiddo", "You are cool", "Do you want to steal my wallet?" }, true, new string[] { "No way bruh.", "Yes Please." }, new string[] { "You're nice.", "Jail Jail Jail!" });
-        }
+            //dialogueScript.NewText(new string[] { "Wassup kiddo", "You are cool", "Do you want to steal my wallet?" }, true, new string[] { "No way bruh.", "Yes Please." }, new string[] { "You're nice.", "Jail Jail Jail!" });
+            dialogueScript.NewText(new string[] { "Street Guy: Hey you're up!", "You: Where am I?", "Street Guy: idk lol, goodbye", "You: okay bye guy" }, false, null, null)
+;        }
     }
 
     public void FixedUpdate()

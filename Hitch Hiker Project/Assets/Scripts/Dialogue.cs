@@ -7,6 +7,7 @@ using TMPro;
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textDisplay;
+    public TextMeshProUGUI speakerName;
     public TextMeshProUGUI yes;
     public TextMeshProUGUI no;
     public TextMeshProUGUI continueText;
@@ -36,6 +37,7 @@ public class Dialogue : MonoBehaviour
     {
         setFalse();
         textDisplay.text = "";
+        speakerName.text = "";
 
         if (index <sentences.Length)
         {
@@ -52,13 +54,27 @@ public class Dialogue : MonoBehaviour
 
     public IEnumerator Type()
     {
+        string speaker, sentence;
+        if (sentences[index].Contains(":"))
+        {
+            string[] sentenceAndName = SplitString(sentences[index]);
 
-        foreach(char letter in sentences[index].ToCharArray())
+            speaker = sentenceAndName[0];
+            sentence = sentenceAndName[1];
+        }
+        else
+        {
+            speaker = "No Name";
+            sentence = sentences[index];
+        }
+
+        speakerName.text = speaker + ":";
+
+        foreach (char letter in sentence.ToCharArray())
         {
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
-        
     }
 
     public void whichButtons()
@@ -103,7 +119,12 @@ public class Dialogue : MonoBehaviour
         NextSentence();
     }
 
-    
+    private string[] SplitString(string fullSentence)
+    {
+        string[] sentenceAndName = fullSentence.Split(':');
+
+        return sentenceAndName;
+    }
 
     public void Yes()
     {

@@ -5,7 +5,7 @@ using UnityEngine;
 public class BasketballGame : MonoBehaviour
 {
     public GameObject Basketball;
-    public GameObject[] Pump = new GameObject[14];
+    public GameObject[] Pump = new GameObject[2];
     private int clickCounter = 0;
     int clickNumber = 0;
     public int clicksToWin = 50;
@@ -18,10 +18,11 @@ public class BasketballGame : MonoBehaviour
             
             Debug.Log(clickCounter);
             clickNumber++;
-            Basketball.transform.localScale += new Vector3(.05f, .05f, 0f);
+            //Basketball.transform.localScale += new Vector3(.05f, .05f, 0f);
             if(goingDown && clickCounter < Pump.Length -1)
             {
                 clickCounter++;
+                Basketball.transform.localScale += new Vector3(.05f, .05f, 0f);
             }
             if(!goingDown && clickCounter > 0)
             {

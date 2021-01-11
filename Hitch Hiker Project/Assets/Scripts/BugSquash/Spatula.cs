@@ -5,42 +5,40 @@ using UnityEngine;
 public class Spatula : MonoBehaviour
 {
     public Sprite[] spatulaSprites;
+    public Transform colliderBox;
+    public LayerMask layerMask;
     private SpriteRenderer sr;
-    [HideInInspector]
-    public bool down;
 
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        down = false;
     }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            SpriteChange();
-        }
-        if (Input.GetMouseButtonUp(0))
-        {
-            SpriteChange();
-        }
+        SpriteChange(Input.GetMouseButton(0));
+
+        SquashBug(Input.GetMouseButtonDown(0));
         transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition) + new Vector3(0, 0, 10);
     }
 
-    private void SpriteChange()
+    private void SquashBug(bool down)
     {
-        down = !down;
-        sr.sprite = spatulaSprites[down ? 1 : 0];
+        if(down)
+            if(Physics2D.OverlapBox(colliderBox.position, new Vector2(1.47f, 1.68f), 0, layerMask))
+            {
+                Collider2D col = Physics2D.OverlapBox(colliderBox.position, new Vector2(1.47f, 1.68f), 0, layerMask);
+                if (col.CompareTag("Bug"))
+                {
+                    BugMovement bug = col.GetComponent<BugMovement>();
+                    bug.GetComponent<Collider2D>().enabled = false;
+                    bug.Squashed();
+                }
+            }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void SpriteChange(bool isDown)
     {
-        if (collision.CompareTag("Bug") && Input.GetMouseButtonDown(0))
-        {
-            BugMovement bug = collision.GetComponent<BugMovement>();
-            bug.GetComponent<Collider2D>().enabled = false;
-            bug.Squashed();
-        }
+        sr.sprite = spatulaSprites[isDown ? 1 : 0];
     }
 }

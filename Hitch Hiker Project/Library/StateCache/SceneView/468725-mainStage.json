@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":2.127903461456299,"y":-0.27064189314842226,"z":-4.919921875},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":6.596818447113037,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-0.2993703782558441,"y":9.675394058227539,"z":-3.76171875},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":18.72337532043457,"orthographic":true}
+>>>>>>> CameraZoom

@@ -49,6 +49,7 @@ public class Dialogue : MonoBehaviour
         else
         {
             ifDone = true;
+            CameraZoom.ZoomOut();
         }
     }
 
@@ -116,6 +117,7 @@ public class Dialogue : MonoBehaviour
         index = 0;
         ifDone = false;
         sentences = sentencesString;
+        CameraZoom.ZoomIn();
         NextSentence();
     }
 

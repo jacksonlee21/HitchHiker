@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/MiniGames/WoodChopper.unity
-=======
-- path: Assets/Scenes/Basketball Game.unity
->>>>>>> BasketballGamePhase2
+- path: Assets/Scenes/MiniGames/Basketball Game.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

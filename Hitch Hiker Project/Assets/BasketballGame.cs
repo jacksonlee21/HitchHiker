@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Animations;
+
 
 public class BasketballGame : MonoBehaviour
 {
@@ -11,17 +11,6 @@ public class BasketballGame : MonoBehaviour
     private int clickCounter = 0;
     private int clicksPerChange = 0;
     public int howManyToChange = 5;
-   // static Animator animator;
-    bool goingDown = true;
-    
-    
-
-    void Start()
-    {
-       // animator = GetComponent<Animator>();
-        //animator.SetBool("BasketballPop", false);
-       // basketballAnim.SetActive(false);
-    }
 
     private void Update()
     {
@@ -55,12 +44,6 @@ public class BasketballGame : MonoBehaviour
             {
                 Debug.Log("YOU WIN");
             }
-
-           /* if (clickCounter / howManyToChange == Basketballs.Length + 1)
-            {   basketballAnim.SetActive(true);
-                animator.SetBool("BasketballPop", true);
-                
-            }*/
 
                 clickCounter++;
 

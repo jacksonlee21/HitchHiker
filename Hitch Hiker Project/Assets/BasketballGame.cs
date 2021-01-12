@@ -1,58 +1,71 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class BasketballGame : MonoBehaviour
 {
-    public GameObject Basketball;
+
     public GameObject[] Pump = new GameObject[2];
+    public GameObject[] Basketballs = new GameObject[7];
     private int clickCounter = 0;
-    int clickNumber = 0;
-    public int clicksToWin = 50;
+    private int clicksPerChange = 0;
+    public int howManyToChange = 5;
+   // static Animator animator;
     bool goingDown = true;
+    
+    
+
+    void Start()
+    {
+       // animator = GetComponent<Animator>();
+        //animator.SetBool("BasketballPop", false);
+       // basketballAnim.SetActive(false);
+    }
 
     private void Update()
     {
         if(Input.GetMouseButtonDown(0))
         {
-            
-            Debug.Log(clickCounter);
-            clickNumber++;
-            //Basketball.transform.localScale += new Vector3(.05f, .05f, 0f);
-            if(goingDown && clickCounter < Pump.Length -1)
+
+            if(clickCounter % 2 != 0)
             {
+                Pump[0].SetActive(true);
+                Pump[1].SetActive(false);
+            }
+            else
+            {
+                Pump[0].SetActive(false);
+                Pump[1].SetActive(true);
+
+                clicksPerChange++;
+            }
+
+            if(clicksPerChange % howManyToChange == 0)
+            {
+                foreach(GameObject b in Basketballs)
+                {
+                    b.SetActive(false);
+                }
+
+                Basketballs[clicksPerChange/howManyToChange].SetActive(true);
+            }
+
+            if(clickCounter/howManyToChange == Basketballs.Length)
+            {
+                Debug.Log("YOU WIN");
+            }
+
+           /* if (clickCounter / howManyToChange == Basketballs.Length + 1)
+            {   basketballAnim.SetActive(true);
+                animator.SetBool("BasketballPop", true);
+                
+            }*/
+
                 clickCounter++;
-                Basketball.transform.localScale += new Vector3(.05f, .05f, 0f);
-            }
-            if(!goingDown && clickCounter > 0)
-            {
-                clickCounter--;
-            }
-            if(clickCounter == Pump.Length -1)
-            {
-                goingDown = false;
-            }
-           
-            if(clickCounter == 0)
-            {
-                goingDown = true;
-            }
-
-
-            for(int i = 0; i < Pump.Length; i++)
-            {
-                Pump[i].SetActive(false);
-            }
-
-            Pump[clickCounter].SetActive(true);
 
         }
-
-        if(clickNumber == clicksToWin)
-        {
-            Debug.Log("YAYYYYYYYYYYYYY");
-        }
-
+        
     }
 
 }

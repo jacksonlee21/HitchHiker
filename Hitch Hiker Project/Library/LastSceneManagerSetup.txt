@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/Scenes/Basketball Game.unity
-=======
-- path: Assets/Scenes/CameraZoom.unity
->>>>>>> CameraZoom
   isLoaded: 1
   isActive: 1
   isSubScene: 0

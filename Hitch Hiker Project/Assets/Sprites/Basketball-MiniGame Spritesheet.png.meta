@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 547ef34a85d918f4eb1062613671ea30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8708493122144652874
+    second: Basketball-MiniGame Spritesheet_0
+  - first:
+      213: -984700199654614248
+    second: Basketball-MiniGame Spritesheet_1
+  - first:
+      213: 9208199367689183888
+    second: Basketball-MiniGame Spritesheet_2
+  - first:
+      213: 3835080325026289929
+    second: Basketball-MiniGame Spritesheet_3
+  - first:
+      213: -5143905859640805664
+    second: Basketball-MiniGame Spritesheet_4
+  - first:
+      213: -2732110134732057668
+    second: Basketball-MiniGame Spritesheet_5
+  - first:
+      213: 6580255606553213677
+    second: Basketball-MiniGame Spritesheet_6
+  - first:
+      213: -8669391145180951376
+    second: Basketball-MiniGame Spritesheet_7
+  - first:
+      213: -5383086509617933069
+    second: Basketball-MiniGame Spritesheet_8
+  - first:
+      213: 5931628488722143584
+    second: Basketball-MiniGame Spritesheet_9
+  - first:
+      213: 3887255358763883757
+    second: Basketball-MiniGame Spritesheet_10
+  - first:
+      213: -8158559760220013831
+    second: Basketball-MiniGame Spritesheet_11
+  - first:
+      213: -1944141119411273424
+    second: Basketball-MiniGame Spritesheet_12
+  - first:
+      213: 2712407463737420749
+    second: Basketball-MiniGame Spritesheet_13
+  - first:
+      213: -7764488762902006264
+    second: Basketball-MiniGame Spritesheet_14
+  - first:
+      213: -2311733008900904096
+    second: Basketball-MiniGame Spritesheet_15
+  - first:
+      213: -9109558646126362597
+    second: Basketball-MiniGame Spritesheet_16
+  - first:
+      213: -3549893432506238279
+    second: Basketball-MiniGame Spritesheet_17
+  - first:
+      213: -5760786436807086869
+    second: Basketball-MiniGame Spritesheet_18
+  - first:
+      213: -1559008068961223149
+    second: Basketball-MiniGame Spritesheet_19
+  - first:
+      213: -6280064499223265433
+    second: Basketball-MiniGame Spritesheet_20
+  - first:
+      213: -696703866092370432
+    second: Basketball-MiniGame Spritesheet_21
+  - first:
+      213: -2120623071532993369
+    second: Basketball-MiniGame Spritesheet_22
+  - first:
+      213: -8151196492828406420
+    second: Basketball-MiniGame Spritesheet_23
+  - first:
+      213: -4450551049517161304
+    second: Basketball-MiniGame Spritesheet_24
+  - first:
+      213: -5700331205505118435
+    second: Basketball-MiniGame Spritesheet_25
+  - first:
+      213: 655163657648584882
+    second: Basketball-MiniGame Spritesheet_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1b2ad15a7352780800000000000000
+      internalID: -8708493122144652874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 192
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b9455b264a552f0800000000000000
+      internalID: -984700199654614248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 192
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092271ca9881acf70800000000000000
+      internalID: 9208199367689183888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 192
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909184a8c31f83530800000000000000
+      internalID: 3835080325026289929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 192
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e63f0ecfdc2d98b0800000000000000
+      internalID: -5143905859640805664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 192
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb31d0cce48951ad0800000000000000
+      internalID: -2732110134732057668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 192
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea70e74c93c15b50800000000000000
+      internalID: 6580255606553213677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc82949fa220b780800000000000000
+      internalID: -8669391145180951376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4960f175f6b45b0800000000000000
+      internalID: -5383086509617933069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069ded1fea0615250800000000000000
+      internalID: 5931628488722143584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decda5a372e42f530800000000000000
+      internalID: 3887255358763883757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa3a4dbf19f6ce80800000000000000
+      internalID: -8158559760220013831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031c240d3f50505e0800000000000000
+      internalID: -1944141119411273424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 128
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbef22a73864a520800000000000000
+      internalID: 2712407463737420749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806b6b0bb9efe3490800000000000000
+      internalID: -7764488762902006264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06baae493131befd0800000000000000
+      internalID: -2311733008900904096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10cc050da8549180800000000000000
+      internalID: -9109558646126362597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba39f43bbe3cbec0800000000000000
+      internalID: -3549893432506238279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beca937f1439d00b0800000000000000
+      internalID: -5760786436807086869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e3997db6a4d5ae0800000000000000
+      internalID: -1559008068961223149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 64
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f71457c9ab8d8a0800000000000000
+      internalID: -6280064499223265433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0064ceb668fc456f0800000000000000
+      internalID: -696703866092370432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a437ce4d880292e0800000000000000
+      internalID: -2120623071532993369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6d8d860af121ee80800000000000000
+      internalID: -8151196492828406420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4a9c686677c32c0800000000000000
+      internalID: -4450551049517161304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f0bc168fa54e0b0800000000000000
+      internalID: -5700331205505118435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basketball-MiniGame Spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 35
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8b3eb10eb971900800000000000000
+      internalID: 655163657648584882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

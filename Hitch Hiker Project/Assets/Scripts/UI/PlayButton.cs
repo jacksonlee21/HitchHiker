@@ -8,12 +8,12 @@ public class PlayButton : MonoBehaviour
     public void GotoMainScene()
     {
         PlayerPrefs.DeleteAll();
-        SceneManager.LoadScene("Town1");
+        SceneManager.LoadScene("TownLayout");
         
     }
 
     public void GotoMenuScene()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("NewMenu");
     }
 }

@@ -27,8 +27,6 @@ public class DishManager : MonoBehaviour
     public AudioSource Loser;
     public AudioSource DishDing;
 
-    public NPCDialogue dialogue;
-
     public DishManager(float timeToClean)
     {
         TimeToClean = timeToClean;
@@ -38,7 +36,7 @@ public class DishManager : MonoBehaviour
 
     private void Start()
     {
-        dialogue = GameObject.Find("TutTextManager").GetComponent<NPCDialogue>();
+
 
         TimerSlider.maxValue = TimeToClean;
         TimerSlider.minValue = 0;
@@ -53,8 +51,8 @@ public class DishManager : MonoBehaviour
 
     private void Update()
     {
-        if(dialogue.doneWithDialogue == true)
-        {
+
+
             if (!GameOver)
             {
                 CheckDish();
@@ -87,7 +85,7 @@ public class DishManager : MonoBehaviour
                     SceneManager.LoadScene("Town1");
                 }
             }
-        }
+
     }
 
     private void CheckDish()

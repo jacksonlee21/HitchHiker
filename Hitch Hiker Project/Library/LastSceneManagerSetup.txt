@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/NewMenu.unity
-=======
-- path: Assets/Scenes/NPCTown.unity
->>>>>>> CharacterTalking
+- path: Assets/Scenes/Town1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -17,12 +17,13 @@ public class Movement : MonoBehaviour
 
         if(!PlayerPrefs.HasKey("playersLastPosition"))
         {
-            PlayerPrefs.SetFloat("playersLastPosition", -10f);
+            PlayerPrefs.SetFloat("playersLastPosition", -20f);
         }
-        else{
+        else
+        {
             npcManager.StartPostConversation();
         }
-        transform.position = new Vector3(PlayerPrefs.GetFloat("playersLastPosition"), 0, 0);
+        transform.position = new Vector3(PlayerPrefs.GetFloat("playersLastPosition"), 0f, 0f);
     }
 
     void Update()

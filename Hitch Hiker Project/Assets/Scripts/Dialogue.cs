@@ -39,11 +39,11 @@ public class Dialogue : MonoBehaviour
         textDisplay.text = "";
         speakerName.text = "";
 
-        if (index <sentences.Length)
+        if (index < sentences.Length)
         {
             ifDone = false;
             StartCoroutine(Type());
-            whichButtons();
+
             index++;
         }
         else
@@ -76,6 +76,8 @@ public class Dialogue : MonoBehaviour
             textDisplay.text += letter;
             yield return new WaitForSeconds(typingSpeed);
         }
+
+        whichButtons();
     }
 
     public void whichButtons()

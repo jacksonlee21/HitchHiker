@@ -8,7 +8,7 @@ public class PlayButton : MonoBehaviour
     public void GotoMainScene()
     {
         PlayerPrefs.DeleteAll();
-        SceneManager.LoadScene("TownLayout");
+        SceneManager.LoadScene("Town1");
         
     }
 

@@ -26,6 +26,21 @@ public class NPCManager : MonoBehaviour
     public static NPCManager instance;
     void Awake()
     {
+        Debug.Log("AWAKE");
+        //if (spaceToTalkObject != null)
+            //spaceToTalkObject.SetActive(false);
+        if (GameObject.Find("dialogueManager") != null)
+        {
+            Debug.Log("dialogue");
+            dialogueManager = GameObject.Find("dialogueManager").GetComponent<Dialogue>();
+        }
+            
+        if (GameObject.FindGameObjectWithTag("Player") != null)
+        {
+            Debug.Log("playEr");
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        }
+
         if (instance == null)
         {
             instance = this;
@@ -36,15 +51,7 @@ public class NPCManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void Start()
-    {
-        if(spaceToTalkObject != null)
-            spaceToTalkObject.SetActive(false);
-        if(GameObject.Find("dialogueManager") != null)
-            dialogueManager = GameObject.Find("dialogueManager").GetComponent<Dialogue>();
-        if(GameObject.FindGameObjectWithTag("Player") != null)
-            player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-    }
+
 
     private void CheckWhichNPC(string name)
     {
@@ -68,6 +75,7 @@ public class NPCManager : MonoBehaviour
             if(dialogueManager.ifDone)
             {
                 preTalking = false;
+                PlayerPrefs.SetFloat("playersLastPosition", player.transform.position.x);
                 SceneManager.LoadScene(currentNPC.minigameScene);
             }
         }
@@ -83,7 +91,7 @@ public class NPCManager : MonoBehaviour
     {
         if(currentNPC.postTaskDialogue != null)
         {
-            player.position = new Vector2(npcXpos - 1.5f, player.position.y);
+            //player.position = new Vector2(npcXpos - 1.5f, player.position.y);
             dialogueManager.NewText(currentNPC.preTaskDialogue, false, null, null);
             currentNPC = null;
             currentNPCobject = null;

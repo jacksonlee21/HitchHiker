@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":387.7858581542969,"y":256.35906982421877,"z":-1118.939208984375},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":381.1433410644531,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-8.050521850585938,"y":1.2081083059310914,"z":-65.37721252441406},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":4.650115966796875,"orthographic":true}
+>>>>>>> CharacterTalking

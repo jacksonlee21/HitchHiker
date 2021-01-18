@@ -9,11 +9,18 @@ public class Movement : MonoBehaviour
     public bool walking;
     public Animator playerAnim;
 
+    public NPCManager npcManager;
+
     public void Awake()
     {
+        npcManager = GameObject.FindGameObjectWithTag("NPCController").GetComponent<NPCManager>();
+
         if(!PlayerPrefs.HasKey("playersLastPosition"))
         {
             PlayerPrefs.SetFloat("playersLastPosition", -10f);
+        }
+        else{
+            npcManager.StartPostConversation();
         }
         transform.position = new Vector3(PlayerPrefs.GetFloat("playersLastPosition"), 0, 0);
     }
@@ -58,6 +65,21 @@ public class Movement : MonoBehaviour
         if (movedirection == 1)
         {
             transform.position += new Vector3(1 * Time.deltaTime, 0, 0);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if(other.CompareTag("NPC"))
+        {
+            npcManager.NextToNPC(other);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.CompareTag("NPC"))
+        {
+            npcManager.LeftNPC();
         }
     }
 }

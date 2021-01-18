@@ -647,7 +647,6 @@ GameObject:
   - component: {fileID: 151921505}
   - component: {fileID: 151921508}
   - component: {fileID: 151921507}
-  - component: {fileID: 151921506}
   m_Layer: 5
   m_Name: speakerNameText
   m_TagString: Untagged
@@ -674,60 +673,6 @@ RectTransform:
   m_AnchoredPosition: {x: 29.800049, y: 120}
   m_SizeDelta: {x: 570, y: 50}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &151921506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151921504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9811321, g: 0.7473265, b: 0.18974723, a: 1}
-    m_PressedColor: {r: 0.8584906, g: 0.5585982, b: 0.10123708, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 151921507}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 999362332}
-        m_MethodName: Continue
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &151921507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2383,7 +2328,6 @@ GameObject:
   - component: {fileID: 676078070}
   - component: {fileID: 676078064}
   - component: {fileID: 676078069}
-  - component: {fileID: 676078071}
   m_Layer: 0
   m_Name: Main Character
   m_TagString: Player
@@ -2406,6 +2350,7 @@ MonoBehaviour:
   movedirection: 0
   walking: 0
   playerAnim: {fileID: 676078060}
+  npcManager: {fileID: 0}
 --- !u!95 &676078060
 Animator:
   serializedVersion: 3
@@ -2497,7 +2442,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 676078058}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34f3934f7291b43aa932dc90ab6904ff, type: 3}
   m_Name: 
@@ -2604,7 +2549,7 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!114 &676078070
@@ -2622,19 +2567,6 @@ MonoBehaviour:
   Karmalevel: 0
   tips: 0
   dailyLuck: 0
---- !u!114 &676078071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 676078058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b396737766f7bf4a8c1be1738e760c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spaceToTalkObject: {fileID: 539378974}
 --- !u!1 &680709703
 GameObject:
   m_ObjectHideFlags: 0
@@ -2854,7 +2786,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 724533812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.57, y: 1.07, z: -5}
+  m_LocalPosition: {x: 0, y: 1.07, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 676078062}
@@ -3352,7 +3284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &792736280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3573,8 +3505,8 @@ Transform:
   m_LocalPosition: {x: 0.3997345, y: -0.5570482, z: 1.3939303}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
-  - {fileID: 1318437154}
   - {fileID: 2034642300}
+  - {fileID: 1318437154}
   m_Father: {fileID: 877870566}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3834,6 +3766,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936934244}
   m_CullTransparentMesh: 0
+--- !u!1 &960394695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 960394697}
+  - component: {fileID: 960394696}
+  m_Layer: 0
+  m_Name: NPC Manager
+  m_TagString: NPCController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &960394696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960394695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27091ff5d43998843bb6668b11e66175, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spaceToTalkObject: {fileID: 539378974}
+--- !u!4 &960394697
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960394695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &989826219
 GameObject:
   m_ObjectHideFlags: 0
@@ -4656,7 +4632,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 877256384}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1318437155
 SpriteRenderer:
@@ -8211,7 +8187,7 @@ PrefabInstance:
     - target: {fileID: 5562957782774063825, guid: 581d569bccbd6f14cbadaadbd61ace90,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5562957782774063825, guid: 581d569bccbd6f14cbadaadbd61ace90,
         type: 3}

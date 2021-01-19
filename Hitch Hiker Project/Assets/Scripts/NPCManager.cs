@@ -6,13 +6,13 @@ using UnityEngine.SceneManagement;
 public class NPCManager : MonoBehaviour
 {
     public npc[] townNPC = new npc[] {
-        new npc("Little Boy", ""),
+        new npc("Little Boy", "",Storys.getBikePumpDialogue,Storys.afterBikePumpDialogue),
         new npc("Little Girl", ""),
-        new npc("Tough Guy", "", new string[] { "Street Guy: Hey you're up!", "You: Where am I?", "Street Guy: idk lol, goodbye", "You: okay bye guy" }),
-        new npc("Angry Chef", ""),
-        new npc("Middle Aged Girl", ""),
-        new npc("Old Lady", ""),
-        new npc("Bug Man", "SquashBugs", new string[] { "Bug Guy: Hey can you squash me bugs kind sir", "You: Where am I?", "Bug Guy: idk just please squash", "You: okay" }, new string[] { "Bug Guy: you did great! mwahh", "You: it was easy", "Bug Guy: thank you bro", "You: np :)" })
+        new npc("Tough Guy", "",Storys.wakeUpDialogue),
+        new npc("Angry Chef", "",Storys.preChefDialogue,Storys.postChefDialogue),
+        new npc("Middle Aged Girl", "", Storys.preNinaDialogue,Storys.postNinaDialogue),
+        new npc("Old Lady", "",Storys.preEdnaDialogue,Storys.postEdnaDialogue),
+        new npc("Bug Man", "SquashBugs")
     };
 
     private npc currentNPC;

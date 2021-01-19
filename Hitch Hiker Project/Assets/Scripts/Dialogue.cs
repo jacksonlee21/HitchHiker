@@ -50,6 +50,7 @@ public class Dialogue : MonoBehaviour
         {
             ifDone = true;
             CameraZoom.ZoomOut();
+            CameraZoom.ResetCamera();
         }
     }
 

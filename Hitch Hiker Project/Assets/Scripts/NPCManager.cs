@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class NPCManager : MonoBehaviour
 {
-    public GameObject spaceToTalkObject;
-    private Dialogue dialogueManager;
-    private Transform player;
     public npc[] townNPC = new npc[] {
         new npc("Little Boy", ""),
         new npc("Little Girl", ""),
@@ -24,23 +21,9 @@ public class NPCManager : MonoBehaviour
     private bool preTalking;
     private float npcXpos;
     public static NPCManager instance;
+    public GameObject npcParent;
     void Awake()
     {
-        Debug.Log("AWAKE");
-        //if (spaceToTalkObject != null)
-            //spaceToTalkObject.SetActive(false);
-        if (GameObject.Find("dialogueManager") != null)
-        {
-            Debug.Log("dialogue");
-            dialogueManager = GameObject.Find("dialogueManager").GetComponent<Dialogue>();
-        }
-            
-        if (GameObject.FindGameObjectWithTag("Player") != null)
-        {
-            Debug.Log("playEr");
-            player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-        }
-
         if (instance == null)
         {
             instance = this;
@@ -51,7 +34,6 @@ public class NPCManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
 
     private void CheckWhichNPC(string name)
     {
@@ -72,10 +54,11 @@ public class NPCManager : MonoBehaviour
     {
         if(preTalking)
         {
-            if(dialogueManager.ifDone)
+            if(GameObject.Find("dialogueManager").GetComponent<Dialogue>().ifDone)
             {
                 preTalking = false;
-                PlayerPrefs.SetFloat("playersLastPosition", player.transform.position.x);
+                PlayerPrefs.SetFloat("playersLastPosition", GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.x);
+                npcParent.SetActive(false);
                 SceneManager.LoadScene(currentNPC.minigameScene);
             }
         }
@@ -83,24 +66,33 @@ public class NPCManager : MonoBehaviour
 
     private void StartConversation()
     {
-        player.position = new Vector2(npcXpos - 1.5f, player.position.y);
+        CameraZoom.Center(GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>(), npcXpos);
+        PositionPlayer(GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>());
+        
         preTalking = true;
-        dialogueManager.NewText(currentNPC.preTaskDialogue, false, null, null);
+        GameObject.Find("dialogueManager").GetComponent<Dialogue>().NewText(currentNPC.preTaskDialogue, false, null, null);
     }
     public void StartPostConversation()
     {
+        npcParent.SetActive(true);
         if(currentNPC.postTaskDialogue != null)
         {
-            //player.position = new Vector2(npcXpos - 1.5f, player.position.y);
-            dialogueManager.NewText(currentNPC.preTaskDialogue, false, null, null);
+            CameraZoom.Center(GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>(), npcXpos);
+            PositionPlayer(GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>());
+            GameObject.Find("dialogueManager").GetComponent<Dialogue>().NewText(currentNPC.postTaskDialogue, false, null, null);
             currentNPC = null;
             currentNPCobject = null;
             currentSceneName = null;
         }
     }
+
+    private void PositionPlayer(Transform player)
+    {
+        player.localScale = new Vector3(1, 1, 1);     
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = new Vector2(npcXpos - 1.5f, GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.y);
+    }
     
     public void NextToNPC(Collider2D other){
-        spaceToTalkObject.SetActive(true);
         currentNPCobject = other.gameObject;
         npcXpos = other.transform.parent.transform.position.x;
         CheckWhichNPC(other.transform.parent.name);
@@ -108,6 +100,5 @@ public class NPCManager : MonoBehaviour
 
     public void LeftNPC()
     {
-        spaceToTalkObject.SetActive(false);
     }
 }

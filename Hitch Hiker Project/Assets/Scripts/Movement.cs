@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
     public GameObject spaceToTalkObject;
     public float movedirection = 0f;
     public bool walking;
+    public bool inBounds;
     public Animator playerAnim;
 
     public NPCManager npcManager;
@@ -32,13 +33,18 @@ public class Movement : MonoBehaviour
         GameObject dialogueManager = GameObject.Find("dialogueManager");
         Dialogue dialogueScript = dialogueManager.GetComponent<Dialogue>();
 
-        if (Input.GetKey("a") && dialogueScript.ifDone)
+        if(gameObject.transform.position.x > -27 && gameObject.transform.position.x < 36)
+        {
+            inBounds = true;
+        }
+
+        if (Input.GetKey("a") && dialogueScript.ifDone && inBounds == true)
         {
             movedirection = -1f;
             walking = true;
             transform.localScale = new Vector3(-1, 1, 1);
         }
-        else if (Input.GetKey("d") && dialogueScript.ifDone)
+        else if (Input.GetKey("d") && dialogueScript.ifDone && inBounds == true)
         {
             movedirection = 1f;
             walking = true;

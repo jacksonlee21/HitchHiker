@@ -23,8 +23,6 @@ public class DishManager : MonoBehaviour
     public GameObject win;
 
     //SFX
-    public AudioSource Winner;
-    public AudioSource Loser;
     public AudioSource DishDing;
 
     public DishManager(float timeToClean)
@@ -64,14 +62,9 @@ public class DishManager : MonoBehaviour
                     //PlayerPrefs.SetFloat("playersLastPosition", );
                     if (DishesCleaned > 0)
                     {
-                        Winner.Play();
                         win.SetActive(true);
                         PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
                         PlayerPrefs.SetFloat("playerKarma", PlayerPrefs.GetFloat("playerKarma") + .25f);
-                    }
-                    if (DishesCleaned == 0)
-                    {
-                        Loser.Play();
                     }
                 }
             }

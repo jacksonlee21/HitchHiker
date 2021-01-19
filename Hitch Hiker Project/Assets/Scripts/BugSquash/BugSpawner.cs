@@ -23,7 +23,6 @@ public class BugSpawner : MonoBehaviour
     float timer;
     bool winSound = false;
 
-    public AudioSource Winner;
     public AudioSource BugSplat;
 
     // Start is called before the first frame update
@@ -47,11 +46,6 @@ public class BugSpawner : MonoBehaviour
     {
         if(SquashTimer >= TimeToSquash)
         {
-            if(winSound == false)
-            {
-                Winner.Play();
-                winSound = true;
-            }
             timer += Time.deltaTime;
             if(timer > 4)
             {

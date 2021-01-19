@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-
+    public GameObject spaceToTalkObject;
     public float movedirection = 0f;
     public bool walking;
     public Animator playerAnim;
@@ -13,6 +13,7 @@ public class Movement : MonoBehaviour
 
     public void Awake()
     {
+        spaceToTalkObject.SetActive(false);
         npcManager = GameObject.FindGameObjectWithTag("NPCController").GetComponent<NPCManager>();
 
         if(!PlayerPrefs.HasKey("playersLastPosition"))
@@ -73,6 +74,7 @@ public class Movement : MonoBehaviour
     {
         if(other.CompareTag("NPC"))
         {
+            spaceToTalkObject.SetActive(true);
             npcManager.NextToNPC(other);
         }
     }
@@ -80,6 +82,7 @@ public class Movement : MonoBehaviour
     {
         if(other.CompareTag("NPC"))
         {
+            spaceToTalkObject.SetActive(false);
             npcManager.LeftNPC();
         }
     }

@@ -45,10 +45,17 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 41
+=======
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 119
+>>>>>>> AddedStorys
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +75,13 @@ MonoBehaviour:
     y: 0
     width: 552
     height: 947
+<<<<<<< HEAD
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> AddedStorys
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -219,7 +231,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 42
+=======
+  controlID: 152
+>>>>>>> AddedStorys
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +260,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 43
+=======
+  controlID: 62
+>>>>>>> AddedStorys
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,9 +284,15 @@ MonoBehaviour:
     y: 0
     width: 966
     height: 573
+<<<<<<< HEAD
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
+>>>>>>> AddedStorys
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
@@ -338,6 +364,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scripts/UI
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -353,6 +380,22 @@ MonoBehaviour:
     m_SelectedIDs: 783f0000
     m_LastClickedID: 16248
     m_ExpandedIDs: 00000000383e00003a3e0000523e0000543e0000563e000000ca9a3b
+=======
+    - Assets/Scripts
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Hitch Hikers\HitchHiker\Hitch Hiker Project
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ca430000
+    m_LastClickedID: 17354
+    m_ExpandedIDs: 00000000363e0000383e000000ca9a3b
+>>>>>>> AddedStorys
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Scenes
@@ -380,7 +423,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000383e00003a3e0000
+    m_ExpandedIDs: 00000000363e0000383e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -503,9 +546,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 9ac5ffff
       m_LastClickedID: -14950
       m_ExpandedIDs: 64c7ffffdac8ffffdad0ffff66dcffffa0dfffff14e0ffff38e0ffffc0e0ffffcee0fffff0e0ffff36e1ffff56e1ffff50eeffff28f5ffff34f6ffffc0620000246a0000e67f0000
+=======
+      m_SelectedIDs: 06310000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 36f6ffff
+>>>>>>> AddedStorys
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -619,7 +668,11 @@ MonoBehaviour:
   m_Size:
     m_Target: 633.8506
     speed: 2
+<<<<<<< HEAD
     m_Value: 633.8506
+=======
+    m_Value: 3.2479038
+>>>>>>> AddedStorys
   m_Ortho:
     m_Target: 1
     speed: 2

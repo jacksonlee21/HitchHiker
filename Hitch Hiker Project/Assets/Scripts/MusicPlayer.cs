@@ -23,7 +23,7 @@ public class MusicPlayer : MonoBehaviour
 
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
+        townTheme.volume = .25f;
     }
 
     void Update()
@@ -31,6 +31,11 @@ public class MusicPlayer : MonoBehaviour
         if(!townTheme.isPlaying)
         {
             townTheme.Play();
+        }
+        townTheme.volume = townTheme.volume + .001f;
+        if(townTheme.volume > .75f)
+        {
+            townTheme.volume = .75f;
         }
     }
 }

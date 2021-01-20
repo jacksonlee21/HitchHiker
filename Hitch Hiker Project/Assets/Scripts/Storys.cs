@@ -52,8 +52,38 @@ public static class Storys
         "You: Well it makes you feel better.","Kid: Really? Cause bullying a kid wouldn't make me feel better.","You: Well it makes you feel better if you don't drink too much.","Kid: Well I’ll never drink if it means I’ll end up like you.",
         "You: Well I’m not like that all the time.","Kid: Just pump up the ball"
     };
-    public static string[] afterBikePumpDialogue = new string[] {
+    public static string[] postBikePumpDialogue = new string[] {
         "You: ...I’m sorry","Kid: Whatever.","You: (That’s what saying sorry gets you)"
+    };
+
+    public static string[] preLudoDialogue = new string[] {
+        "Ludo: God, they are everywhere!",
+        "Ludo: Stop! Oh have I been waiting to see you.",
+        "Ludo: Wait right there. I'll be down in a second.",
+        "Ludo: Hmmm. And to think I let a kid like you cause so much chaos.",
+        "Ludo: Now back in mother Russia I might put up with these little insects crawling all over, however I didn’t cross that frigid ocean expecting the same.",
+        "You: I’m sorry sir, I don't go into strangers houses.",
+        "Ludo: After last night we are no strangers.",
+        "Ludo: Come on.",
+        "Player: Uhhh ok.",
+        "Ludo: You obviously can't remember, so let me introduce myself. My name is Ludo.",
+        "Ludo: I will explain everything later, but before It becomes too late you better start swatting."
+    };
+
+    public static string[] postLudoDialogue = new string[] {
+        "Ludo: Good job friend. It is not easy to squash all those bugs. I owe you an explanation.",
+        "Ludo: Last night I heard a knock on my door, no one ever came to visit so I was a bit suspicious.",
+        "Ludo: But when I opened the door there you were, a bottle of vodka in hand needing to use the bathroom. I was hesitant but you offered me some vodka and who can turn that down.",
+        "Ludo: You went in, took your time, you came out, took a swig of vodka and we chatted. I learned your name where you came from and all your secrets!",
+        "You:  ...",
+        "Ludo: Just joking. But we did chat, I had quite a good night until your friends showed up and ushered you away. ",
+        "Ludo: I decided to go check and see what damage you had done in the back. Ooouuu boy did you do some damage!",
+        "Ludo: You missed the toilet completely. Your vomit and regurgitated chunks of Burger were everywhere.",
+        "Ludo: The worst part though, is that you attracted all the cockroaches hiding in these walls.",
+        "Ludo: They overan my house so I've been trying to deal with them all night until I saw you through my window.",
+        "Ludo: So now here we are and you've made things back up. Feel free to come back anytime, just make sure you're less drunk.",
+        "You:  I sure will. Thanks for all your patience, see you around.",
+        "Ludo: Stay safe"
     };
 
     public static string[] preEdnaDialogue = new string[] {

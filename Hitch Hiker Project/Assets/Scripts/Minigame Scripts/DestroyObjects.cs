@@ -21,40 +21,37 @@ public class DestroyObjects : MonoBehaviour
         if(col.tag == "Trash" && col.transform.position.x < 0f)
         {
             //you won good job, add to points by one. *Ding sound
-            trashSortingScript.Points++;
+            trashSortingScript.Points--;
+            col.gameObject.transform.position = new Vector2(0f, 2f);
+            Destroy(col.gameObject);
+
+           
+
+            trashSortingScript.isThereTrash = false;
         }
-        if (col.tag == "Trash" && col.transform.position.x > 0f)
+        /*if (col.tag == "Trash" && col.transform.position.x > 0f)
         {
             //this is failure
             trashSortingScript.Points--;
-        }
+        }*/
         if (col.tag == "Recycle" && col.transform.position.x > 0f)
         {
             //you won good job, add to points by one. *Ding sound
-            trashSortingScript.Points++;
+            trashSortingScript.Points--;
+            col.gameObject.transform.position = new Vector2(0f, 2f);
+            Destroy(col.gameObject);
+
+           
+
+            trashSortingScript.isThereTrash = false;
         }
-        if (col.tag == "Recycle" && col.transform.position.x < 0f)
+        /*if (col.tag == "Recycle" && col.transform.position.x < 0f)
         {
             //this is failure
             trashSortingScript.Points--;
-        }
-
-        Destroy(col.gameObject);
-        col.gameObject.transform.position = new Vector2(0f, 2f);
-        Debug.Log("destroy please");
-
-        trashSortingScript.isThereTrash = false;
-
-        /*if (Input.GetMouseButton(0) && trashSortingScript.isThereTrash)
-        {
-            //col.gameObject.SetActive(false);
-            Destroy(col.gameObject);
-            col.gameObject.transform.position = new Vector2(0f, 2f);
-            Debug.Log("destroy please");
-
-            
-            trashSortingScript.isThereTrash = false;
         }*/
+
+
 
     }
 

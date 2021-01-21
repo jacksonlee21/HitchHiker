@@ -13,84 +13,58 @@ public class DishManager : MonoBehaviour
     private int DishesCleaned;
     public Text scoreText;
 
-    public Slider TimerSlider;
-    [SerializeField]
-    private float TimeToClean;
-    private float timer;
-    float winTimer;
-
-    //win screen
     public GameObject win;
 
-    //SFX
     public AudioSource DishDing;
 
-    public DishManager(float timeToClean)
-    {
-        TimeToClean = timeToClean;
-    }
-
+   
     public bool GameOver;
 
     private void Start()
     {
 
-
-        TimerSlider.maxValue = TimeToClean;
-        TimerSlider.minValue = 0;
-        timer = TimeToClean;
-
         Cursor.visible = false;
         GameOver = false;
         DishesCleaned = 0;
-        scoreText.text = "Dishes Cleaned: " + DishesCleaned.ToString();
+        scoreText.text = "Dishes Left to Clean: 10";
         CreateDish();
     }
 
     private void Update()
     {
 
+        if(DishesCleaned < 10)
+        {
+            CheckDish();
+        }
+        else if(DishesCleaned >= 10)
+        {
+            if (dish != null)
+                Destroy(dish.gameObject);
 
-            if (!GameOver)
-            {
-                CheckDish();
-                timer -= Time.deltaTime;
-                TimerSlider.value = timer;
-                if(timer <= 0)
-                {
-                    GameOver = true;
-                    //PlayerPrefs.SetFloat("playersLastPosition", );
-                    if (DishesCleaned > 0)
-                    {
-                        win.SetActive(true);
-                        PlayerPrefs.SetInt("cMoney", PlayerPrefs.GetInt("cMoney") + 50);
-                        PlayerPrefs.SetFloat("playerKarma", PlayerPrefs.GetFloat("playerKarma") + .25f);
-                    }
-                }
-            }
-            else
-            {
-                if (dish != null)
-                    Destroy(dish.gameObject);
-                winTimer += Time.deltaTime;
-                if (winTimer > 4f)
-                {
-                    SceneManager.LoadScene("Town1");
-                }
-            }
+            StartCoroutine(waitAfterWIn());
+            SceneManager.LoadScene("Town1");
+        }
 
+    }
+
+    public IEnumerator waitAfterWIn()
+    {
+        yield return new WaitForSeconds(1f);
     }
 
     private void CheckDish()
     {
         if (dish.cleanCounter == 9)
         {
-            if (!dish.isClean)
+            if(!dish.isClean)
             {
                 DishesCleaned++;
-                scoreText.text = "Dishes Cleaned: " + DishesCleaned.ToString();
+                int numberToGo = 10 - DishesCleaned;
+                scoreText.text = "Dishes Left to Clean: " + numberToGo.ToString();
                 DishDing.Play();
             }
+
             dish.isClean = true;
 
             StartCoroutine(GetRidOfDish());

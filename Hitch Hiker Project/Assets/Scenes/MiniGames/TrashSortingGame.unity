@@ -707,7 +707,7 @@ MonoBehaviour:
   - {fileID: 2966692777000947776, guid: 510f3e0dfae545e489283c696e1e1e1b, type: 3}
   - {fileID: 8955148794737993520, guid: 40007cc420aeec245878dc79c48b934e, type: 3}
   - {fileID: 120934581138918619, guid: 04921de6cbf36414eac286b8d5752d97, type: 3}
-  Points: 0
+  Points: 15
   isThereTrash: 1
   Score: {fileID: 601576986}
 --- !u!4 &1174748492

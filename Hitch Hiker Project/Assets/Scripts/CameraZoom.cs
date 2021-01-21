@@ -5,12 +5,12 @@ public static class CameraZoom
     public static void ZoomIn(float zoomLevel)
     {
         Camera.main.orthographicSize = zoomLevel;
-
+        //Camera.main.transform.position = new Vector3(0, -1, -5);
     }
     public static void ZoomIn()
     {
         Camera.main.orthographicSize = 2.5f;
-
+        //Camera.main.transform.position = new Vector3(0, -1, -5);
     }
 
     public static void ZoomOut(float zoomLevel)
@@ -33,6 +33,6 @@ public static class CameraZoom
     }
     public static void ResetCamera()
     {
-        Camera.main.transform.position = new Vector3(0, Camera.main.transform.position.y, -5); 
+        Camera.main.transform.position = new Vector3(0, 1f, -5); 
     }
 }

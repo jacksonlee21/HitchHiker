@@ -15,6 +15,8 @@ public class NPCManager : MonoBehaviour
         new npc("Bug Man", "SquashBugs",Storys.preLudoDialogue, Storys.postLudoDialogue),
     };
 
+    public int npcCounter = 0;
+    public Transform[] npcObjects;
     private npc currentNPC;
     private GameObject currentNPCobject;
     private string currentSceneName;
@@ -35,6 +37,24 @@ public class NPCManager : MonoBehaviour
         }
     }
 
+    // toughguy
+    // chef
+    // bugman
+    // little boy
+    // old lady
+    // middle aged girl
+    // tough guy
+    private void Start()
+    {
+        OpeningDialogue();
+
+    }
+    private void OpeningDialogue()
+    {
+        npcObjects[npcCounter].GetChild(0).gameObject.SetActive(true);
+        GameObject.Find("dialogueManager").GetComponent<Dialogue>().NewText(Storys.wakeUpDialogue, false, null, null);
+    }
+
     private void CheckWhichNPC(string name)
     {
         if(Input.GetKeyDown(KeyCode.Space)){
@@ -45,6 +65,8 @@ public class NPCManager : MonoBehaviour
                     Destroy(currentNPCobject.transform.GetChild(0).gameObject);
                     currentNPC = npc;
                     StartConversation();
+                    npcCounter++;
+                    npcObjects[npcCounter].GetChild(0).gameObject.SetActive(true);
                 }
             }
         }
@@ -90,6 +112,12 @@ public class NPCManager : MonoBehaviour
     {
         player.localScale = new Vector3(1, 1, 1);     
         GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = new Vector2(npcXpos - 1.5f, GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.y);
+    }
+
+    private void PositionPlayer(Transform player, Transform target)
+    {
+        player.localScale = new Vector3(1, 1, 1);     
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position = new Vector2(target.position.x - 1.5f, GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().position.y);
     }
     
     public void NextToNPC(Collider2D other){

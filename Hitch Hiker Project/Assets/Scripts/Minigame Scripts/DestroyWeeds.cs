@@ -6,24 +6,26 @@ using UnityEngine.SceneManagement;
 
 public class DestroyWeeds : MonoBehaviour
 {
-    public Text Score;
-    int points = 0;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    int weeds;
+    float t;
+    public AudioSource collection;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        Score.text = "Score: " + points;
+        if (weeds == 22)
+        {
+            t += Time.deltaTime;
+            if (t > 1.5)
+            {
+                SceneManager.LoadScene("Town1");
+            }
+        }
     }
 
     private void OnTriggerStay2D(Collider2D col)
     {
         Destroy(col.gameObject);
-        points++;
-        Debug.Log(points);
+        weeds++;
+        collection.Play();
     }
 }

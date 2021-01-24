@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Town2.unity
+=======
+- path: Assets/Scenes/MiniGames/TrashSortingGame.unity
+>>>>>>> Ending
   isLoaded: 1
   isActive: 1
   isSubScene: 0

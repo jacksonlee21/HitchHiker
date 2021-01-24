@@ -1,23 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class DestroyWeeds : MonoBehaviour
+public class TrashCollect : MonoBehaviour
 {
-    int weeds;
+    int trash;
     float t;
     public AudioSource collection;
 
     private void Update()
     {
-        if (weeds == 22)
+        if(trash == 17)
         {
             t += Time.deltaTime;
-            if (t > 1.5)
+            if(t > 1.5)
             {
-                SceneManager.LoadScene("Town1");
+                SceneManager.LoadScene("TrashSortingGame");
             }
         }
     }
@@ -25,7 +24,7 @@ public class DestroyWeeds : MonoBehaviour
     private void OnTriggerStay2D(Collider2D col)
     {
         Destroy(col.gameObject);
-        weeds++;
+        trash++;
         collection.Play();
     }
 }

@@ -29,14 +29,14 @@ public class TrashSorting : MonoBehaviour
 
     void Update()
     {
-
+        Score.text = "Trash Left to go: " + Points;
 
         if (Points == 0)
         {
             SceneManager.LoadScene("Town1");
         }
-        Score.text = "Trash Left to go: " + Points;
-        if(!isThereTrash)
+        
+        else if(!isThereTrash)
         {
             rand = Random.Range(0, 7);
             if(rand != oldRand)

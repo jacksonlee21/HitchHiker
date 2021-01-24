@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroyObjects : MonoBehaviour
 {
-
+    public AudioSource Sort;
     void Start()
     {
         GameObject TrashSortingManager = GameObject.Find("TrashSortingManager");
@@ -25,7 +25,7 @@ public class DestroyObjects : MonoBehaviour
             col.gameObject.transform.position = new Vector2(0f, 2f);
             Destroy(col.gameObject);
 
-           
+            Sort.Play();
 
             trashSortingScript.isThereTrash = false;
         }
@@ -41,7 +41,7 @@ public class DestroyObjects : MonoBehaviour
             col.gameObject.transform.position = new Vector2(0f, 2f);
             Destroy(col.gameObject);
 
-           
+            Sort.Play();
 
             trashSortingScript.isThereTrash = false;
         }
@@ -51,7 +51,7 @@ public class DestroyObjects : MonoBehaviour
             trashSortingScript.Points--;
         }*/
 
-
+        
 
     }
 

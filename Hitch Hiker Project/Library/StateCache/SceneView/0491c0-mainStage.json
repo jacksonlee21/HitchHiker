@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":-1.8270838260650635,"y":2.0408565998077394,"z":-498.44427490234377},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":6.41798210144043,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":1.6451671123504639,"y":1.186803936958313,"z":-282.31317138671877},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":8.798001289367676,"orthographic":true}
+>>>>>>> Ending

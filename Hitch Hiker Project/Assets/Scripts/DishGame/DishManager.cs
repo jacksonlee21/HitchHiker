@@ -23,7 +23,6 @@ public class DishManager : MonoBehaviour
     private void Start()
     {
 
-        Cursor.visible = false;
         GameOver = false;
         DishesCleaned = 0;
         scoreText.text = "Dishes Left to Clean: 10";

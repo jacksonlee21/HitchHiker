@@ -68,7 +68,7 @@ public class PlayButton : MonoBehaviour
             if (fadePace > 2.75f)
             {
                 dialogueText.SetActive(false);
-                SceneManager.LoadScene("Town2");
+                SceneManager.LoadScene("Town1");
             }
         }
     }

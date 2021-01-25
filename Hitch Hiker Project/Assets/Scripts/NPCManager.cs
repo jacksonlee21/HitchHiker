@@ -26,6 +26,7 @@ public class NPCManager : MonoBehaviour
     public GameObject npcParent;
     void Awake()
     {
+
         if (instance == null)
         {
             instance = this;
@@ -37,6 +38,13 @@ public class NPCManager : MonoBehaviour
         }
     }
 
+    public void gameStart()
+    {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetBool("isFirstTime", true);
+        PositionPlayer(GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>(), npcObjects[5].transform);
+        StartCoroutine(startingWait());
+    }
+
 
     // toughguy
     // chef
@@ -45,18 +53,14 @@ public class NPCManager : MonoBehaviour
     // old lady
     // middle aged girl
     // tough guy
-    private void Start()
-    {
-        
-        PositionPlayer(GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>(), npcObjects[5].transform);
-        StartCoroutine(startingWait());
-
-    }
 
     public IEnumerator startingWait()
     {
         yield return new WaitForSeconds(1.1f);
+
         GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetBool("getUp", true);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetBool("isFirstTime", false);
+
         yield return new WaitForSeconds(1.1f);
         OpeningDialogue();
 

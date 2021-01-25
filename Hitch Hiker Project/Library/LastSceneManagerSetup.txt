@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Town1.unity
+=======
+- path: Assets/Scenes/cameratown.unity
+>>>>>>> DialogueAppearance
   isLoaded: 1
   isActive: 1
   isSubScene: 0

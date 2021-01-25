@@ -24,7 +24,11 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
+<<<<<<< HEAD
   controlID: 8374
+=======
+  controlID: 4748
+>>>>>>> DialogueAppearance
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +145,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 8375
+=======
+  controlID: 4700
+>>>>>>> DialogueAppearance
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +174,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 8336
+=======
+  controlID: 4640
+>>>>>>> DialogueAppearance
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,8 +196,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 379
     height: 573
+=======
+    width: 303
+    height: 442
+>>>>>>> DialogueAppearance
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
@@ -224,7 +241,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 54b0ffffaeb3ffff7ab7fffff4c3ffff70c9ffff82c9ffff52ceffff5cfbffffec6800001c69000034810000a6810000b2810000e0810000fa8100005888000090880000ac970000a4990000229a00006e9a0000
+=======
+      m_ExpandedIDs: 7efaffff5efbffff543f0000
+>>>>>>> DialogueAppearance
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -313,9 +334,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 10.146387, y: 1.245594, z: -363.22266}
     speed: 2
     m_Value: {x: 10.146387, y: 1.245594, z: -363.22266}
+=======
+    m_Target: {x: 261.27982, y: 134.15152, z: -412.2316}
+    speed: 2
+    m_Value: {x: 261.27982, y: 134.15152, z: -412.2316}
+>>>>>>> DialogueAppearance
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -365,9 +392,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 10.265867
     speed: 2
     m_Value: 10.265867
+=======
+    m_Target: 179.4194
+    speed: 2
+    m_Value: 179.4194
+>>>>>>> DialogueAppearance
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -498,11 +531,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 573
     width: 1531
     height: 374
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
+=======
+    y: 442
+    width: 1225
+    height: 289
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+>>>>>>> DialogueAppearance
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -536,7 +577,7 @@ MonoBehaviour:
     height: 353
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: camera
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -559,10 +600,17 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 74670000
     m_LastClickedID: 26484
     m_ExpandedIDs: 00000000ba3b0000bc3b0000be3b0000c03b0000d63b000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 76}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000ba3b0000bc3b0000be3b0000c03b000000ca9a3b
+>>>>>>> DialogueAppearance
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -615,9 +663,15 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 86670000
     m_LastClickedInstanceID: 26502
     m_HadKeyboardFocusLastEvent: 1
+=======
+    m_SelectedInstanceIDs: 6e3c0000
+    m_LastClickedInstanceID: 15470
+    m_HadKeyboardFocusLastEvent: 0
+>>>>>>> DialogueAppearance
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -689,8 +743,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1531
     y: 0
+<<<<<<< HEAD
     width: 389
     height: 947
+=======
+    width: 311
+    height: 731
+>>>>>>> DialogueAppearance
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -734,5 +793,9 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: 26502
+=======
+  m_LastInspectedObjectInstanceID: 15470
+>>>>>>> DialogueAppearance
   m_LastVerticalScrollValue: 0

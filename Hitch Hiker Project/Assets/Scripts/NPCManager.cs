@@ -10,7 +10,7 @@ public class NPCManager : MonoBehaviour
         new npc("Little Girl", ""),
         new npc("Tough Guy", "",Storys.wakeUpDialogue),
         new npc("Angry Chef", "DishGame",Storys.preChefDialogue,Storys.postChefDialogue),
-        new npc("Middle Aged Girl", "TrashSorting", Storys.preNinaDialogue,Storys.postNinaDialogue),
+        new npc("Middle Aged Girl", "TrashPicker", Storys.preNinaDialogue,Storys.postNinaDialogue),
         new npc("Old Lady", "WeedPicker",Storys.preEdnaDialogue,Storys.postEdnaDialogue),
         new npc("Bug Man", "SquashBugs",Storys.preLudoDialogue, Storys.postLudoDialogue),
     };

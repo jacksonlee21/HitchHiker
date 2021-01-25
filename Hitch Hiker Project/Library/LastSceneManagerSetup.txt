@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/NewMenu.unity
+=======
+- path: Assets/Scenes/Town1.unity
+>>>>>>> NewDialogue
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -81,11 +81,10 @@ public class NPCManager : MonoBehaviour
             {
                 if(npc.name == name && npc.preTaskDialogue != null && npc.minigameScene != "")
                 {
-                    Destroy(currentNPCobject.transform.GetChild(0).gameObject);
                     currentNPC = npc;
                     StartConversation();
+                    npcObjects[npcCounter].GetChild(0).gameObject.SetActive(false);
                     npcCounter++;
-                    npcObjects[npcCounter].GetChild(0).gameObject.SetActive(true);
                 }
             }
         }
@@ -115,6 +114,7 @@ public class NPCManager : MonoBehaviour
     }
     public void StartPostConversation()
     {
+        npcObjects[npcCounter].GetChild(0).gameObject.SetActive(true);
         npcParent.SetActive(true);
         if(currentNPC.postTaskDialogue != null)
         {

@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":139.3656005859375,"y":256.56768798828127,"z":-438.23858642578127},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":615.633056640625,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":261.2798156738281,"y":134.15151977539063,"z":-412.2315979003906},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":179.41940307617188,"orthographic":true}
 >>>>>>> DialogueAppearance
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":408.1242370605469,"y":275.4070739746094,"z":-339.5887756347656},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":489.61749267578127,"orthographic":true}
+>>>>>>> ColliderDisapearing

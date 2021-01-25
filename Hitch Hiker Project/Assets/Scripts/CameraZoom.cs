@@ -9,7 +9,7 @@ public static class CameraZoom
     }
     public static void ZoomIn()
     {
-        Camera.main.orthographicSize = 2.5f;
+        Camera.main.orthographicSize = 3f;
         //Camera.main.transform.position = new Vector3(0, -1, -5);
     }
 

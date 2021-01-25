@@ -21,25 +21,9 @@ public static class Storys
     };
 
     public static string[] postChefDialogue = new string[] {
-        "Chef: Ok, you’ve paid your debt, you’re free to go." ,
-        "Chef: Next time you want to have some fun do it on your own property.",
-        "You: You know, this isn’t what I’m really like." , 
-        "Chef: Even if it wasn’t the real you, the fake you did real damage." , 
-        "You: How bad could it have gotten?" , 
-        "Chef: Do you even realise the times we’re living in? The hardships I’m going through, that all of us are going through?" ,
-        "Chef : If things don’t turn up soon I may have to close the diner.",
-        "You: Was it really that bad?" ,
-        "Chef: You don’t even know the half of it. You ordered 1 of every item on the menu." ,
-        "Chef: You said you had people coming, and we don’t get many customers anymore so I was optimistic for the first time in a while." ,
-        "Chef: When I brought out your food you were gone and it was too late. I had to throw out hundreds of dollars worth of inventory." ,
-        "You: ...oh." ,
-        "Chef: Oh? That’s all you can think to say?" ,
-        "You: What do you want me to say?" ,
-        "Chef: How about sorry? How about I’m sick. I need help’?" ,
-        "You: I don’t need help, I just made a mistake." ,
-        "Chef: Then what are you gonna do to prevent this from happening again?." ,
-        "You: It won’t happen again." ,
-        "Chef: That’s not good enough." ,
+        "Chef: Ok, you’ve paid your debt, you’re free to go.",
+        "You: I'm sorry for whatever I did last night.",
+        "Chef: 'Sorry' won't fix the soup you bathed in.",
         "You: ...I’ll see you later." ,
         "Chef: I hope not."
     };
@@ -53,7 +37,7 @@ public static class Storys
 
     public static string[] getBikePumpDialogue = new string[] {
         "You: Hey, I found your bike pump",
-        "Kid: Really? Thanks mister. Not many people would do all this for someone they didn’t know.",
+        /*"Kid: Really? Thanks mister. Not many people would do all this for someone they didn’t know.",
         "You: Well in a sense I kinda owe you.",
         "Kid: Why?",
         "You: Remember how we were talking earlier about the jerk who buried your ball?",
@@ -69,7 +53,7 @@ public static class Storys
         "You: Well it makes you feel better if you don't drink too much.",
         "Kid: Well I’ll never drink if it means I’ll end up like you.",
         "You: Well I’m not like that all the time.",
-        "Kid: Just pump up the ball"
+        "Kid: Just pump up the ball"*/
     };
     public static string[] postBikePumpDialogue = new string[] {
         "You: ...I’m sorry",
@@ -93,7 +77,7 @@ public static class Storys
 
     public static string[] postLudoDialogue = new string[] {
         "Ludo: Good job friend. It is not easy to squash all those bugs. I owe you an explanation.",
-        "Ludo: Last night I heard a knock on my door, no one ever came to visit so I was a bit suspicious.",
+        /*"Ludo: Last night I heard a knock on my door, no one ever came to visit so I was a bit suspicious.",
         "Ludo: But when I opened the door there you were, a bottle of vodka in hand needing to use the bathroom. ",
         "Ludo: I was hesitant but you offered me some vodka and who can turn that down.",
         "Ludo: You went in, took your time, you came out, took a swig of vodka and we chatted. ",
@@ -107,7 +91,7 @@ public static class Storys
         "Ludo: So now here we are and you've made things back up. Feel free to come back anytime, just make sure you're sober.",
         "You:  I will. Thanks for all your patience, see you around.",
         "Ludo: Stay safe",
-        "Ludo: Oh I almost forgot, you left a bike pump in my gutter. Here."
+        "Ludo: Oh I almost forgot, you left a bike pump in my gutter. Here."*/
     };
 
     public static string[] preEdnaDialogue = new string[] {
@@ -140,7 +124,7 @@ public static class Storys
     };
     public static string[] postNinaDialogue = new string[] {
         "Nina: I appreciate you making things up. Come on it's getting cold out.",
-        "Nina: So, has the fallout from last night made you have any realizations?",
+        /*"Nina: So, has the fallout from last night made you have any realizations?",
         "You: I just need to drink less, I mean I've never let myself get that bad before.",
         "Nina: So you have blacked out before?",
         "You: I mean a few times but It's not that weird.",
@@ -201,7 +185,7 @@ public static class Storys
         "You: I’m not entirely sure but admittedly probably not great.",
         "Nina: I’d try asking, and maybe find your local AA meetings. Listen to others with the same issue.",
         "You: I'll give it a try. Even though it's only been a day I really like this town. Full of resilient folk.",
-        "Nina: Can always come and visit.",
+        "Nina: Can always come and visit.",*/
         "You: Well I’ll get out of your hair now. I really appreciate all that you have done.",
     };
 

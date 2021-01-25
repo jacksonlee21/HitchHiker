@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGames/TrashPicker.unity
     guid: e8b01f5bfeae5a245a8d29b5f228e0c1
   - enabled: 1
+    path: Assets/Scenes/MiniGames/WeedPicker.unity
+    guid: bc3e14f63f2521d4bbc8c6ca4783e674
+  - enabled: 1
     path: Assets/Scenes/MiniGames/PizzaDelivery.unity
     guid: 1d49817efb329419ebb6e493b43ce0d9
   m_configObjects: {}

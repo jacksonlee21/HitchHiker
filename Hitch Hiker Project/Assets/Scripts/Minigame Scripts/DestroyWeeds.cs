@@ -17,6 +17,7 @@ public class DestroyWeeds : MonoBehaviour
             t += Time.deltaTime;
             if (t > 1.5)
             {
+                PlayerPrefsX.SetBool(("DandelionsWeeded"), true);
                 SceneManager.LoadScene("Town1");
             }
         }

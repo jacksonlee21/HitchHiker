@@ -11,9 +11,9 @@ public class CameraScript : MonoBehaviour
     
     void Update()
     {
-        playerPosition = GetComponentInParent<Movement>().transform.position.x;
+        playerPosition = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>().transform.position.x;
 
-        if(playerPosition < leftLimit)
+        if (playerPosition < leftLimit)
         {
             cameraPosition = leftLimit;
         }

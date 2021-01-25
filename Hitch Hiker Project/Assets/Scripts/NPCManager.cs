@@ -37,6 +37,7 @@ public class NPCManager : MonoBehaviour
         }
     }
 
+
     // toughguy
     // chef
     // bugman
@@ -46,12 +47,26 @@ public class NPCManager : MonoBehaviour
     // tough guy
     private void Start()
     {
+        
+        PositionPlayer(GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>(), npcObjects[5].transform);
+        StartCoroutine(startingWait());
+
+    }
+
+    public IEnumerator startingWait()
+    {
+        yield return new WaitForSeconds(1.1f);
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetBool("getUp", true);
+        yield return new WaitForSeconds(1.1f);
         OpeningDialogue();
 
     }
+
     private void OpeningDialogue()
     {
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>().SetBool("getUp", false);
         npcObjects[npcCounter].GetChild(0).gameObject.SetActive(true);
+        
         GameObject.Find("dialogueManager").GetComponent<Dialogue>().NewText(Storys.wakeUpDialogue, false, null, null);
     }
 

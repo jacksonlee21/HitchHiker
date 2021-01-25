@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/NewMenu.unity
     guid: 65a53984ee2fb1e409810d70958052d5
   - enabled: 1
+    path: Assets/Scenes/Town2.unity
+    guid: 984bf257ca19a7f4598593d7e3427433
+  - enabled: 1
     path: Assets/Scenes/Town1.unity
     guid: 7530494726032bf4c8dcb391b214e34a
-  - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
-    guid: 3d76a2df62d01504fac7249cf66043ff
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -41,13 +44,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniGames/TrashSortingGame.unity
     guid: 21c31672c4454bc4f9d9a46be712aa26
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MiniGames/TrashPicker.unity
     guid: e8b01f5bfeae5a245a8d29b5f228e0c1
-  - enabled: 1
+  - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1

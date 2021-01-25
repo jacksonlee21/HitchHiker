@@ -25,7 +25,7 @@ public class Dialogue : MonoBehaviour
 
     void Start()
     {
-        ifDone = true;
+        ifDone = false;
     }
 
     public void Continue()
@@ -66,7 +66,7 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            speaker = "No Name";
+            speaker = "No name";
             sentence = sentences[index];
         }
 

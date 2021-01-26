@@ -32,12 +32,9 @@ public static class Storys
         "You: Why are you crying?",
         "Kid: Some jerk buried my basketball in my yard, and when I dug it up it was completely deflated. Who would do something like that?",
         "You: What a maniac.",
-        "Kid: They even took my pump. Now what am I gonna do?"
-    };
-
-    public static string[] getBikePumpDialogue = new string[] {
-        "You: Hey, I found your bike pump",
-        /*"Kid: Really? Thanks mister. Not many people would do all this for someone they didn’t know.",
+        "Kid: They even took my pump. Now what am I gonna do?",
+        "You: I got a bike pump.",
+        "Kid: Really? Thanks mister. Not many people would do all this for someone they didn’t know.",
         "You: Well in a sense I kinda owe you.",
         "Kid: Why?",
         "You: Remember how we were talking earlier about the jerk who buried your ball?",
@@ -53,7 +50,7 @@ public static class Storys
         "You: Well it makes you feel better if you don't drink too much.",
         "Kid: Well I’ll never drink if it means I’ll end up like you.",
         "You: Well I’m not like that all the time.",
-        "Kid: Just pump up the ball"*/
+        "Kid: Just pump up the ball"
     };
     public static string[] postBikePumpDialogue = new string[] {
         "You: ...I’m sorry",
@@ -62,36 +59,20 @@ public static class Storys
     };
 
     public static string[] preLudoDialogue = new string[] {
-        "Man: God, they are everywhere!",
-        "Man: Stop! Oh have I been waiting to see you.",
-        "Man: Wait right there. I'll be down in a second.",
-        "Man: Hmmm. And to think I let a kid like you cause so much chaos.",
-        "Man: Back in Russia I might put up with these pests, but I didn’t cross that frigid ocean expecting the same.",
-        "You: I’m sorry sir, I don't go into strangers houses.",
-        "Man: After last night we are no strangers.",
-        "Man: Come on.",
-        "You: Uhhh ok.",
-        "Man: You obviously can't remember, so let me introduce myself. My name is Ludo.",
-        "Ludo: I will explain everything later, but before It becomes too late you better start swatting."
+        "Man: You?! What are you doing here?",
+        "You: Do I know you?",
+        "Man: 'Do I know you?' You threw up on my porch and the roaches came.",
+        "Man: Now I have to waste money on an exterminator.",
+        "You: I don't remember that.",
+        "Man: Well I do. Get in there and fix it before I an exterminator for you too.",
     };
 
     public static string[] postLudoDialogue = new string[] {
-        "Ludo: Good job friend. It is not easy to squash all those bugs. I owe you an explanation.",
-        /*"Ludo: Last night I heard a knock on my door, no one ever came to visit so I was a bit suspicious.",
-        "Ludo: But when I opened the door there you were, a bottle of vodka in hand needing to use the bathroom. ",
-        "Ludo: I was hesitant but you offered me some vodka and who can turn that down.",
-        "Ludo: You went in, took your time, you came out, took a swig of vodka and we chatted. ",
-        "Ludo: I learned your name where you came from and all your secrets!",
-        "You:  ....",
-        "Ludo: Just joking. But we did chat, I had quite a good night until your friends showed up and ushered you away. ",
-        "Ludo: I decided to go check and see what damage you had done in the back. Boy did you do some damage!",
-        "Ludo: You missed the toilet completely. Your vomit and regurgitated chunks of Burger were everywhere.",
-        "Ludo: The worst part though, is that you attracted all the cockroaches hiding in these walls.",
-        "Ludo: They overan my house so I've been trying to deal with them all night until I saw you through my window.",
-        "Ludo: So now here we are and you've made things back up. Feel free to come back anytime, just make sure you're sober.",
-        "You:  I will. Thanks for all your patience, see you around.",
-        "Ludo: Stay safe",
-        "Ludo: Oh I almost forgot, you left a bike pump in my gutter. Here."*/
+        "You: All cleaned up.",
+        "Man: Congratulations, you're almost a good person.",
+        "You: Hey man, come on.",
+        "Man: You come on. I woke up with cockroaches in my slippers. Move along.",
+        "You: :(",
     };
 
     public static string[] preEdnaDialogue = new string[] {
